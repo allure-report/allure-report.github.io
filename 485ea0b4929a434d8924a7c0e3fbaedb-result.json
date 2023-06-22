@@ -1,0 +1,146 @@
+{
+  "uuid": "cbb28d5e-93df-4055-bd4f-4b3029b6f2c5-tr-0-2096",
+  "historyId": "OdinUiTests.Tests.Call.CallTests.Страница звонка: можно включить/отключить микрофон в звонке",
+  "fullName": "OdinUiTests.Tests.Call.CallTests.Страница звонка: можно включить/отключить микрофон в звонке",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "e69485aa174f"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Call"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckTurnOnOffEquipmentInCall"
+    },
+    {
+      "name": "testClass",
+      "value": "CallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Звонок"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Звонок"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница звонка: можно включить/отключить микрофон в звонке",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница звонка: можно включить/отключить микрофон в звонке"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница звонка: можно включить/отключить микрофон в звонке",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687453472784,
+          "stop": 1687453473050
+        },
+        {
+          "name": "Нажать на кнопку Присоединиться в предбаннике",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687453473050,
+          "stop": 1687453477301
+        },
+        {
+          "name": "Проверить что кнопка включения/отключения камеры доступно",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687453477301,
+          "stop": 1687453483151
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687453483151,
+          "stop": 1687453483785
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bf8aeb7994f14bdcbb1bfd6dad381f8e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687453472782,
+      "stop": 1687453483819
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "микрофона"
+    }
+  ],
+  "start": 1687453472782,
+  "stop": 1687453483820
+}
