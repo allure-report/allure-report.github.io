@@ -1,0 +1,162 @@
+{
+  "uuid": "820328d3-b9a8-4f07-ac24-5aa02077c762-tr-0-1103",
+  "historyId": "OdinUiTests.Tests.Program.ProgramCommonTests.Cоздание обр программы ВО: если заполнить все поля",
+  "fullName": "OdinUiTests.Tests.Program.ProgramCommonTests.Cоздание обр программы ВО: если заполнить все поля",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "94fba99cd21d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Program"
+    },
+    {
+      "name": "testMethod",
+      "value": "CreateHighEducProgramFillAllFields"
+    },
+    {
+      "name": "testClass",
+      "value": "ProgramCommonTests"
+    },
+    {
+      "name": "tag",
+      "value": "Программа"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Программа"
+    }
+  ],
+  "links": [],
+  "name": "Cоздание обр программы ВО: если заполнить все поля",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cоздание обр программы ВО: если заполнить все поля"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Cоздание обр программы ВО: если заполнить все поля",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создании образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687464143839,
+          "stop": 1687464144129
+        },
+        {
+          "name": "Заполнить обязательные поля в создании образовательной программе",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Добавить тег знаний в дисциплину",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687464146593,
+              "stop": 1687464149670
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687464144129,
+          "stop": 1687464153824
+        },
+        {
+          "name": "Получить заголовок образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687464153824,
+          "stop": 1687464153861
+        },
+        {
+          "name": "Получить id образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687464153861,
+          "stop": 1687464153878
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0fbb83b75eca479a9a871c3035003305-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687464143836,
+      "stop": 1687464153879
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "1"
+    },
+    {
+      "name": "Param #1",
+      "value": "False"
+    }
+  ],
+  "start": 1687464143836,
+  "stop": 1687464153879
+}
