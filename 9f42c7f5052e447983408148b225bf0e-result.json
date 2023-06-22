@@ -1,0 +1,160 @@
+{
+  "uuid": "2c825e34-73a6-47df-abab-ee07a5af2899-tr-0-2155",
+  "historyId": "OdinUiTests.Tests.Activity.ActivityDurationTests.Редактирование активности: отображение ошибки валидации для полей даты, если дата окончания меньше даты начала",
+  "fullName": "OdinUiTests.Tests.Activity.ActivityDurationTests.Редактирование активности: отображение ошибки валидации для полей даты, если дата окончания меньше даты начала",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "2bd1d5443e04"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "ErrorWhenEndDateLessStartDateInActivity"
+    },
+    {
+      "name": "testClass",
+      "value": "ActivityDurationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Обычная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование активности: отображение ошибки валидации для полей даты, если дата окончания меньше даты начала",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование активности: отображение ошибки валидации для полей даты, если дата окончания меньше даты начала"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование активности: отображение ошибки валидации для полей даты, если дата окончания меньше даты начала",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687466084918,
+          "stop": 1687466085402
+        },
+        {
+          "name": "Редактировать дата началы активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687466085402,
+          "stop": 1687466089187
+        },
+        {
+          "name": "Редактировать дата окончания активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687466089187,
+          "stop": 1687466092905
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687466092905,
+          "stop": 1687466094389
+        },
+        {
+          "name": "Проверка того что отображается ошибка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687466094390,
+          "stop": 1687466094584
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "df4726eb75e047b4a6419e7628f74f87-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687466084909,
+      "stop": 1687466094584
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687466084909,
+  "stop": 1687466094584
+}

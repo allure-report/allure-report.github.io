@@ -1,0 +1,126 @@
+{
+  "uuid": "5367f00a-ba6e-47a4-a4f4-9a5e759fddbc-tr-0-1490",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineStudentTests.Страница оценок дисциплины: отсутствия кнопки 'Итоговые оценки (ведомость)' у студента",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineStudentTests.Страница оценок дисциплины: отсутствия кнопки 'Итоговые оценки (ведомость)' у студента",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "2bd1d5443e04"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckGradesDropdownForStudent"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineStudentTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Страница оценок дисциплины: отсутствия кнопки 'Итоговые оценки (ведомость)' у студента",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница оценок дисциплины: отсутствия кнопки 'Итоговые оценки (ведомость)' у студента"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница оценок дисциплины: отсутствия кнопки 'Итоговые оценки (ведомость)' у студента",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687466342676,
+          "stop": 1687466343001
+        },
+        {
+          "name": "Нажать на заголовок вкладки 'Оценки'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687466343001,
+          "stop": 1687466345771
+        },
+        {
+          "name": "Проверка того что кнопка три точки в меню 'Оценки' не отображается студенту",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687466345771,
+          "stop": 1687466345825
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "662ceb41085f47e78a9c94a81fcbe05b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687466342673,
+      "stop": 1687466345825
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687466342673,
+  "stop": 1687466345825
+}
