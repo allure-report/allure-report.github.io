@@ -1,0 +1,222 @@
+{
+  "uuid": "b8e0513d-37ea-496c-b147-16cc4133fae4-tr-0-2372",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Редактирование дисциплины: добавление преподавателя из списка",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Редактирование дисциплины: добавление преподавателя из списка",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddTeacherByUserInfoInCreation"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InCreating"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: добавление преподавателя из списка",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: добавление преподавателя из списка"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: добавление преподавателя из списка",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500354568,
+          "stop": 1687500355226
+        },
+        {
+          "name": "Заполнения обязательных полей для создании дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Редактировать названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500355226,
+              "stop": 1687500357254
+            },
+            {
+              "name": "Редактировать краткое названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500357254,
+              "stop": 1687500358729
+            },
+            {
+              "name": "Редактировать описания дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500358729,
+              "stop": 1687500360195
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500355226,
+          "stop": 1687500360195
+        },
+        {
+          "name": "Добавить сущности в контингент дисциплины по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500360195,
+          "stop": 1687500365441
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500365442,
+          "stop": 1687500365612
+        },
+        {
+          "name": "Проверка того что добавленный преподаватель отображается на странице дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500365612,
+          "stop": 1687500366730
+        },
+        {
+          "name": "Получить id дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500366730,
+          "stop": 1687500366737
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "49852cef9fe341bea758fa94d9f5efcb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500354476,
+      "stop": 1687500366737
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Тестовая Дарья"
+    }
+  ],
+  "start": 1687500354476,
+  "stop": 1687500366737
+}

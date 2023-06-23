@@ -1,0 +1,250 @@
+{
+  "uuid": "84486d41-da03-456b-9475-4b8a2f986bf2-tr-0-1358",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineWithIOTTests.Страница дисциплины с ИОТ: между блоками можно добавить ещё один дочерний блок",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineWithIOTTests.Страница дисциплины с ИОТ: между блоками можно добавить ещё один дочерний блок",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddChildBlockBetweenBlocks"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineWithIOTTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Траекторная"
+    }
+  ],
+  "links": [],
+  "name": "Страница дисциплины с ИОТ: между блоками можно добавить ещё один дочерний блок",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница дисциплины с ИОТ: между блоками можно добавить ещё один дочерний блок"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница дисциплины с ИОТ: между блоками можно добавить ещё один дочерний блок",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500460548,
+          "stop": 1687500460953
+        },
+        {
+          "name": "Добавить второй блок в дисциплину с ИОТ если она отсутствует",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Добавить блок в дисциплину с ИОТ если она отсутствует",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Рандомна получить вид блока для добавления",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500460953,
+                  "stop": 1687500460953
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500460953,
+              "stop": 1687500461540
+            },
+            {
+              "name": "Рандомна получить вид блока для добавления",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500462661,
+              "stop": 1687500462661
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500460953,
+          "stop": 1687500462668
+        },
+        {
+          "name": "Рандомна получить вид блока для добавления",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500462668,
+          "stop": 1687500462668
+        },
+        {
+          "name": "Нажать на кнопку добавления блока указав нужную кнопку",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500462668,
+          "stop": 1687500467793
+        },
+        {
+          "name": "Добавления блока в указанное место в дисциплину с ИОТ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что блок был добавлен в дисциплину с ИОТ",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500469217,
+              "stop": 1687500470385
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500467793,
+          "stop": 1687500470385
+        },
+        {
+          "name": "Проверка добавленного блока в указанном месте",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что блок был добавлен в дисциплину с ИОТ",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500471468,
+              "stop": 1687500474078
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500470385,
+          "stop": 1687500474124
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "10da63e2ec8d435bb70a9c9367b22590-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500460543,
+      "stop": 1687500474125
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500460543,
+  "stop": 1687500474125
+}

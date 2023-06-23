@@ -1,0 +1,175 @@
+{
+  "uuid": "b4719129-722b-4665-b6d3-29b03c773d3e-tr-0-2458",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InTaskWithSolution.Страница решение задания: можно редактировать поставленную оценку к решении другого студента, если включена 'Взаимопроверка'",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InTaskWithSolution.Страница решение задания: можно редактировать поставленную оценку к решении другого студента, если включена 'Взаимопроверка'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAbilityToEditAssessmentOfAnotherStudentsSolution"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityStudentTests+InTaskWithSolution"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: можно редактировать поставленную оценку к решении другого студента, если включена 'Взаимопроверка'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: можно редактировать поставленную оценку к решении другого студента, если включена 'Взаимопроверка'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: можно редактировать поставленную оценку к решении другого студента, если включена 'Взаимопроверка'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу решение задания с фильтром",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500177196,
+          "stop": 1687500177604
+        },
+        {
+          "name": "Выбрать студента из списка всех решений",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500177604,
+          "stop": 1687500179289
+        },
+        {
+          "name": "Нажать на кнопку карандаша чтобы редактировать выставленный балл",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500179289,
+          "stop": 1687500181654
+        },
+        {
+          "name": "Редактировать балл для решения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500181654,
+          "stop": 1687500184034
+        },
+        {
+          "name": "Нажать на кнопку 'Оценить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500184034,
+          "stop": 1687500185731
+        },
+        {
+          "name": "Проверка того что балл сохранен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500185731,
+          "stop": 1687500185761
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6aa8341487e04c4096cf1ca376a2119c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500177183,
+      "stop": 1687500185761
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500177183,
+  "stop": 1687500185761
+}

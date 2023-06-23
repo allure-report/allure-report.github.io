@@ -1,0 +1,190 @@
+{
+  "uuid": "05d2b4b3-818d-4406-940f-b697bbff71e2-tr-0-2443",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InNewTask.Страница решение задания: можно отправить текстовый ответ",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InNewTask.Страница решение задания: можно отправить текстовый ответ",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendTextSolution"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityStudentTests+InNewTask"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: можно отправить текстовый ответ",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: можно отправить текстовый ответ"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: можно отправить текстовый ответ",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500139289,
+          "stop": 1687500140273
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить решение'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500140273,
+          "stop": 1687500142658
+        },
+        {
+          "name": "Редактировать текст решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500142658,
+          "stop": 1687500143730
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить решение' на странице решение задания",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500143730,
+          "stop": 1687500143854
+        },
+        {
+          "name": "Получить текст решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500143854,
+          "stop": 1687500144939
+        },
+        {
+          "name": "Проверка того что показывается дата оправки решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500144972,
+          "stop": 1687500145087
+        },
+        {
+          "name": "Проверка того что показывается кнопка 'Редактировать' в решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500145088,
+          "stop": 1687500145158
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "825547f82e3f4160ab20eddbeea363a7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500139283,
+      "stop": 1687500145158
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500139283,
+  "stop": 1687500145158
+}

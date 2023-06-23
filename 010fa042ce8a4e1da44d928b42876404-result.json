@@ -1,0 +1,141 @@
+{
+  "uuid": "79695d56-22d5-4925-866b-6ae802a24f81-tr-0-2402",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: наличия ошибки при попытке указать преподавателем студента из группы",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: наличия ошибки при попытке указать преподавателем студента из группы",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddStudentFromGroupInTeachersField"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InEditing"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: наличия ошибки при попытке указать преподавателем студента из группы",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: наличия ошибки при попытке указать преподавателем студента из группы"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: наличия ошибки при попытке указать преподавателем студента из группы",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500413623,
+          "stop": 1687500414117
+        },
+        {
+          "name": "Добавить сущности в контингент дисциплины по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500414117,
+          "stop": 1687500420063
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500420063,
+          "stop": 1687500420223
+        },
+        {
+          "name": "Отображается сообщение об ошибке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500420223,
+          "stop": 1687500420877
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9a48f6ba435445b1a522cb18718702c1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500412765,
+      "stop": 1687500420877
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500412765,
+  "stop": 1687500420877
+}

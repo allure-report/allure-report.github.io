@@ -1,0 +1,161 @@
+{
+  "uuid": "50efe612-a8bd-4755-a578-b3ec64533ee3-tr-0-2247",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityAddingTests.Редактирование контрольной: можно загрузить материал типа файл с компьютера",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityAddingTests.Редактирование контрольной: можно загрузить материал типа файл с компьютера",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddFileToTestActivity"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityAddingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование контрольной: можно загрузить материал типа файл с компьютера",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование контрольной: можно загрузить материал типа файл с компьютера"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование контрольной: можно загрузить материал типа файл с компьютера",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500164580,
+          "stop": 1687500165330
+        },
+        {
+          "name": "Загрузить материал типа файл с компьютера",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Очистить список материалов активности",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500167687,
+              "stop": 1687500168228
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500165330,
+          "stop": 1687500171556
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500171557,
+          "stop": 1687500173016
+        },
+        {
+          "name": "Получить названия материала активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500173016,
+          "stop": 1687500176077
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3b9aab2f8b8843f0b8338d02575b4b04-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500164570,
+      "stop": 1687500176077
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500164570,
+  "stop": 1687500176077
+}

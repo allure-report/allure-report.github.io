@@ -1,0 +1,171 @@
+{
+  "uuid": "e5dc5b37-f2a0-404f-82a6-dfd49342fdbf-tr-0-1460",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineTeacherTests.Страница оценок дисциплины: выставления оценки преподавателем",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineTeacherTests.Страница оценок дисциплины: выставления оценки преподавателем",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckGradingByTeacher"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineTeacherTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Страница оценок дисциплины: выставления оценки преподавателем",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница оценок дисциплины: выставления оценки преподавателем"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница оценок дисциплины: выставления оценки преподавателем",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500403308,
+          "stop": 1687500403714
+        },
+        {
+          "name": "Нажать на заголовок вкладки 'Оценки'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500403714,
+          "stop": 1687500406427
+        },
+        {
+          "name": "Получить индекс доступной ячейки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500406428,
+          "stop": 1687500408322
+        },
+        {
+          "name": "Выставить оценку первой доступной ячейке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500408322,
+          "stop": 1687500409612
+        },
+        {
+          "name": "Проверка того что выставленная оценка было сохранена",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500409612,
+          "stop": 1687500411507
+        },
+        {
+          "name": "Получить оценку из определенной ячейки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500411508,
+          "stop": 1687500413758
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "199ddf9c198f49818132cf6347cec6fe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500403298,
+      "stop": 1687500413759
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500403298,
+  "stop": 1687500413759
+}

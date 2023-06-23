@@ -1,0 +1,145 @@
+{
+  "uuid": "cc2e724c-194f-4b14-900b-4a29023239c0-tr-0-2264",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityEditingTests.Редактирование контрольной: переключение значения в поле 'Оценка'",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityEditingTests.Редактирование контрольной: переключение значения в поле 'Оценка'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "EditingGradeFieldsInTestActivity"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование контрольной: переключение значения в поле 'Оценка'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование контрольной: переключение значения в поле 'Оценка'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование контрольной: переключение значения в поле 'Оценка'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500225072,
+          "stop": 1687500226121
+        },
+        {
+          "name": "Переключать значение в поля 'Оценка'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500226121,
+          "stop": 1687500230749
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500230749,
+          "stop": 1687500232559
+        },
+        {
+          "name": "Получить оценку активности контрольной",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500232559,
+          "stop": 1687500235106
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bddc13a3cf1a4ccd897a0e95eeb4a5b1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500225043,
+      "stop": 1687500235220
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500225043,
+  "stop": 1687500235220
+}

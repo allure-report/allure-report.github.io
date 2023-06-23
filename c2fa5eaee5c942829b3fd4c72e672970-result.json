@@ -1,0 +1,199 @@
+{
+  "uuid": "9a275dd8-87d0-4f2c-a5b0-e41680f328a6-tr-0-2301",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityResultTests.Результат прохождения теста: преподаватель может удалить комментарий к ответу, если включена опция подробная информация о результатах",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityResultTests.Результат прохождения теста: преподаватель может удалить комментарий к ответу, если включена опция подробная информация о результатах",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TeacherCanLeaveCommentOnAnswer"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityResultTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Результат прохождения теста: преподаватель может удалить комментарий к ответу, если включена опция подробная информация о результатах",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Результат прохождения теста: преподаватель может удалить комментарий к ответу, если включена опция подробная информация о результатах"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Результат прохождения теста: преподаватель может удалить комментарий к ответу, если включена опция подробная информация о результатах",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500272335,
+          "stop": 1687500273054
+        },
+        {
+          "name": "Нажать на попытку теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500273054,
+          "stop": 1687500276686
+        },
+        {
+          "name": "Нажать на кнопку оставить/изменить комментарий",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500276686,
+          "stop": 1687500278053
+        },
+        {
+          "name": "Редактировать текст коммента",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500278053,
+          "stop": 1687500281364
+        },
+        {
+          "name": "Нажать на кнопку Сохранить изменения в добавлении коммента",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500281364,
+          "stop": 1687500281515
+        },
+        {
+          "name": "Проверка коммента ответа первого вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500281515,
+          "stop": 1687500285183
+        },
+        {
+          "name": "Проверка добавленно коммента ответа первого вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500285183,
+          "stop": 1687500285231
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a66db0df66484cb6bdd1598e817c68f8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500272277,
+      "stop": 1687500285232
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "removeComment"
+    },
+    {
+      "name": "Param #1",
+      "value": ""
+    }
+  ],
+  "start": 1687500272277,
+  "stop": 1687500285232
+}

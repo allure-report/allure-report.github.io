@@ -1,0 +1,211 @@
+{
+  "uuid": "4a6d7dbe-f874-4188-98cf-f3f37752c854-tr-0-1334",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineCreatingTests.Создание дисциплины в потоке ДО: отображение ошибки валидации для поля 'Краткое название', если поле не заполнено",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineCreatingTests.Создание дисциплины в потоке ДО: отображение ошибки валидации для поля 'Краткое название', если поле не заполнено",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfShortnameNotFilledInCreation"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineCreatingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Создание дисциплины в потоке ДО: отображение ошибки валидации для поля 'Краткое название', если поле не заполнено",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание дисциплины в потоке ДО: отображение ошибки валидации для поля 'Краткое название', если поле не заполнено"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание дисциплины в потоке ДО: отображение ошибки валидации для поля 'Краткое название', если поле не заполнено",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500427823,
+          "stop": 1687500428437
+        },
+        {
+          "name": "Заполнения обязательных полей для создании дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Редактировать названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500428437,
+              "stop": 1687500430742
+            },
+            {
+              "name": "Редактировать краткое названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500430742,
+              "stop": 1687500432131
+            },
+            {
+              "name": "Редактировать описания дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500432131,
+              "stop": 1687500433497
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500428437,
+          "stop": 1687500433497
+        },
+        {
+          "name": "Редактировать краткое названия дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500433497,
+          "stop": 1687500434659
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500434659,
+          "stop": 1687500434756
+        },
+        {
+          "name": "Отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500434756,
+          "stop": 1687500434826
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1f3b91edc7f040d8a2c315df97b83ea6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500427810,
+      "stop": 1687500434827
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "2103"
+    },
+    {
+      "name": "Param #1",
+      "value": "False"
+    }
+  ],
+  "start": 1687500427810,
+  "stop": 1687500434827
+}

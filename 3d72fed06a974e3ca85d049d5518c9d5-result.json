@@ -1,0 +1,111 @@
+{
+  "uuid": "a6bd1576-786e-45cb-b1cf-bcfb32f1bf96-tr-0-1430",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineAccessTests.Редактирование дисциплины: нет возможности редактировать у администратора образовательной программы, к которой дисциплина НЕ относится",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineAccessTests.Редактирование дисциплины: нет возможности редактировать у администратора образовательной программы, к которой дисциплина НЕ относится",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfOtherAdminEducProgChangeDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineAccessTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: нет возможности редактировать у администратора образовательной программы, к которой дисциплина НЕ относится",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: нет возможности редактировать у администратора образовательной программы, к которой дисциплина НЕ относится"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: нет возможности редактировать у администратора образовательной программы, к которой дисциплина НЕ относится",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500314921,
+          "stop": 1687500315328
+        },
+        {
+          "name": "Проверка открыть ли страница Проблемы с доступом.",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500315328,
+          "stop": 1687500316044
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "73b2e41819ed4756b8cc518ada803040-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500312850,
+      "stop": 1687500316044
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500312850,
+  "stop": 1687500316044
+}

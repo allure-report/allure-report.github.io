@@ -1,0 +1,282 @@
+{
+  "uuid": "7a91e6af-624f-405b-97f7-513eba9228e6-tr-0-2285",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityPassingTests.Прохождения теста: после прохождения количество попыток уменьшилось на один",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityPassingTests.Прохождения теста: после прохождения количество попыток уменьшилось на один",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "AfterPassingTheNumberOfAttemptsDecreased"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityPassingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Прохождения теста: после прохождения количество попыток уменьшилось на один",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Прохождения теста: после прохождения количество попыток уменьшилось на один"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Прохождения теста: после прохождения количество попыток уменьшилось на один",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500230085,
+          "stop": 1687500231009
+        },
+        {
+          "name": "Перейти к тесту и начать тест",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку 'Приступить'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500234340,
+              "stop": 1687500235667
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500231009,
+          "stop": 1687500235667
+        },
+        {
+          "name": "Ответить на все вопросы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500237406,
+              "stop": 1687500237444
+            },
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500237779,
+              "stop": 1687500237820
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500235667,
+          "stop": 1687500237820
+        },
+        {
+          "name": "Получить количество оставшиейся попытки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500237820,
+          "stop": 1687500237879
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить на проверку'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500237879,
+          "stop": 1687500237980
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить на проверку' в модалке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500237980,
+          "stop": 1687500238586
+        },
+        {
+          "name": "Получить заголовок страницы Результат тестирование",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500238586,
+          "stop": 1687500239125
+        },
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500239128,
+          "stop": 1687500239619
+        },
+        {
+          "name": "Нажать на кнопку 'Перейти к тесту'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500239620,
+          "stop": 1687500241937
+        },
+        {
+          "name": "Проверка того что попытка уменшился на один",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500241938,
+          "stop": 1687500242660
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0b4ba3b88fc348dba2efb9038d3dd90c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500229961,
+      "stop": 1687500242660
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500229961,
+  "stop": 1687500242660
+}

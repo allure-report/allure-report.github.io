@@ -1,0 +1,237 @@
+{
+  "uuid": "23e6edf1-2912-4f12-9bbe-a5857c2a7eb7-tr-0-2236",
+  "historyId": "OdinUiTests.Tests.Activity.TemplateAddingTests.Редактирование шаблона активности: можно добавить материал типа SCORM из библиотеки",
+  "fullName": "OdinUiTests.Tests.Activity.TemplateAddingTests.Редактирование шаблона активности: можно добавить материал типа SCORM из библиотеки",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddScormPackageActivityTemplate"
+    },
+    {
+      "name": "testClass",
+      "value": "TemplateAddingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Обычный шаблон активности"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование шаблона активности: можно добавить материал типа SCORM из библиотеки",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование шаблона активности: можно добавить материал типа SCORM из библиотеки"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование шаблона активности: можно добавить материал типа SCORM из библиотеки",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500226025,
+          "stop": 1687500226952
+        },
+        {
+          "name": "Выбрать материал из библиотеки по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Очистить список материалов активности",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500230862,
+              "stop": 1687500231501
+            },
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500232467,
+                  "stop": 1687500233945
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500234458,
+                  "stop": 1687500236601
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500236876,
+                  "stop": 1687500237828
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500238082,
+                  "stop": 1687500240206
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500232467,
+              "stop": 1687500240308
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500226952,
+          "stop": 1687500243645
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500243645,
+          "stop": 1687500247609
+        },
+        {
+          "name": "Получить названия материала активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500247609,
+          "stop": 1687500249116
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d9c1e9909035487d8dcda4401559c782-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500225980,
+      "stop": 1687500249116
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500225980,
+  "stop": 1687500249116
+}

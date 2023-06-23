@@ -1,0 +1,216 @@
+{
+  "uuid": "3225eec8-8e66-4758-9508-cff53d5d0ebf-tr-0-1248",
+  "historyId": "OdinUiTests.Tests.Library.LibraryInTileViewTests.Библиотека, плиточный вид: можно создать каталог",
+  "fullName": "OdinUiTests.Tests.Library.LibraryInTileViewTests.Библиотека, плиточный вид: можно создать каталог",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateCatalog"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryInTileViewTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    }
+  ],
+  "links": [],
+  "name": "Библиотека, плиточный вид: можно создать каталог",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Библиотека, плиточный вид: можно создать каталог"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Библиотека, плиточный вид: можно создать каталог",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500431129,
+          "stop": 1687500431802
+        },
+        {
+          "name": "Подсчет материалов в библиотеки до добавления файла",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500431802,
+                  "stop": 1687500433662
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500433752,
+                  "stop": 1687500434859
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500431802,
+              "stop": 1687500434875
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500431802,
+          "stop": 1687500434898
+        },
+        {
+          "name": "Нажать на кнопку 'Создать каталог'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500434899,
+              "stop": 1687500436075
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500434899,
+          "stop": 1687500436553
+        },
+        {
+          "name": "Проверка того что новый каталог был добавлен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500436558,
+              "stop": 1687500438386
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500436553,
+          "stop": 1687500438454
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "80ac5b240e76468192ecac2e78264c86-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500431124,
+      "stop": 1687500438454
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500431124,
+  "stop": 1687500438454
+}

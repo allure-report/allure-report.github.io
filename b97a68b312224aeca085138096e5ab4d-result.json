@@ -1,0 +1,156 @@
+{
+  "uuid": "84976962-df43-41bf-8592-7d0f05ca8c7c-tr-0-1390",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineEditingTests.Редактирование дисциплины: можно включить/отключить ИОТ, если в дисциплине нет активностей",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineEditingTests.Редактирование дисциплины: можно включить/отключить ИОТ, если в дисциплине нет активностей",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckPossibilityTurnOnIOT"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: можно включить/отключить ИОТ, если в дисциплине нет активностей",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: можно включить/отключить ИОТ, если в дисциплине нет активностей"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: можно включить/отключить ИОТ, если в дисциплине нет активностей",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500372138,
+          "stop": 1687500372531
+        },
+        {
+          "name": "Нажать на чекбокс ИОТ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500372532,
+          "stop": 1687500374449
+        },
+        {
+          "name": "Получить положение чекбокса ИОТ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500374449,
+          "stop": 1687500375556
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500375556,
+          "stop": 1687500375658
+        },
+        {
+          "name": "Проверка того что траектория дисциплины была изменена",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500375659,
+          "stop": 1687500376378
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "412ad337ce80425d9e7ddaabf6d2527f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500372135,
+      "stop": 1687500376378
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500372135,
+  "stop": 1687500376378
+}

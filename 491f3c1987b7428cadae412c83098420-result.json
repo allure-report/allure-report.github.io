@@ -1,0 +1,120 @@
+{
+  "uuid": "a41e2f0c-9666-48ad-a733-e9f634196df6-tr-0-1393",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineEditingTests.Редактирование дисциплины: невозможно отключить ИОТ, если в дисциплине есть активности",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineEditingTests.Редактирование дисциплины: невозможно отключить ИОТ, если в дисциплине есть активности",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckImpossibilityTurnOnOrOffIOT"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: невозможно отключить ИОТ, если в дисциплине есть активности",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: невозможно отключить ИОТ, если в дисциплине есть активности"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: невозможно отключить ИОТ, если в дисциплине есть активности",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500379148,
+          "stop": 1687500379597
+        },
+        {
+          "name": "Проверка того что чекбокс ИОТ дизейблено и не кликабельно",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500379597,
+          "stop": 1687500381966
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "04417073d8da41898312fbbbd9b7fa89-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500379145,
+      "stop": 1687500381966
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "381"
+    },
+    {
+      "name": "Param #1",
+      "value": "true"
+    }
+  ],
+  "start": 1687500379145,
+  "stop": 1687500381966
+}

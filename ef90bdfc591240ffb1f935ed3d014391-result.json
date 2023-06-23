@@ -1,0 +1,227 @@
+{
+  "uuid": "87856bb0-71f1-4d17-9089-0445536d07c9-tr-0-2314",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница индивидуальной контрольной: отсутствует статус и иконка для одной незавершенной попыткой",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница индивидуальной контрольной: отсутствует статус и иконка для одной незавершенной попыткой",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "NoStatusWithOneIncompleteAttempt"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityStatusTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница индивидуальной контрольной: отсутствует статус и иконка для одной незавершенной попыткой",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница индивидуальной контрольной: отсутствует статус и иконка для одной незавершенной попыткой"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница индивидуальной контрольной: отсутствует статус и иконка для одной незавершенной попыткой",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500231861,
+          "stop": 1687500233049
+        },
+        {
+          "name": "Перейти к тесту и начать тест",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку 'Приступить'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500235168,
+              "stop": 1687500236697
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500233049,
+          "stop": 1687500236697
+        },
+        {
+          "name": "Ответить на все вопросы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500238052,
+              "stop": 1687500238078
+            },
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500238305,
+              "stop": 1687500238853
+            },
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500239085,
+              "stop": 1687500239636
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500236697,
+          "stop": 1687500239636
+        },
+        {
+          "name": "Нажать на хлебную крошку активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500239636,
+          "stop": 1687500240005
+        },
+        {
+          "name": "Проверка того что нет статуса для незавершенной попытки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500240005,
+          "stop": 1687500240669
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "aee0e13e35ec469384cbd50fdd855327-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500231608,
+      "stop": 1687500240719
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "1229"
+    }
+  ],
+  "start": 1687500231608,
+  "stop": 1687500240719
+}

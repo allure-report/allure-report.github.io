@@ -1,0 +1,126 @@
+{
+  "uuid": "1a6cb34c-b220-4df5-8e98-af44346a4cd8-tr-0-1496",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineStudentTests.Страница посещаемости дисциплины: невозможности отметки/снятия посещаемости студентом",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineStudentTests.Страница посещаемости дисциплины: невозможности отметки/снятия посещаемости студентом",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAttendanceByStudent"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineStudentTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Страница посещаемости дисциплины: невозможности отметки/снятия посещаемости студентом",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница посещаемости дисциплины: невозможности отметки/снятия посещаемости студентом"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница посещаемости дисциплины: невозможности отметки/снятия посещаемости студентом",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500394366,
+          "stop": 1687500394772
+        },
+        {
+          "name": "Нажать на заголовок вкладки 'Посещаемость'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500394772,
+          "stop": 1687500397210
+        },
+        {
+          "name": "Проверка того что чекбокси для отметки посещаемости не отображаются студенту",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500397210,
+          "stop": 1687500399676
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3e9e38556521416d94d9d2af1f215744-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500394358,
+      "stop": 1687500399676
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500394358,
+  "stop": 1687500399676
+}

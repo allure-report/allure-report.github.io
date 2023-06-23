@@ -1,0 +1,222 @@
+{
+  "uuid": "ccb18c9d-bfd3-4e5a-957d-83ade9b5b694-tr-0-2373",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Создание дисциплины: добавление преподавателя по ссылке на профиль",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Создание дисциплины: добавление преподавателя по ссылке на профиль",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddTeacherByUserInfoInCreation"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InCreating"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Создание дисциплины: добавление преподавателя по ссылке на профиль",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание дисциплины: добавление преподавателя по ссылке на профиль"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание дисциплины: добавление преподавателя по ссылке на профиль",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500366798,
+          "stop": 1687500367212
+        },
+        {
+          "name": "Заполнения обязательных полей для создании дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Редактировать названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500367212,
+              "stop": 1687500369123
+            },
+            {
+              "name": "Редактировать краткое названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500369123,
+              "stop": 1687500370549
+            },
+            {
+              "name": "Редактировать описания дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500370549,
+              "stop": 1687500371991
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500367212,
+          "stop": 1687500371991
+        },
+        {
+          "name": "Добавить сущности в контингент дисциплины по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500371991,
+          "stop": 1687500377030
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500377030,
+          "stop": 1687500377121
+        },
+        {
+          "name": "Проверка того что добавленный преподаватель отображается на странице дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500377121,
+          "stop": 1687500378835
+        },
+        {
+          "name": "Получить id дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500378835,
+          "stop": 1687500378841
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0bb9d12da7c94445b13040cf56733ec2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500366738,
+      "stop": 1687500378841
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "User/Info/18267"
+    }
+  ],
+  "start": 1687500366738,
+  "stop": 1687500378841
+}

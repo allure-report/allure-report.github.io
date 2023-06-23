@@ -1,0 +1,248 @@
+{
+  "uuid": "4d0f7837-e1ab-47c9-9a74-8af1e3f4612c-tr-0-1208",
+  "historyId": "OdinUiTests.Tests.Library.TestTrainAddingTests.Конструктор теста-тренажера: можно добавить вопрос со свободным ответом и точным совпадением",
+  "fullName": "OdinUiTests.Tests.Library.TestTrainAddingTests.Конструктор теста-тренажера: можно добавить вопрос со свободным ответом и точным совпадением",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddQuestionInTestTrainFreeAnswerWithEqual"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTrainAddingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Материал"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Материал"
+    },
+    {
+      "name": "subSuite",
+      "value": "Конструктор тест-тренажера"
+    }
+  ],
+  "links": [],
+  "name": "Конструктор теста-тренажера: можно добавить вопрос со свободным ответом и точным совпадением",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Конструктор теста-тренажера: можно добавить вопрос со свободным ответом и точным совпадением"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Конструктор теста-тренажера: можно добавить вопрос со свободным ответом и точным совпадением",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500588907,
+          "stop": 1687500589358
+        },
+        {
+          "name": "Получить количество вопросов теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500589358,
+          "stop": 1687500616356
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500616418,
+          "stop": 1687500618219
+        },
+        {
+          "name": "Нажать на кнопку 'Добавить еще вопрос'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ждать пока появятся слово 'Сохранено'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500623989,
+              "stop": 1687500625935
+            },
+            {
+              "name": "Ждать пока появытся ссылка для перехода в станицу материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500625935,
+              "stop": 1687500626002
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500618219,
+          "stop": 1687500626002
+        },
+        {
+          "name": "Выбрать вариант вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ждать пока появятся слово 'Сохранено'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500628215,
+              "stop": 1687500632091
+            },
+            {
+              "name": "Ждать пока появытся ссылка для перехода в станицу материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500632091,
+              "stop": 1687500632176
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500626002,
+          "stop": 1687500632176
+        },
+        {
+          "name": "Нажать на ссылку для перехода в страницу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500632176,
+          "stop": 1687500632666
+        },
+        {
+          "name": "Получить количество вопросов теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500632666,
+          "stop": 1687500656865
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c25c9eac0be046c7b5d2132ce4dba21b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500588903,
+      "stop": 1687500656967
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500588903,
+  "stop": 1687500656967
+}

@@ -1,0 +1,212 @@
+{
+  "uuid": "fa427512-d48b-46e7-987f-48877eb36a4a-tr-0-2315",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница командной контрольной: отсутствует статус и иконка для одной незавершенной попыткой",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница командной контрольной: отсутствует статус и иконка для одной незавершенной попыткой",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "NoStatusWithOneIncompleteAttempt"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityStatusTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница командной контрольной: отсутствует статус и иконка для одной незавершенной попыткой",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница командной контрольной: отсутствует статус и иконка для одной незавершенной попыткой"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница командной контрольной: отсутствует статус и иконка для одной незавершенной попыткой",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500240920,
+          "stop": 1687500241862
+        },
+        {
+          "name": "Перейти к тесту и начать тест",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку 'Приступить'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500243272,
+              "stop": 1687500244682
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500241862,
+          "stop": 1687500244682
+        },
+        {
+          "name": "Ответить на все вопросы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500245764,
+              "stop": 1687500246371
+            },
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500247115,
+              "stop": 1687500247142
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500244682,
+          "stop": 1687500247236
+        },
+        {
+          "name": "Нажать на хлебную крошку активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500247236,
+          "stop": 1687500247383
+        },
+        {
+          "name": "Проверка того что нет статуса для незавершенной попытки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500247383,
+          "stop": 1687500247952
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b5ed565e28104e9b8b1823d108ae440d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500240719,
+      "stop": 1687500247971
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "135"
+    }
+  ],
+  "start": 1687500240719,
+  "stop": 1687500247971
+}

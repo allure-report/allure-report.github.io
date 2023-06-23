@@ -1,0 +1,141 @@
+{
+  "uuid": "7112b682-a9c3-47d3-b388-e5bc588feab7-tr-0-1403",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineEditingTests.Редактирование дисциплины: отображение ошибки валидации для поля 'Описание', если поле не заполнено",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineEditingTests.Редактирование дисциплины: отображение ошибки валидации для поля 'Описание', если поле не заполнено",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfDescriptionNotFilledInEditing"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: отображение ошибки валидации для поля 'Описание', если поле не заполнено",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: отображение ошибки валидации для поля 'Описание', если поле не заполнено"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: отображение ошибки валидации для поля 'Описание', если поле не заполнено",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500398433,
+          "stop": 1687500399002
+        },
+        {
+          "name": "Редактировать описания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500399002,
+          "stop": 1687500401371
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500401371,
+          "stop": 1687500401489
+        },
+        {
+          "name": "Отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500401489,
+          "stop": 1687500401661
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f427029cc1c744648e2c2085a87a2844-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500398426,
+      "stop": 1687500401662
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500398426,
+  "stop": 1687500401662
+}

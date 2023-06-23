@@ -1,0 +1,130 @@
+{
+  "uuid": "d1cf85ba-cbde-4c02-a931-077e68ef1c73-tr-0-2291",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityPassingTests.Прохождения теста: невозможно пройти тест после окончания активности",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityPassingTests.Прохождения теста: невозможно пройти тест после окончания активности",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "ImpossiblePassTestAfterTheEndOfActivity"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityPassingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Прохождения теста: невозможно пройти тест после окончания активности",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Прохождения теста: невозможно пройти тест после окончания активности"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Прохождения теста: невозможно пройти тест после окончания активности",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500261601,
+          "stop": 1687500262173
+        },
+        {
+          "name": "Нажать на кнопку 'Перейти к тесту'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500262173,
+          "stop": 1687500264979
+        },
+        {
+          "name": "Проверка того что кнопка 'Приступить' не отображается",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500264980,
+          "stop": 1687500265768
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b9e9e7200e37442e871b3f0b10a181e3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500261598,
+      "stop": 1687500265769
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500261598,
+  "stop": 1687500265769
+}

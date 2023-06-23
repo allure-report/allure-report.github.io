@@ -1,0 +1,292 @@
+{
+  "uuid": "02987248-bbf5-44b5-96c8-8ae567dc8b0a-tr-0-1287",
+  "historyId": "OdinUiTests.Tests.Library.LibraryInListViewTests.Библиотека, списочный вид: можно удалить материал",
+  "fullName": "OdinUiTests.Tests.Library.LibraryInListViewTests.Библиотека, списочный вид: можно удалить материал",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRemoveMaterialInListView"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryInListViewTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    }
+  ],
+  "links": [],
+  "name": "Библиотека, списочный вид: можно удалить материал",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Библиотека, списочный вид: можно удалить материал"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Библиотека, списочный вид: можно удалить материал",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500462690,
+          "stop": 1687500463205
+        },
+        {
+          "name": "Переключать текущий вид библотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500463205,
+              "stop": 1687500464462
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500463205,
+          "stop": 1687500464474
+        },
+        {
+          "name": "Удалить материал с библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500464475,
+              "stop": 1687500465634
+            },
+            {
+              "name": "Подсчет материалов в библиотеки до добавления файла",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Прокрутить вниз до появлении последного материала",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "name": "Ожидать пока загрузится библиотека",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1687500465634,
+                      "stop": 1687500466743
+                    },
+                    {
+                      "name": "Ожидать пока загрузится библиотека",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1687500466817,
+                      "stop": 1687500468051
+                    },
+                    {
+                      "name": "Ожидать пока загрузится библиотека",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1687500468089,
+                      "stop": 1687500469355
+                    },
+                    {
+                      "name": "Ожидать пока загрузится библиотека",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1687500469407,
+                      "stop": 1687500470738
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500465634,
+                  "stop": 1687500470765
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500465634,
+              "stop": 1687500470791
+            },
+            {
+              "name": "Прокрутить страницу до появление материала или каталога",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500470791,
+              "stop": 1687500470975
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500464475,
+          "stop": 1687500474824
+        },
+        {
+          "name": "Проверка того что материал был удален с библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500474870,
+              "stop": 1687500476600
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500474824,
+          "stop": 1687500478819
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4de002a08e7e4234a9b4f9b61911de66-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500462409,
+      "stop": 1687500478819
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500462409,
+  "stop": 1687500478819
+}

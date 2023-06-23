@@ -1,0 +1,282 @@
+{
+  "uuid": "be840591-c33a-4a5d-9fca-e8f2cc523168-tr-0-2202",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityMulticriteriaTests.Создание задания: можно задать значения критерия (заполнены поля значения и баллов)",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityMulticriteriaTests.Создание задания: можно задать значения критерия (заполнены поля значения и баллов)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "7a95d8b8d1c0"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateTaskWithValuesInCriteria"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityMulticriteriaTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Создание задания: можно задать значения критерия (заполнены поля значения и баллов)",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание задания: можно задать значения критерия (заполнены поля значения и баллов)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание задания: можно задать значения критерия (заполнены поля значения и баллов)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создание активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500137634,
+          "stop": 1687500138065
+        },
+        {
+          "name": "Редактировать тип активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500138065,
+          "stop": 1687500141573
+        },
+        {
+          "name": "Редактировать названия активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500141573,
+          "stop": 1687500141930
+        },
+        {
+          "name": "Редактировать описания активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500141930,
+          "stop": 1687500143571
+        },
+        {
+          "name": "Включить опцию Многокритериальная проверка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500143571,
+          "stop": 1687500143782
+        },
+        {
+          "name": "Включить опцию Задать значения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500143782,
+          "stop": 1687500144031
+        },
+        {
+          "name": "Заполнения полей критерии и его значении",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500144031,
+          "stop": 1687500146269
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500146269,
+          "stop": 1687500150382
+        },
+        {
+          "name": "Проверка того что был создан активность задания с критерием",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что был создан активность задания",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Получить заголовок активности",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500150384,
+                  "stop": 1687500150509
+                },
+                {
+                  "name": "Получить тип активности",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500150544,
+                  "stop": 1687500150582
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500150384,
+              "stop": 1687500150656
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500150383,
+          "stop": 1687500150972
+        },
+        {
+          "name": "Получить id активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500150972,
+          "stop": 1687500150972
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bdf1d6b9fe1147bc8032bb2076d1c9ec-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500137624,
+      "stop": 1687500150988
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500137624,
+  "stop": 1687500150988
+}
