@@ -1,0 +1,222 @@
+{
+  "uuid": "69913d69-b65f-410b-ad9d-1a9591dece54-tr-0-2289",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityPassingTests.Прохождения теста: отмена отправки на проверку ('Изменить ответы')",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityPassingTests.Прохождения теста: отмена отправки на проверку ('Изменить ответы')",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "434abd9a2ce9"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CancelSubmissionPassingTest"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityPassingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Прохождения теста: отмена отправки на проверку ('Изменить ответы')",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Прохождения теста: отмена отправки на проверку ('Изменить ответы')"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Прохождения теста: отмена отправки на проверку ('Изменить ответы')",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521146493,
+          "stop": 1687521146879
+        },
+        {
+          "name": "Перейти к тесту и начать тест",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку 'Приступить'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687521149428,
+              "stop": 1687521150675
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521146879,
+          "stop": 1687521150675
+        },
+        {
+          "name": "Ответить на все вопросы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687521151623,
+              "stop": 1687521152186
+            },
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687521152894,
+              "stop": 1687521152922
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521150675,
+          "stop": 1687521152922
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить на проверку'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521152922,
+          "stop": 1687521153011
+        },
+        {
+          "name": "Нажать на кнопку 'Изменить ответы' в модалке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521153011,
+          "stop": 1687521153660
+        },
+        {
+          "name": "Получить заголовок страницы Тестирование",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521153661,
+          "stop": 1687521154196
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "070296e2497c423a90a8635a58142bdd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521146358,
+      "stop": 1687521154203
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521146358,
+  "stop": 1687521154203
+}

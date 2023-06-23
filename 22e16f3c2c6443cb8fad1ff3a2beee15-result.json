@@ -1,0 +1,156 @@
+{
+  "uuid": "ef7e8a14-0391-407d-8334-635c915c7493-tr-0-1417",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineDurationTests.Редактирование дисциплины: наличия ошибки если дата окончания меньше даты начала",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineDurationTests.Редактирование дисциплины: наличия ошибки если дата окончания меньше даты начала",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "434abd9a2ce9"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "ErrorWhenEndDateLessStartDateInDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineDurationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: наличия ошибки если дата окончания меньше даты начала",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: наличия ошибки если дата окончания меньше даты начала"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: наличия ошибки если дата окончания меньше даты начала",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521206842,
+          "stop": 1687521207184
+        },
+        {
+          "name": "Выбрать дату началы дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521207184,
+          "stop": 1687521210808
+        },
+        {
+          "name": "Выбрать дату окончания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521210808,
+          "stop": 1687521213943
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521213943,
+          "stop": 1687521214036
+        },
+        {
+          "name": "Отображается сообщение об ошибке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521214037,
+          "stop": 1687521214616
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3a3141df90cf47e3b75f200707c972e4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521206838,
+      "stop": 1687521214616
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521206838,
+  "stop": 1687521214616
+}

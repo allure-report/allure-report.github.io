@@ -1,0 +1,126 @@
+{
+  "uuid": "82466a58-b58f-4f3f-a26b-6c369a528d5b-tr-0-2414",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: в выпадающем списке поля Группы отображаются только группы потока",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: в выпадающем списке поля Группы отображаются только группы потока",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "434abd9a2ce9"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckOnlyCohortGroupsAreShownInListOfGroups"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InEditing"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: в выпадающем списке поля Группы отображаются только группы потока",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: в выпадающем списке поля Группы отображаются только группы потока"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: в выпадающем списке поля Группы отображаются только группы потока",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521284099,
+          "stop": 1687521284490
+        },
+        {
+          "name": "Убрать галку с чекбокса 'Все студенты потока'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521284490,
+          "stop": 1687521286534
+        },
+        {
+          "name": "Проверка того что в полях Группы и Студенты отображаются только сущности текущего потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521286534,
+          "stop": 1687521287495
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "44a046ca9f4344ce98ba1043247596b8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521283973,
+      "stop": 1687521287495
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521283973,
+  "stop": 1687521287496
+}

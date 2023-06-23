@@ -1,0 +1,111 @@
+{
+  "uuid": "19ea7b21-0e9c-4e4c-a2e8-b6d3a9b1b8b0-tr-0-1434",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineAccessTests.Редактирование дисциплины: нет возможности редактировать у администратора подразделения, к которому дисциплина НЕ относится",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineAccessTests.Редактирование дисциплины: нет возможности редактировать у администратора подразделения, к которому дисциплина НЕ относится",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "434abd9a2ce9"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfOtherAdminPodrChangeDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineAccessTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: нет возможности редактировать у администратора подразделения, к которому дисциплина НЕ относится",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: нет возможности редактировать у администратора подразделения, к которому дисциплина НЕ относится"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: нет возможности редактировать у администратора подразделения, к которому дисциплина НЕ относится",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521179464,
+          "stop": 1687521179893
+        },
+        {
+          "name": "Проверка открыть ли страница Проблемы с доступом.",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521179893,
+          "stop": 1687521180538
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "eadb281c56de49f59047fa48a0a0b982-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521177624,
+      "stop": 1687521180538
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521177624,
+  "stop": 1687521180538
+}

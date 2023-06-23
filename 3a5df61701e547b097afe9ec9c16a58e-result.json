@@ -1,0 +1,151 @@
+{
+  "uuid": "461acd37-fb93-4af9-bd5b-5f43b1d761e4-tr-0-2323",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница индивидуальной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница индивидуальной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "434abd9a2ce9"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "StatusChangesIfMinThresholdChanges"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityStatusTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница индивидуальной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница индивидуальной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница индивидуальной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521173951,
+          "stop": 1687521174379
+        },
+        {
+          "name": "Проверка того результаты теста зависить от настройки теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка цвета баллов в попытках",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687521175604,
+              "stop": 1687521175638
+            },
+            {
+              "name": "Звездочка отображается у последней попытки",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687521175638,
+              "stop": 1687521175673
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521174379,
+          "stop": 1687521175719
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2f47181b70194f2b8cc359b0c699d342-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521171780,
+      "stop": 1687521175720
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "90155"
+    }
+  ],
+  "start": 1687521171780,
+  "stop": 1687521175720
+}

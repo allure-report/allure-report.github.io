@@ -1,0 +1,190 @@
+{
+  "uuid": "bf186c18-aafb-41c3-9cae-a79a9a603d2e-tr-0-2188",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityCreatingTests.Создание задания: нельзя создать задание, если поле 'Минимальный порог баллов' не заполнено",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityCreatingTests.Создание задания: нельзя создать задание, если поле 'Минимальный порог баллов' не заполнено",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "434abd9a2ce9"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateTaskIfMinThresholdNotFilled"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityCreatingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Создание задания: нельзя создать задание, если поле 'Минимальный порог баллов' не заполнено",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание задания: нельзя создать задание, если поле 'Минимальный порог баллов' не заполнено"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание задания: нельзя создать задание, если поле 'Минимальный порог баллов' не заполнено",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создание активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521052431,
+          "stop": 1687521052869
+        },
+        {
+          "name": "Редактировать тип активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521052869,
+          "stop": 1687521055342
+        },
+        {
+          "name": "Редактировать названия активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521055342,
+          "stop": 1687521055613
+        },
+        {
+          "name": "Редактировать описания активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521055613,
+          "stop": 1687521057011
+        },
+        {
+          "name": "Редактировать 'Минимальный порог баллов' активности задание",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521057011,
+          "stop": 1687521058447
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521058447,
+          "stop": 1687521061932
+        },
+        {
+          "name": "Проверка того что отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521061932,
+          "stop": 1687521061983
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bd7a6f1c512e4c1ca405b90165ad9beb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521052428,
+      "stop": 1687521061983
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521052428,
+  "stop": 1687521061983
+}
