@@ -1,0 +1,93 @@
+{
+  "uuid": "f75fffb0-f80d-4c4a-8ecc-c3cf337a3cf8-tr-0-2394",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: добавление преподавателя по ссылке на профиль",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: добавление преподавателя по ссылке на профиль",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddTeacherByUserInfoInEditing"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InEditing"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: добавление преподавателя по ссылке на профиль",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.AggregateException : One or more errors occurred. (Request timed out)\n  ----> System.TimeoutException : Request timed out\n  ----> System.Threading.Tasks.TaskCanceledException : The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.\n  ----> System.TimeoutException : A task was canceled.\n  ----> System.Threading.Tasks.TaskCanceledException : A task was canceled.",
+    "trace": "   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)\n   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)\n   at OdinUiTests.Services.DisciplineService.EditDiscipline(String disId, Int32 otherTeacherId, Boolean withAllStudents, Object groupId, Object studentId, Boolean withTag) in /azp/_work/1/s/Services/DisciplineService.cs:line 49\n   at OdinUiTests.Services.DisciplineService.EditDiscipline(String disId) in /azp/_work/1/s/Services/DisciplineService.cs:line 65\n   at OdinUiTests.Tests.Discipline.DisciplineContingentTests.InEditing.CheckAddTeacherByUserInfoInEditing(String userInfo) in /azp/_work/1/s/Tests/Discipline/DisCreateEditTests.cs:line 788\n--TimeoutException\n   at RestSharp.RestClientExtensions.PostAsync(IRestClient client, RestRequest request, CancellationToken cancellationToken)\n--TaskCanceledException\n   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\n   at RestSharp.RestClient.ExecuteRequestAsync(RestRequest request, CancellationToken cancellationToken)\n--TimeoutException\n\n--TaskCanceledException\n   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: добавление преподавателя по ссылке на профиль",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.AggregateException : One or more errors occurred. (Request timed out)\n  ----> System.TimeoutException : Request timed out\n  ----> System.Threading.Tasks.TaskCanceledException : The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.\n  ----> System.TimeoutException : A task was canceled.\n  ----> System.Threading.Tasks.TaskCanceledException : A task was canceled.",
+        "trace": "   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)\n   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)\n   at OdinUiTests.Services.DisciplineService.EditDiscipline(String disId, Int32 otherTeacherId, Boolean withAllStudents, Object groupId, Object studentId, Boolean withTag) in /azp/_work/1/s/Services/DisciplineService.cs:line 49\n   at OdinUiTests.Services.DisciplineService.EditDiscipline(String disId) in /azp/_work/1/s/Services/DisciplineService.cs:line 65\n   at OdinUiTests.Tests.Discipline.DisciplineContingentTests.InEditing.CheckAddTeacherByUserInfoInEditing(String userInfo) in /azp/_work/1/s/Tests/Discipline/DisCreateEditTests.cs:line 788\n--TimeoutException\n   at RestSharp.RestClientExtensions.PostAsync(IRestClient client, RestRequest request, CancellationToken cancellationToken)\n--TaskCanceledException\n   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\n   at RestSharp.RestClient.ExecuteRequestAsync(RestRequest request, CancellationToken cancellationToken)\n--TimeoutException\n\n--TaskCanceledException\n   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CheckAddTeacherByUserInfoInEditing.jpg",
+          "source": "c5756d3850f2471f97a3d650c0fa7a5a-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "9fde132af4e84999b834562158eee5ab-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492135335,
+      "stop": 1687492235891
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "User/Info/25"
+    }
+  ],
+  "start": 1687492135335,
+  "stop": 1687492235891
+}

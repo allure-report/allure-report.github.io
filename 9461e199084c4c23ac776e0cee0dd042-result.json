@@ -1,0 +1,156 @@
+{
+  "uuid": "ce12cedd-2831-4e1a-9644-35270d2b403b-tr-0-1223",
+  "historyId": "OdinUiTests.Tests.Library.TestTrainRemovingTests.Конструктор теста-тренажера: можно удалить автора",
+  "fullName": "OdinUiTests.Tests.Library.TestTrainRemovingTests.Конструктор теста-тренажера: можно удалить автора",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "RemoveAuthorInTestTrain"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTrainRemovingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Материал"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Материал"
+    },
+    {
+      "name": "subSuite",
+      "value": "Конструктор тест-тренажера"
+    }
+  ],
+  "links": [],
+  "name": "Конструктор теста-тренажера: можно удалить автора",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Конструктор теста-тренажера: можно удалить автора"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Конструктор теста-тренажера: можно удалить автора",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492402476,
+          "stop": 1687492402980
+        },
+        {
+          "name": "Удалить автора по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492402980,
+          "stop": 1687492404823
+        },
+        {
+          "name": "Ждать пока появятся слово 'Сохранено'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492404823,
+          "stop": 1687492408242
+        },
+        {
+          "name": "Нажать на ссылку для перехода в страницу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492408242,
+          "stop": 1687492408381
+        },
+        {
+          "name": "Проверка того что автор в материале был добавлен/удален",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492408381,
+          "stop": 1687492409164
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "093fc828d97a42bb9322f3104ba4f6b8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492402367,
+      "stop": 1687492409164
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492402367,
+  "stop": 1687492409164
+}

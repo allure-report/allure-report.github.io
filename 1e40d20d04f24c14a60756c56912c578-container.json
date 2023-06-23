@@ -1,0 +1,76 @@
+{
+  "uuid": "55bc0899-2652-483d-881c-3d78b5a55d12-tc-0-1317",
+  "name": "OdinUiTests.Tests.Discipline.DisciplineCreatingTests.Создание дисциплины в потоке ВО: отображение ошибки валидации для поля 'Описание', если поле не заполнено",
+  "children": [
+    "be38c5f7-e02f-435e-8107-4374c8bdffab-tr-0-1336"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687492233093,
+      "stop": 1687492233093
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687492233093,
+      "stop": 1687492233093
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687492233093,
+      "stop": 1687492233093
+    },
+    {
+      "name": "RemoveCreatedDiscipline",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687492233093,
+      "stop": 1687492233093
+    }
+  ],
+  "links": [],
+  "start": 1687492225443,
+  "stop": 1687492233094
+}

@@ -1,0 +1,167 @@
+{
+  "uuid": "76da083f-7ec2-43d6-90d4-d07d3ec7a6ed-tr-0-2175",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityTeacherTests.Страница решение задания: отображение ошибки валидации для поля баллы с отрицательным значением",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityTeacherTests.Страница решение задания: отображение ошибки валидации для поля баллы с отрицательным значением",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckGradeSolutionIncorrectValues"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityTeacherTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: отображение ошибки валидации для поля баллы с отрицательным значением",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: отображение ошибки валидации для поля баллы с отрицательным значением"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: отображение ошибки валидации для поля баллы с отрицательным значением",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу решение задания с фильтром",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491958265,
+          "stop": 1687491958910
+        },
+        {
+          "name": "Редактировать балл для решения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку карандаша чтобы редактировать выставленный балл",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687491961300,
+              "stop": 1687491962990
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491958911,
+          "stop": 1687491964433
+        },
+        {
+          "name": "Отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что кнопка 'Оценить' некликабельная",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687491965622,
+              "stop": 1687491966826
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491964434,
+          "stop": 1687491966826
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f35d5a593fb841478c49d8b7efc07949-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687491958250,
+      "stop": 1687491966826
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "-5"
+    }
+  ],
+  "start": 1687491958250,
+  "stop": 1687491966826
+}

@@ -1,0 +1,170 @@
+{
+  "uuid": "7b734cb0-0e71-4320-8811-7a08712438bc-tr-0-2172",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityTeacherTests.Страница решение задания: можно оценить решения значением выше минимального порога баллов",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityTeacherTests.Страница решение задания: можно оценить решения значением выше минимального порога баллов",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckGradeSolutionValueAboveAndBelowScore"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityTeacherTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: можно оценить решения значением выше минимального порога баллов",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: можно оценить решения значением выше минимального порога баллов"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: можно оценить решения значением выше минимального порога баллов",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу решение задания с фильтром",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491940498,
+          "stop": 1687491941260
+        },
+        {
+          "name": "Редактировать балл для решения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку карандаша чтобы редактировать выставленный балл",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687491943729,
+              "stop": 1687491945245
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491941260,
+          "stop": 1687491946627
+        },
+        {
+          "name": "Нажать на кнопку 'Оценить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491946627,
+          "stop": 1687491948367
+        },
+        {
+          "name": "Получить статус решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491948367,
+          "stop": 1687491949498
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ba6d7cad864141f3a2c19a6bc1e4ea19-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687491940490,
+      "stop": 1687491949563
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "2"
+    },
+    {
+      "name": "Param #1",
+      "value": "Выполнено успешно"
+    }
+  ],
+  "start": 1687491940490,
+  "stop": 1687491949563
+}

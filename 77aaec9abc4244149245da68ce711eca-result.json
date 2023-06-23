@@ -1,0 +1,169 @@
+{
+  "uuid": "ade2ebc8-1693-4992-9478-b47e0ddbea13-tr-0-1268",
+  "historyId": "OdinUiTests.Tests.Library.LibraryInTileViewTests.Страница материала: работает хлебная крошка 'Моя билиотека'",
+  "fullName": "OdinUiTests.Tests.Library.LibraryInTileViewTests.Страница материала: работает хлебная крошка 'Моя билиотека'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckMyLibraryBreadCrumb"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryInTileViewTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    }
+  ],
+  "links": [],
+  "name": "Страница материала: работает хлебная крошка 'Моя билиотека'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница материала: работает хлебная крошка 'Моя билиотека'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница материала: работает хлебная крошка 'Моя билиотека'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492366109,
+          "stop": 1687492366815
+        },
+        {
+          "name": "Нажать на хлебную крошку 'Моя библиотека' со страницы материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492366815,
+          "stop": 1687492368834
+        },
+        {
+          "name": "Проверка того что материал был добавлен в библиотеку",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687492368834,
+                  "stop": 1687492371661
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687492372189,
+                  "stop": 1687492373815
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687492368834,
+              "stop": 1687492373864
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492368834,
+          "stop": 1687492379714
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8f1776873db54d938750812380eba634-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492365889,
+      "stop": 1687492379715
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492365889,
+  "stop": 1687492379715
+}

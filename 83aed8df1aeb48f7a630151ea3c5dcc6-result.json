@@ -1,0 +1,150 @@
+{
+  "uuid": "eb8c733a-de87-444b-9f78-210098998a41-tr-0-2351",
+  "historyId": "OdinUiTests.Tests.Activity.TestTemplateEditingTests.Редактирование шаблона контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'",
+  "fullName": "OdinUiTests.Tests.Activity.TestTemplateEditingTests.Редактирование шаблона контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "ErrorWithIncorrectValueNumberOfAttemptsInTestActivityTemplate"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTemplateEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Шаблон активности контрольной"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование шаблона контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование шаблона контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование шаблона контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492047624,
+          "stop": 1687492048320
+        },
+        {
+          "name": "Редактировать 'Количество попыток' контрольной",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492048320,
+          "stop": 1687492050054
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492050054,
+          "stop": 1687492053470
+        },
+        {
+          "name": "Проверка того что отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492053470,
+          "stop": 1687492053524
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ff2aa49021324f3f95103f20578ce464-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492047604,
+      "stop": 1687492053524
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "0"
+    }
+  ],
+  "start": 1687492047604,
+  "stop": 1687492053524
+}

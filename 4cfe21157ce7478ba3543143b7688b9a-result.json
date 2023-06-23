@@ -1,0 +1,130 @@
+{
+  "uuid": "bb01aa40-9cf6-41f5-9eac-9cf883125ec3-tr-0-2303",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityResultTests.Результат прохождения теста: преподаватель не может оставить комментарий к ответу, если отключена опция подробная информация о результатах",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityResultTests.Результат прохождения теста: преподаватель не может оставить комментарий к ответу, если отключена опция подробная информация о результатах",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "TeacherCannotLeaveCommentOnAnswer"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityResultTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Результат прохождения теста: преподаватель не может оставить комментарий к ответу, если отключена опция подробная информация о результатах",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Результат прохождения теста: преподаватель не может оставить комментарий к ответу, если отключена опция подробная информация о результатах"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Результат прохождения теста: преподаватель не может оставить комментарий к ответу, если отключена опция подробная информация о результатах",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492053514,
+          "stop": 1687492054132
+        },
+        {
+          "name": "Нажать на попытку теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492054132,
+          "stop": 1687492057836
+        },
+        {
+          "name": "Проверка того что кнопка Оставить комментарий задизейблено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492057837,
+          "stop": 1687492061485
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "318a3cf9201c4b1d869310395546d6e3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492053458,
+      "stop": 1687492061485
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492053458,
+  "stop": 1687492061485
+}

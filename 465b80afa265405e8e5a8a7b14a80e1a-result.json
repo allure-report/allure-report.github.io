@@ -1,0 +1,175 @@
+{
+  "uuid": "026a9e98-7549-4427-a66d-b54b83bb7e26-tr-0-2450",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InTaskWithSolution.Страница решение задания: наличия ошибки при удалении решения",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InTaskWithSolution.Страница решение задания: наличия ошибки при удалении решения",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRemoveSolution"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityStudentTests+InTaskWithSolution"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: наличия ошибки при удалении решения",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: наличия ошибки при удалении решения"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: наличия ошибки при удалении решения",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу решение задания с фильтром",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491922169,
+          "stop": 1687491922977
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' на странице решение задания",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491922977,
+          "stop": 1687491925016
+        },
+        {
+          "name": "Редактировать текст решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491925016,
+          "stop": 1687491926517
+        },
+        {
+          "name": "Очистить файлы решения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491926517,
+          "stop": 1687491926652
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить решение' на странице решение задания",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491926652,
+          "stop": 1687491926901
+        },
+        {
+          "name": "Отображается сообщение об ошибке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491926901,
+          "stop": 1687491926998
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "15fb92d3512141b99659703aa2dfff24-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687491922157,
+      "stop": 1687491926999
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687491922157,
+  "stop": 1687491926999
+}

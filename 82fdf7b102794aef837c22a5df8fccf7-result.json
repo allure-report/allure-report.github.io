@@ -1,0 +1,126 @@
+{
+  "uuid": "4ef03471-7227-40ee-af3f-57408ec22c48-tr-0-1447",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineChatBlockTests.Страница дисциплины: отсутствия доступа к кнопке 'Открыть чат дисциплины', если чат дисциплины заблокирован",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineChatBlockTests.Страница дисциплины: отсутствия доступа к кнопке 'Открыть чат дисциплины', если чат дисциплины заблокирован",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckNotAccessOpenChatDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineChatBlockTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Страница дисциплины: отсутствия доступа к кнопке 'Открыть чат дисциплины', если чат дисциплины заблокирован",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница дисциплины: отсутствия доступа к кнопке 'Открыть чат дисциплины', если чат дисциплины заблокирован"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница дисциплины: отсутствия доступа к кнопке 'Открыть чат дисциплины', если чат дисциплины заблокирован",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492081586,
+          "stop": 1687492082119
+        },
+        {
+          "name": "Проверка того что чат дисциплины отключен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492082120,
+          "stop": 1687492083656
+        },
+        {
+          "name": "Нажать на отключенный чат дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492083657,
+          "stop": 1687492085038
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2ffe3e2b47954f518b4061046e29b406-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492081579,
+      "stop": 1687492085039
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492081579,
+  "stop": 1687492085039
+}

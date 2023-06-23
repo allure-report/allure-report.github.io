@@ -1,0 +1,171 @@
+{
+  "uuid": "d1fe709c-0551-44c8-b322-f53076abc58a-tr-0-1179",
+  "historyId": "OdinUiTests.Tests.Library.TestEditingTests.Конструктор теста: можно дублировать вариант",
+  "fullName": "OdinUiTests.Tests.Library.TestEditingTests.Конструктор теста: можно дублировать вариант",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "DuplicateTestVariant"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Материал"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Материал"
+    },
+    {
+      "name": "subSuite",
+      "value": "Конструктор теста"
+    }
+  ],
+  "links": [],
+  "name": "Конструктор теста: можно дублировать вариант",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Конструктор теста: можно дублировать вариант"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Конструктор теста: можно дублировать вариант",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492339614,
+          "stop": 1687492340051
+        },
+        {
+          "name": "Сделать дубликацию варианта",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492340051,
+          "stop": 1687492342301
+        },
+        {
+          "name": "Ждать пока появятся слово 'Сохранено'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492342301,
+          "stop": 1687492344067
+        },
+        {
+          "name": "Ждать пока появытся ссылка для перехода в станицу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492344067,
+          "stop": 1687492344094
+        },
+        {
+          "name": "Проверка того что вариант был дублирован",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492344095,
+          "stop": 1687492345750
+        },
+        {
+          "name": "Проверка того что вопросы в дублированном варианте совпадают",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492345780,
+          "stop": 1687492346551
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "482f1585ba2b45d9ba273856f4f61e32-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492339602,
+      "stop": 1687492346598
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492339602,
+  "stop": 1687492346598
+}

@@ -1,0 +1,130 @@
+{
+  "uuid": "153e3a5c-47f3-4aa4-869e-14c38c3c4daa-tr-0-2456",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InTaskWithSolution.Страница решение задания: можно просмотреть список всех решений, если включена 'Решения открыты всем'",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InTaskWithSolution.Страница решение задания: можно просмотреть список всех решений, если включена 'Решения открыты всем'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAbilityToSeeListSolutions"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityStudentTests+InTaskWithSolution"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: можно просмотреть список всех решений, если включена 'Решения открыты всем'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: можно просмотреть список всех решений, если включена 'Решения открыты всем'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: можно просмотреть список всех решений, если включена 'Решения открыты всем'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу решение задания с фильтром",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491937644,
+          "stop": 1687491938042
+        },
+        {
+          "name": "Сбросить фильтра списка студентов",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491938042,
+          "stop": 1687491940678
+        },
+        {
+          "name": "Проверка того что показывается все решение для данного студента",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491940679,
+          "stop": 1687491941733
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cc892b397f7e4155a2c13e21f6fe572d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687491937633,
+      "stop": 1687491941733
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687491937633,
+  "stop": 1687491941733
+}

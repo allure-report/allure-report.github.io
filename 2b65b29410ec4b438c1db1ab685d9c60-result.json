@@ -1,0 +1,141 @@
+{
+  "uuid": "761c537c-fe74-48c1-ab61-ee6baf1683f2-tr-0-1503",
+  "historyId": "OdinUiTests.Tests.Discipline.DisTemplateTests.Создание шаблона дисциплины: невозможно создать шаблон, если не заполнены обязательные поля",
+  "fullName": "OdinUiTests.Tests.Discipline.DisTemplateTests.Создание шаблона дисциплины: невозможно создать шаблон, если не заполнены обязательные поля",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateDisTemplateIfRequiredFieldsNotFilled"
+    },
+    {
+      "name": "testClass",
+      "value": "DisTemplateTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейный шаблон дисциплины"
+    }
+  ],
+  "links": [],
+  "name": "Создание шаблона дисциплины: невозможно создать шаблон, если не заполнены обязательные поля",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание шаблона дисциплины: невозможно создать шаблон, если не заполнены обязательные поля"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание шаблона дисциплины: невозможно создать шаблон, если не заполнены обязательные поля",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания шаблона дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492177587,
+          "stop": 1687492177988
+        },
+        {
+          "name": "Заполнить всех полей, кроме обязательных",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492177988,
+          "stop": 1687492180180
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492180180,
+          "stop": 1687492180341
+        },
+        {
+          "name": "Отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492180341,
+          "stop": 1687492180392
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "37180763b82d4f48bc71a6ea240e0b98-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492177584,
+      "stop": 1687492180392
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492177584,
+  "stop": 1687492180392
+}

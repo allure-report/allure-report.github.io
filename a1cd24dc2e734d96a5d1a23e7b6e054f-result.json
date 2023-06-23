@@ -1,0 +1,237 @@
+{
+  "uuid": "944c7f0f-9f6f-4c37-8c55-e3eccc50948e-tr-0-2131",
+  "historyId": "OdinUiTests.Tests.Activity.ActivityAddingTests.Редактирование активности: наличия ошибки при добавлении теста из библиотеки не в контрольную",
+  "fullName": "OdinUiTests.Tests.Activity.ActivityAddingTests.Редактирование активности: наличия ошибки при добавлении теста из библиотеки не в контрольную",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddTestNotInControlTypeActivity"
+    },
+    {
+      "name": "testClass",
+      "value": "ActivityAddingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Обычная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование активности: наличия ошибки при добавлении теста из библиотеки не в контрольную",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование активности: наличия ошибки при добавлении теста из библиотеки не в контрольную"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование активности: наличия ошибки при добавлении теста из библиотеки не в контрольную",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491884351,
+          "stop": 1687491884804
+        },
+        {
+          "name": "Выбрать материал из библиотеки по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Очистить список материалов активности",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687491887561,
+              "stop": 1687491888186
+            },
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687491889244,
+                  "stop": 1687491890521
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687491890651,
+                  "stop": 1687491890992
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687491891057,
+                  "stop": 1687491891522
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687491891586,
+                  "stop": 1687491892849
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687491889244,
+              "stop": 1687491892872
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491884804,
+          "stop": 1687491894615
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491894615,
+          "stop": 1687491898017
+        },
+        {
+          "name": "Проверка того что отображается ошибка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491898018,
+          "stop": 1687491898079
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b25dd001e4574babaa674a5b4e70b9d9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687491884339,
+      "stop": 1687491898079
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687491884339,
+  "stop": 1687491898079
+}

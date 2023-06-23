@@ -1,0 +1,227 @@
+{
+  "uuid": "51ad356c-571e-45d4-8cac-258b0e4d7b07-tr-0-2320",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница индивидуальной контрольной: статус ожидает проверки, если в попытке есть хотя бы один вопрос, требующий проверки",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница индивидуальной контрольной: статус ожидает проверки, если в попытке есть хотя бы один вопрос, требующий проверки",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "StatusIsPendingReviewForAttemptsNeedsReview"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityStatusTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница индивидуальной контрольной: статус ожидает проверки, если в попытке есть хотя бы один вопрос, требующий проверки",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница индивидуальной контрольной: статус ожидает проверки, если в попытке есть хотя бы один вопрос, требующий проверки"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница индивидуальной контрольной: статус ожидает проверки, если в попытке есть хотя бы один вопрос, требующий проверки",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492038680,
+          "stop": 1687492039325
+        },
+        {
+          "name": "Перейти к тесту и начать тест",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку 'Приступить'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687492042513,
+              "stop": 1687492043980
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492039325,
+          "stop": 1687492043980
+        },
+        {
+          "name": "Ответить на все вопросы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать появление фразы 'Ответ успешно сохранён'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687492044901,
+              "stop": 1687492045467
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492043980,
+          "stop": 1687492045467
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить на проверку'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492045467,
+          "stop": 1687492045629
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить на проверку' в модалке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492045629,
+          "stop": 1687492046304
+        },
+        {
+          "name": "Нажать на хлебную крошку активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492046304,
+          "stop": 1687492047043
+        },
+        {
+          "name": "Проверка того что показывается статус ожидает проверки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492047044,
+          "stop": 1687492048119
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c19fcfa613e644a88a9238e8c5e48a4c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492037734,
+      "stop": 1687492048217
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "90155"
+    }
+  ],
+  "start": 1687492037734,
+  "stop": 1687492048217
+}

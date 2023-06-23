@@ -1,0 +1,126 @@
+{
+  "uuid": "8a0f6088-bd51-4404-bcc2-df202f507cab-tr-0-1424",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineAccessTests.Редактирование дисциплины: есть возможность редактировать у преподавателя этой дисциплины",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineAccessTests.Редактирование дисциплины: есть возможность редактировать у преподавателя этой дисциплины",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfTeacherChangeDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineAccessTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: есть возможность редактировать у преподавателя этой дисциплины",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: есть возможность редактировать у преподавателя этой дисциплины"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: есть возможность редактировать у преподавателя этой дисциплины",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492055064,
+          "stop": 1687492056086
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492056087,
+          "stop": 1687492057856
+        },
+        {
+          "name": "Получить заголовок дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492057856,
+          "stop": 1687492059272
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "259a85d4f5874335860b665cfeaf3970-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492054795,
+      "stop": 1687492059395
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492054795,
+  "stop": 1687492059395
+}

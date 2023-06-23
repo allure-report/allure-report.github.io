@@ -1,0 +1,111 @@
+{
+  "uuid": "21583239-3c95-41d1-bd23-769886c83c01-tr-0-1438",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineAccessTests.Редактирование дисциплины: нет возможности редактировать у администратора университета, к которому дисциплина НЕ относится",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineAccessTests.Редактирование дисциплины: нет возможности редактировать у администратора университета, к которому дисциплина НЕ относится",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfOtherAdminUniverChangeDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineAccessTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: нет возможности редактировать у администратора университета, к которому дисциплина НЕ относится",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: нет возможности редактировать у администратора университета, к которому дисциплина НЕ относится"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: нет возможности редактировать у администратора университета, к которому дисциплина НЕ относится",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492087233,
+          "stop": 1687492087927
+        },
+        {
+          "name": "Проверка открыть ли страница Проблемы с доступом.",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492087927,
+          "stop": 1687492088656
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f4aa71532bef44878e3dfb5fa3d68b00-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492085157,
+      "stop": 1687492088657
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492085157,
+  "stop": 1687492088657
+}

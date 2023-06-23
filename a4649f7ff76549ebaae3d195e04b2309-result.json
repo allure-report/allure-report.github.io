@@ -1,0 +1,205 @@
+{
+  "uuid": "93105120-3dab-4358-a782-57165060c768-tr-0-2196",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityMulticriteriaTests.Создание задания: нельзя создать задание с критериями, если не заполнены названия критериев",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityMulticriteriaTests.Создание задания: нельзя создать задание с критериями, если не заполнены названия критериев",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "75eaa65ea5d8"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateTaskWithoutNameOfCriteria"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityMulticriteriaTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Создание задания: нельзя создать задание с критериями, если не заполнены названия критериев",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание задания: нельзя создать задание с критериями, если не заполнены названия критериев"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание задания: нельзя создать задание с критериями, если не заполнены названия критериев",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создание активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491877350,
+          "stop": 1687491877847
+        },
+        {
+          "name": "Редактировать тип активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491877847,
+          "stop": 1687491880541
+        },
+        {
+          "name": "Редактировать названия активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491880541,
+          "stop": 1687491880872
+        },
+        {
+          "name": "Редактировать описания активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491880872,
+          "stop": 1687491882381
+        },
+        {
+          "name": "Включить опцию Многокритериальная проверка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491882382,
+          "stop": 1687491882741
+        },
+        {
+          "name": "Заполнения полей критерии",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491882741,
+          "stop": 1687491883250
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491883250,
+          "stop": 1687491886770
+        },
+        {
+          "name": "Проверка того что отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687491886771,
+          "stop": 1687491886845
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a6ccc20aa7844740a4d92ec29fb6555c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687491877337,
+      "stop": 1687491886846
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687491877337,
+  "stop": 1687491886846
+}
