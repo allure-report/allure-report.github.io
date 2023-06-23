@@ -1,0 +1,156 @@
+{
+  "uuid": "de7e3fd3-97ed-4fd5-a504-251f3862b6e9-tr-0-1535",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока: ошибка валидации, если дата начала и окончания совпадают",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока: ошибка валидации, если дата начала и окончания совпадают",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "e223813abfdf"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateCohortIfStartAndEndDateAreSame"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortCreatingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Создание потока: ошибка валидации, если дата начала и окончания совпадают",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание потока: ошибка валидации, если дата начала и окончания совпадают"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание потока: ошибка валидации, если дата начала и окончания совпадают",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514601111,
+          "stop": 1687514601761
+        },
+        {
+          "name": "Вставить значение в поля 'Название*'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514601761,
+          "stop": 1687514604569
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514604569,
+          "stop": 1687514604667
+        },
+        {
+          "name": "Проверка появление ошибки валидации в поля ''",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514604667,
+          "stop": 1687514606356
+        },
+        {
+          "name": "Проверка появление ошибки валидации в поля ''",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514606356,
+          "stop": 1687514607566
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0513effb31a14c4fb9a6f820daa38fee-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514601101,
+      "stop": 1687514607625
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687514601101,
+  "stop": 1687514607625
+}

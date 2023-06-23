@@ -1,0 +1,111 @@
+{
+  "uuid": "4e2cf8e5-b607-43a3-8e06-8ded58831542-tr-0-1584",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): нет возможности редактировать поток программы 2021 года, если в нем есть слушатели",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): нет возможности редактировать поток программы 2021 года, если в нем есть слушатели",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "e223813abfdf"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIsNotPossibleEditCohort"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока ДО (СЗ): нет возможности редактировать поток программы 2021 года, если в нем есть слушатели",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока ДО (СЗ): нет возможности редактировать поток программы 2021 года, если в нем есть слушатели"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока ДО (СЗ): нет возможности редактировать поток программы 2021 года, если в нем есть слушатели",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514547857,
+          "stop": 1687514548954
+        },
+        {
+          "name": "Проверка того что кнопка редактировать не отображается",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514548954,
+          "stop": 1687514550365
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c1e820dac4ce469d83b4e5ab4c8bd85e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514547849,
+      "stop": 1687514550366
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687514547849,
+  "stop": 1687514550366
+}

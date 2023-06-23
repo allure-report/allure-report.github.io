@@ -1,0 +1,201 @@
+{
+  "uuid": "759f6217-7f49-435a-9d1e-da3bc55409ca-tr-0-2098",
+  "historyId": "OdinUiTests.Tests.Call.CallTests.Страница звонка: отображается зеленая рамка у карточки собеседника при разговоре",
+  "fullName": "OdinUiTests.Tests.Call.CallTests.Страница звонка: отображается зеленая рамка у карточки собеседника при разговоре",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "e223813abfdf"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Call"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckGreenFrameIsDisplayedOnAnotherUsersCard"
+    },
+    {
+      "name": "testClass",
+      "value": "CallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Звонок"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Звонок"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница звонка: отображается зеленая рамка у карточки собеседника при разговоре",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница звонка: отображается зеленая рамка у карточки собеседника при разговоре"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница звонка: отображается зеленая рамка у карточки собеседника при разговоре",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514483271,
+          "stop": 1687514484066
+        },
+        {
+          "name": "Переключить состояние микрофона в предбаннике и на странице звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514484066,
+          "stop": 1687514489159
+        },
+        {
+          "name": "Нажать на кнопку Присоединиться в предбаннике",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514489159,
+          "stop": 1687514491626
+        },
+        {
+          "name": "Проверка того что звонок был начать",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514491626,
+          "stop": 1687514496819
+        },
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514506750,
+          "stop": 1687514508306
+        },
+        {
+          "name": "Нажать на кнопку Присоединиться в предбаннике",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514508306,
+          "stop": 1687514513118
+        },
+        {
+          "name": "Проверка того что собеседника слышно",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514513118,
+          "stop": 1687514519482
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514519482,
+          "stop": 1687514520419
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6f8c6c13ca804152a323bab8cf2ffa25-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514483266,
+      "stop": 1687514521210
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687514483266,
+  "stop": 1687514521210
+}

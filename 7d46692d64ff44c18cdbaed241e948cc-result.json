@@ -1,0 +1,172 @@
+{
+  "uuid": "43d80524-ee5b-4fa1-9899-21b6ca5b29b0-tr-0-1183",
+  "historyId": "OdinUiTests.Tests.Library.TestEditingTests.Конструктор теста: можно перенести вопрос в другой вариант",
+  "fullName": "OdinUiTests.Tests.Library.TestEditingTests.Конструктор теста: можно перенести вопрос в другой вариант",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "e223813abfdf"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "MigrateTestQuestion"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Материал"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Материал"
+    },
+    {
+      "name": "subSuite",
+      "value": "Конструктор теста"
+    }
+  ],
+  "links": [],
+  "name": "Конструктор теста: можно перенести вопрос в другой вариант",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Конструктор теста: можно перенести вопрос в другой вариант"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Конструктор теста: можно перенести вопрос в другой вариант",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514553967,
+          "stop": 1687514554781
+        },
+        {
+          "name": "Перенести вопрос в последный вариант",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Получить количество вопросы последнего варианта",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687514558136,
+              "stop": 1687514559372
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514554781,
+          "stop": 1687514560635
+        },
+        {
+          "name": "Ждать пока появятся слово 'Сохранено'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514560635,
+          "stop": 1687514562458
+        },
+        {
+          "name": "Ждать пока появытся ссылка для перехода в станицу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514562458,
+          "stop": 1687514562517
+        },
+        {
+          "name": "Проверка того что вопрос был перенесен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514562517,
+          "stop": 1687514563322
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f00f3611c70b47c78ac0e4b34e3dba96-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514553941,
+      "stop": 1687514563350
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687514553941,
+  "stop": 1687514563350
+}

@@ -1,0 +1,171 @@
+{
+  "uuid": "600fdd37-fbb5-4abb-97c5-f0d0fce202a5-tr-0-1162",
+  "historyId": "OdinUiTests.Tests.Library.TestRemovingTests.Конструктор теста: можно удалить опций из вопроса с типом ответа 'Сопоставление'",
+  "fullName": "OdinUiTests.Tests.Library.TestRemovingTests.Конструктор теста: можно удалить опций из вопроса с типом ответа 'Сопоставление'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "e223813abfdf"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "RemoveAnswerFromComparisionQuestion"
+    },
+    {
+      "name": "testClass",
+      "value": "TestRemovingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Материал"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Материал"
+    },
+    {
+      "name": "subSuite",
+      "value": "Конструктор теста"
+    }
+  ],
+  "links": [],
+  "name": "Конструктор теста: можно удалить опций из вопроса с типом ответа 'Сопоставление'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Конструктор теста: можно удалить опций из вопроса с типом ответа 'Сопоставление'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Конструктор теста: можно удалить опций из вопроса с типом ответа 'Сопоставление'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514561030,
+          "stop": 1687514561564
+        },
+        {
+          "name": "Нажать на карандаш первого вопроса для редактирование вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514561564,
+          "stop": 1687514564359
+        },
+        {
+          "name": "Удалить вариант ответа",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514564359,
+          "stop": 1687514565020
+        },
+        {
+          "name": "Ждать пока появятся слово 'Сохранено'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514565020,
+          "stop": 1687514567087
+        },
+        {
+          "name": "Нажать на ссылку для перехода в страницу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514567087,
+          "stop": 1687514567304
+        },
+        {
+          "name": "Получить количество вариантов ответа из первого вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514567305,
+          "stop": 1687514568208
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d041c16239e844fa8d20a19677f07af1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514560610,
+      "stop": 1687514568209
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687514560610,
+  "stop": 1687514568209
+}

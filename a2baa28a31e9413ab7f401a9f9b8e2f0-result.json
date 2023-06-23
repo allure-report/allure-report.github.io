@@ -1,0 +1,146 @@
+{
+  "uuid": "c2c320f8-a618-4bb7-b5ca-b9f76240b5ba-tr-0-2095",
+  "historyId": "OdinUiTests.Tests.Call.CallTests.Страница звонка: можно включить/отключить камеру в звонке",
+  "fullName": "OdinUiTests.Tests.Call.CallTests.Страница звонка: можно включить/отключить камеру в звонке",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "e223813abfdf"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Call"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckTurnOnOffEquipmentInCall"
+    },
+    {
+      "name": "testClass",
+      "value": "CallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Звонок"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Звонок"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница звонка: можно включить/отключить камеру в звонке",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница звонка: можно включить/отключить камеру в звонке"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница звонка: можно включить/отключить камеру в звонке",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514453253,
+          "stop": 1687514455320
+        },
+        {
+          "name": "Нажать на кнопку Присоединиться в предбаннике",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514455320,
+          "stop": 1687514460404
+        },
+        {
+          "name": "Проверить что кнопка включения/отключения камеры доступно",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514460404,
+          "stop": 1687514468623
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514468623,
+          "stop": 1687514469561
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "679769e406994afaaad8e91bd5e1daee-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514453189,
+      "stop": 1687514469562
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "камеры"
+    }
+  ],
+  "start": 1687514453189,
+  "stop": 1687514469562
+}
