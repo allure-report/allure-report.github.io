@@ -1,0 +1,176 @@
+{
+  "uuid": "8c0386e5-5383-40c0-8292-af2bd2f0bb81-tr-0-1451",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineChatBlockTests.Редактирование дисциплины: блокировка чата дисциплины",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineChatBlockTests.Редактирование дисциплины: блокировка чата дисциплины",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "00c5979d2c75"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckBlockAndUnblockChatDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineChatBlockTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: блокировка чата дисциплины",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: блокировка чата дисциплины"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: блокировка чата дисциплины",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514605772,
+          "stop": 1687514606095
+        },
+        {
+          "name": "Нажать на чекбокс 'Отключить чат дисциплины'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514606095,
+          "stop": 1687514607222
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514607222,
+          "stop": 1687514607332
+        },
+        {
+          "name": "Получить заголовок дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514607332,
+          "stop": 1687514609971
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' на странице дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514610023,
+          "stop": 1687514611343
+        },
+        {
+          "name": "Проверка того что чекбокс 'Отключить чат дисциплины' был выбран",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514611344,
+          "stop": 1687514611946
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "dd03856e749c4f719a68e8421df991f1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514603966,
+      "stop": 1687514611947
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "disable"
+    }
+  ],
+  "start": 1687514603966,
+  "stop": 1687514611947
+}

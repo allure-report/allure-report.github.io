@@ -1,0 +1,111 @@
+{
+  "uuid": "0362dadb-9f24-41c7-bc19-7bac53cad0be-tr-0-2377",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Создание дисциплины: после снятии галки ‘Все студенты потока’ появляется поля Группы и Студенты",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Создание дисциплины: после снятии галки ‘Все студенты потока’ появляется поля Группы и Студенты",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "00c5979d2c75"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckGroupsAndStudentsFiledsIsAppearInCreation"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InCreating"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Создание дисциплины: после снятии галки ‘Все студенты потока’ появляется поля Группы и Студенты",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание дисциплины: после снятии галки ‘Все студенты потока’ появляется поля Группы и Студенты"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание дисциплины: после снятии галки ‘Все студенты потока’ появляется поля Группы и Студенты",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514666554,
+          "stop": 1687514666858
+        },
+        {
+          "name": "Проверка того что после снятии чекбокса 'Все студенты потока' появляются другие поля",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514666859,
+          "stop": 1687514668776
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "32b494f4e4374ced814ad8cd837a7771-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514666467,
+      "stop": 1687514668777
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687514666467,
+  "stop": 1687514668777
+}

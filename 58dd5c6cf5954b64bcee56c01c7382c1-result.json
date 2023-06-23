@@ -1,0 +1,240 @@
+{
+  "uuid": "edeba06d-181b-49b0-b09a-bf6b0ba21033-tr-0-1377",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineWithIOTTests.Страница дисциплины с ИОТ: при создании модуля или темы можно задать часы",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineWithIOTTests.Страница дисциплины с ИОТ: при создании модуля или темы можно задать часы",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "00c5979d2c75"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreatingBlockWithOtherData"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineWithIOTTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Траекторная"
+    }
+  ],
+  "links": [],
+  "name": "Страница дисциплины с ИОТ: при создании модуля или темы можно задать часы",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница дисциплины с ИОТ: при создании модуля или темы можно задать часы"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница дисциплины с ИОТ: при создании модуля или темы можно задать часы",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Рандомна получить вид блока для добавления",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514893096,
+          "stop": 1687514893096
+        },
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514893096,
+          "stop": 1687514893561
+        },
+        {
+          "name": "Добавить блок с соответствующими параметрами",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку добавления блока указав нужную кнопку",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687514894696,
+              "stop": 1687514897317
+            },
+            {
+              "name": "Добавления блока в указанное место в дисциплину с ИОТ",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Заполнить другие поля при добавлении блока",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687514898623,
+                  "stop": 1687514898833
+                },
+                {
+                  "name": "Проверка того что блок был добавлен в дисциплину с ИОТ",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "name": "Проверка того что блок был добавлен с параметрами",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1687514900043,
+                      "stop": 1687514901181
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687514898913,
+                  "stop": 1687514901189
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687514897317,
+              "stop": 1687514901189
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514893561,
+          "stop": 1687514901189
+        },
+        {
+          "name": "Проверка того что блок был добавлен в дисциплину с ИОТ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что блок был добавлен с параметрами",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687514903717,
+              "stop": 1687514904843
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514901189,
+          "stop": 1687514904850
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ee9374a2dd8e4998bcc007a85ee632d4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514893092,
+      "stop": 1687514904850
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "withHours"
+    }
+  ],
+  "start": 1687514893092,
+  "stop": 1687514904850
+}

@@ -1,0 +1,150 @@
+{
+  "uuid": "600885c9-0cc0-45b4-9c4b-e92daba347ef-tr-0-2220",
+  "historyId": "OdinUiTests.Tests.Activity.TemplateEditingTests.Редактирование шаблона активности: отображение ошибки валидации для поля 'Объём' с значением '0'",
+  "fullName": "OdinUiTests.Tests.Activity.TemplateEditingTests.Редактирование шаблона активности: отображение ошибки валидации для поля 'Объём' с значением '0'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "00c5979d2c75"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckNegativeEditVolumeActivityTemplate"
+    },
+    {
+      "name": "testClass",
+      "value": "TemplateEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Обычный шаблон активности"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование шаблона активности: отображение ошибки валидации для поля 'Объём' с значением '0'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование шаблона активности: отображение ошибки валидации для поля 'Объём' с значением '0'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование шаблона активности: отображение ошибки валидации для поля 'Объём' с значением '0'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514541270,
+          "stop": 1687514541582
+        },
+        {
+          "name": "Редактировать объем активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514541582,
+          "stop": 1687514543366
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514543366,
+          "stop": 1687514546535
+        },
+        {
+          "name": "Проверка того что отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514546535,
+          "stop": 1687514546570
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "93c19a7847f243a09e80b118f212fdd6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514541268,
+      "stop": 1687514546571
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "0"
+    }
+  ],
+  "start": 1687514541268,
+  "stop": 1687514546571
+}

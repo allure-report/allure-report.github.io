@@ -1,0 +1,259 @@
+{
+  "uuid": "22278ab1-e761-4aef-afcf-ec72166998ab-tr-0-1045",
+  "historyId": "OdinUiTests.Tests.StoсkMarket.StockMarketTestsPartOne.Страница лота: преподаватель может приобрести материал на бирже",
+  "fullName": "OdinUiTests.Tests.StoсkMarket.StockMarketTestsPartOne.Страница лота: преподаватель может приобрести материал на бирже",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "00c5979d2c75"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.StoсkMarket"
+    },
+    {
+      "name": "testMethod",
+      "value": "PurchaseLotByTeacher"
+    },
+    {
+      "name": "testClass",
+      "value": "StockMarketTestsPartOne"
+    },
+    {
+      "name": "tag",
+      "value": "Биржа"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Биржа"
+    }
+  ],
+  "links": [],
+  "name": "Страница лота: преподаватель может приобрести материал на бирже",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница лота: преподаватель может приобрести материал на бирже"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница лота: преподаватель может приобрести материал на бирже",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу биржи",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514786374,
+          "stop": 1687514786737
+        },
+        {
+          "name": "Вводить названия материала в фильтр биржи",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514786737,
+          "stop": 1687514788127
+        },
+        {
+          "name": "Нажать на кнопку 'Применить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514788127,
+          "stop": 1687514789698
+        },
+        {
+          "name": "Нажать на названия материала, чтобы перейти на страницу лота",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514789698,
+          "stop": 1687514790341
+        },
+        {
+          "name": "Нажать на кнопку 'Приобрести материал' на странице лота",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514790342,
+          "stop": 1687514794064
+        },
+        {
+          "name": "Получить заголовок материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514794064,
+          "stop": 1687514795155
+        },
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514795159,
+          "stop": 1687514795544
+        },
+        {
+          "name": "Проверка того что материал был добавлен в библиотеку",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687514795544,
+                  "stop": 1687514797398
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687514797497,
+                  "stop": 1687514798259
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687514798323,
+                  "stop": 1687514799444
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687514795544,
+              "stop": 1687514799464
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514795544,
+          "stop": 1687514810413
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1c7155190e644d2e945fccc28f96a7b7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514784182,
+      "stop": 1687514810413
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687514784182,
+  "stop": 1687514810413
+}

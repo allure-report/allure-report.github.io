@@ -1,0 +1,146 @@
+{
+  "uuid": "cc7ad6a1-c174-4b85-9b57-a498c51d5e29-tr-0-1322",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineCreatingTests. Cоздание дисциплины в потоке ВО: работает кнопка 'Отмена'",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineCreatingTests. Cоздание дисциплины в потоке ВО: работает кнопка 'Отмена'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "00c5979d2c75"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CancelCreatingDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineCreatingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": " Cоздание дисциплины в потоке ВО: работает кнопка 'Отмена'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": " Cоздание дисциплины в потоке ВО: работает кнопка 'Отмена'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": " Cоздание дисциплины в потоке ВО: работает кнопка 'Отмена'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514648822,
+          "stop": 1687514649209
+        },
+        {
+          "name": "Нажать на кнопку добавления дисциплины в потоке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514649209,
+          "stop": 1687514651786
+        },
+        {
+          "name": "Нажать на кнопку 'Отмена' при создание",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514651786,
+          "stop": 1687514652961
+        },
+        {
+          "name": "Получить url потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687514652961,
+          "stop": 1687514653503
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "87e29c367441446e89604dc82442e2d7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687514648819,
+      "stop": 1687514653509
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "39"
+    }
+  ],
+  "start": 1687514648819,
+  "stop": 1687514653510
+}
