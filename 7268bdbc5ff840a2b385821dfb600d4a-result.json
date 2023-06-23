@@ -1,0 +1,141 @@
+{
+  "uuid": "5ee0e93b-af8a-4cd1-ad86-3c486a9c6425-tr-0-1598",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ТГУ: успешное сохранение, с корректными значениями в поле ‘Администраторы потока’",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ТГУ: успешное сохранение, с корректными значениями в поле ‘Администраторы потока’",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEditCohortWithFillingAdministratorField"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока ТГУ: успешное сохранение, с корректными значениями в поле ‘Администраторы потока’",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока ТГУ: успешное сохранение, с корректными значениями в поле ‘Администраторы потока’"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока ТГУ: успешное сохранение, с корректными значениями в поле ‘Администраторы потока’",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521158102,
+          "stop": 1687521158599
+        },
+        {
+          "name": "Вставить значение в поля 'Администраторы потока'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521158599,
+          "stop": 1687521161869
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521161869,
+          "stop": 1687521162057
+        },
+        {
+          "name": "Проверка того что добавленный админ отображается на странице потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521162057,
+          "stop": 1687521163226
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "af1194e9d04c422181b6907b07f14234-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521158026,
+      "stop": 1687521163226
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521158026,
+  "stop": 1687521163226
+}

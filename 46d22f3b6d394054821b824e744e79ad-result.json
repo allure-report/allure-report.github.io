@@ -1,0 +1,156 @@
+{
+  "uuid": "e825576a-2702-43a5-9dd8-5c3adb193274-tr-0-1181",
+  "historyId": "OdinUiTests.Tests.Library.TestEditingTests.Конструктор теста: можно дублировать вопрос",
+  "fullName": "OdinUiTests.Tests.Library.TestEditingTests.Конструктор теста: можно дублировать вопрос",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "DuplicateTestQuestion"
+    },
+    {
+      "name": "testClass",
+      "value": "TestEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Материал"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Материал"
+    },
+    {
+      "name": "subSuite",
+      "value": "Конструктор теста"
+    }
+  ],
+  "links": [],
+  "name": "Конструктор теста: можно дублировать вопрос",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Конструктор теста: можно дублировать вопрос"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Конструктор теста: можно дублировать вопрос",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521103477,
+          "stop": 1687521103998
+        },
+        {
+          "name": "Сделать дубликацию вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521103999,
+          "stop": 1687521107949
+        },
+        {
+          "name": "Ждать пока появятся слово 'Сохранено'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521107949,
+          "stop": 1687521109947
+        },
+        {
+          "name": "Ждать пока появытся ссылка для перехода в станицу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521109947,
+          "stop": 1687521110015
+        },
+        {
+          "name": "Проверка того что вопрос был дублирован",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521110015,
+          "stop": 1687521111984
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "679821098d5242bfbb643046c09cad73-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521103461,
+      "stop": 1687521112285
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521103461,
+  "stop": 1687521112285
+}

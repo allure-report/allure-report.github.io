@@ -1,0 +1,141 @@
+{
+  "uuid": "be219f6b-886f-4002-92c5-260d785d3c7f-tr-0-1571",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока: можно удалить поток без дисциплин и семестров",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока: можно удалить поток без дисциплин и семестров",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRemoveCohortWithoutDisciplinesAndSemesters"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока: можно удалить поток без дисциплин и семестров",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока: можно удалить поток без дисциплин и семестров"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока: можно удалить поток без дисциплин и семестров",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521076369,
+          "stop": 1687521077178
+        },
+        {
+          "name": "Нажать на кнопку 'Удалить поток'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521077178,
+          "stop": 1687521079441
+        },
+        {
+          "name": "Подтвердить удаление потока нажав на кнопку 'Удалить' из модалки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521079442,
+          "stop": 1687521079592
+        },
+        {
+          "name": "Получить заголовок образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521079593,
+          "stop": 1687521080788
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7ed5e91696a94a4496a54e30e3abd1be-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521076054,
+      "stop": 1687521080788
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521076054,
+  "stop": 1687521080788
+}

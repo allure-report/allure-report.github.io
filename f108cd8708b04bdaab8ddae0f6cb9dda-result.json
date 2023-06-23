@@ -1,0 +1,126 @@
+{
+  "uuid": "7ef4d513-3e60-456b-8860-c4b9ed86dd2d-tr-0-1611",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortInfoTests.Страница потока: После восстановлении из архива восстанавливается доступ",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortInfoTests.Страница потока: После восстановлении из архива восстанавливается доступ",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAccessStudentToActivityCohortArchive"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortInfoTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Страница потока: После восстановлении из архива восстанавливается доступ",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница потока: После восстановлении из архива восстанавливается доступ"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница потока: После восстановлении из архива восстанавливается доступ",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521064296,
+          "stop": 1687521064863
+        },
+        {
+          "name": "Нажать на дисциплину",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521064863,
+          "stop": 1687521065882
+        },
+        {
+          "name": "Проверка доступности к активностям при восстановлении потока из архива",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521065882,
+          "stop": 1687521067145
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9c64fefa739241519bccfc815f104dbe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521061477,
+      "stop": 1687521067146
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521061477,
+  "stop": 1687521067146
+}
