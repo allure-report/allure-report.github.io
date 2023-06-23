@@ -1,0 +1,171 @@
+{
+  "uuid": "b2ea7371-6896-4f9e-9bde-3d3e642c335c-tr-0-1592",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): нет возможности удалить поток",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): нет возможности удалить поток",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "fabe7669bd8d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIsNotPossibleRemoveCohortInProgramNatDemography"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока ДО (СЗ): нет возможности удалить поток",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока ДО (СЗ): нет возможности удалить поток"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока ДО (СЗ): нет возможности удалить поток",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492390858,
+          "stop": 1687492390916
+        },
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492390916,
+          "stop": 1687492391749
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492391749,
+          "stop": 1687492393731
+        },
+        {
+          "name": "Нажать на кнопку 'Удалить поток'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492393731,
+          "stop": 1687492395781
+        },
+        {
+          "name": "Подтвердить удаление потока нажав на кнопку 'Удалить' из модалки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492395781,
+          "stop": 1687492395967
+        },
+        {
+          "name": "Проверка появление уведомление об ошибки невозможности удаления потока нац.проекта",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492395967,
+          "stop": 1687492396678
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "916b21c2324c4046a8422ac6f07e7ecf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492390847,
+      "stop": 1687492396678
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492390847,
+  "stop": 1687492396678
+}

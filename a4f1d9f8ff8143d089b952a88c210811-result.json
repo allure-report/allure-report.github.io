@@ -1,0 +1,286 @@
+{
+  "uuid": "0dbcd8a7-88b4-45b5-b126-1a803aabcca8-tr-0-2434",
+  "historyId": "OdinUiTests.Tests.Chat.GroupMiniChatTests+ChatEditing.Миничат - групповой чат: можно восстановить чат из архива",
+  "fullName": "OdinUiTests.Tests.Chat.GroupMiniChatTests+ChatEditing.Миничат - групповой чат: можно восстановить чат из архива",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "fabe7669bd8d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRestoreGroupChatFromArchiveInMinichat"
+    },
+    {
+      "name": "testClass",
+      "value": "GroupMiniChatTests+ChatEditing"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат группового чата"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - групповой чат: можно восстановить чат из архива",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат - групповой чат: можно восстановить чат из архива"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат - групповой чат: можно восстановить чат из архива",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492065691,
+          "stop": 1687492066060
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687492066060,
+              "stop": 1687492067217
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492066060,
+          "stop": 1687492067858
+        },
+        {
+          "name": "Восстановить чат из архива в миничате",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Отправка чата в архив",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687492067858,
+              "stop": 1687492069964
+            },
+            {
+              "name": "Проверка того что чат отсутствует среди чатов в миничате",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687492070095,
+                  "stop": 1687492071167
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687492070094,
+              "stop": 1687492071236
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492067858,
+          "stop": 1687492072275
+        },
+        {
+          "name": "Проверка того что чат был восстановлен из архива",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что названия чата был изменен в миничате",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Проверка того что чат отсутствует среди чатов в миничате",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1687492073689,
+                      "stop": 1687492075222
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687492072458,
+                  "stop": 1687492075734
+                },
+                {
+                  "name": "Открыть чат по айди",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687492075734,
+                  "stop": 1687492076376
+                },
+                {
+                  "name": "Проверка того что чат был добавлен",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687492076376,
+                  "stop": 1687492078504
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687492072275,
+              "stop": 1687492078504
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492072275,
+          "stop": 1687492078504
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "14514b892bcb444f92547dbefcfbca47-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492065684,
+      "stop": 1687492078504
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492065684,
+  "stop": 1687492078504
+}

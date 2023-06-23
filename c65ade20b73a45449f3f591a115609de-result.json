@@ -1,0 +1,126 @@
+{
+  "uuid": "44a0d498-74df-4fd2-af45-91024495eebb-tr-0-1586",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): нет возможности выбрать галку ‘Разрешена регистрация по ссылке’",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): нет возможности выбрать галку ‘Разрешена регистрация по ссылке’",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "fabe7669bd8d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIsNotPossibleSelectingCheckboxRegistrationLinkInEditingCohort"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока ДО (СЗ): нет возможности выбрать галку ‘Разрешена регистрация по ссылке’",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока ДО (СЗ): нет возможности выбрать галку ‘Разрешена регистрация по ссылке’"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока ДО (СЗ): нет возможности выбрать галку ‘Разрешена регистрация по ссылке’",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492379938,
+          "stop": 1687492380018
+        },
+        {
+          "name": "Открыть страницу редактирование потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492380018,
+          "stop": 1687492380505
+        },
+        {
+          "name": "Проверка того что чекбокс ‘Разрешена регистрация по ссылке’ не кликабельна",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492380505,
+          "stop": 1687492381729
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "77d28ebfe40645a5aa44240144e151d4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492379933,
+      "stop": 1687492381729
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492379933,
+  "stop": 1687492381729
+}

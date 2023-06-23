@@ -1,0 +1,166 @@
+{
+  "uuid": "41a1ff9d-aed2-41e0-a3a7-b3e94c7fac95-tr-0-1588",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): нет возможности изменить даты потока, если в нем есть слушатели",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): нет возможности изменить даты потока, если в нем есть слушатели",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "fabe7669bd8d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIsNotPossibleChangeDatesInEditingCohort"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока ДО (СЗ): нет возможности изменить даты потока, если в нем есть слушатели",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: headless chrome=111.0.5563.146)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.get_Text()\n   at OdinUiTests.Pages.CohortCreateEditPage.<>c__DisplayClass47_0.<CheckDateFieldsIsDisabled>b__0() in /azp/_work/1/s/Pages/CohortCreateEditPage.cs:line 350\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.CohortCreateEditPage.CheckDateFieldsIsDisabled() in /azp/_work/1/s/Pages/CohortCreateEditPage.cs:line 334\n   at OdinUiTests.Tests.Cohort.CohortEditingTests.CheckIsNotPossibleChangeDatesInEditingCohort() in /azp/_work/1/s/Tests/Cohort/CohortCreateEditTests.cs:line 516"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока ДО (СЗ): нет возможности изменить даты потока, если в нем есть слушатели",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: headless chrome=111.0.5563.146)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.get_Text()\n   at OdinUiTests.Pages.CohortCreateEditPage.<>c__DisplayClass47_0.<CheckDateFieldsIsDisabled>b__0() in /azp/_work/1/s/Pages/CohortCreateEditPage.cs:line 350\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.CohortCreateEditPage.CheckDateFieldsIsDisabled() in /azp/_work/1/s/Pages/CohortCreateEditPage.cs:line 334\n   at OdinUiTests.Tests.Cohort.CohortEditingTests.CheckIsNotPossibleChangeDatesInEditingCohort() in /azp/_work/1/s/Tests/Cohort/CohortCreateEditTests.cs:line 516"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492381741,
+          "stop": 1687492381789
+        },
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492381789,
+          "stop": 1687492382457
+        },
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492383124,
+          "stop": 1687492383176
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492383198,
+          "stop": 1687492384529
+        },
+        {
+          "name": "Проверка того что поля даты не кликабельны",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=111.0.5563.146)",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.get_Text()\n   at OdinUiTests.Pages.CohortCreateEditPage.<>c__DisplayClass47_0.<CheckDateFieldsIsDisabled>b__0() in /azp/_work/1/s/Pages/CohortCreateEditPage.cs:line 350\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687492384529,
+          "stop": 1687492387029
+        }
+      ],
+      "attachments": [
+        {
+          "name": "CheckIsNotPossibleChangeDatesInEditingCohort.jpg",
+          "source": "5f1e00b502554d748f8f14fa6807be7c-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "c225be427f94430dafc1f90a496adc97-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687492381730,
+      "stop": 1687492387356
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687492381730,
+  "stop": 1687492387356
+}
