@@ -1,0 +1,115 @@
+{
+  "uuid": "15066b55-1323-4485-9d81-0dec8faea95a-tr-0-2223",
+  "historyId": "OdinUiTests.Tests.Activity.TemplateEditingTests.Редактирование шаблона активности: отсутствует поля 'Оценка по SCORM результату', если добавлен SCORM пакет в шаблон активности типов кроме контрольной",
+  "fullName": "OdinUiTests.Tests.Activity.TemplateEditingTests.Редактирование шаблона активности: отсутствует поля 'Оценка по SCORM результату', если добавлен SCORM пакет в шаблон активности типов кроме контрольной",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckNotExistScormResultScoreField"
+    },
+    {
+      "name": "testClass",
+      "value": "TemplateEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Обычный шаблон активности"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование шаблона активности: отсутствует поля 'Оценка по SCORM результату', если добавлен SCORM пакет в шаблон активности типов кроме контрольной",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование шаблона активности: отсутствует поля 'Оценка по SCORM результату', если добавлен SCORM пакет в шаблон активности типов кроме контрольной"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование шаблона активности: отсутствует поля 'Оценка по SCORM результату', если добавлен SCORM пакет в шаблон активности типов кроме контрольной",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522410583,
+          "stop": 1687522411716
+        },
+        {
+          "name": "Показывается поля оценка по Scorm результату, если добавлен Scorm пакет",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522411716,
+          "stop": 1687522413853
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fed26ed982534f6b8cfb05e695806d8d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522410576,
+      "stop": 1687522413853
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522410576,
+  "stop": 1687522413853
+}

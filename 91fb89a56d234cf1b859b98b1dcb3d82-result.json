@@ -1,0 +1,141 @@
+{
+  "uuid": "95afbc09-f172-4f3b-add3-a347bc3a217c-tr-0-2396",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: открепления преподавателя от дисциплины",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: открепления преподавателя от дисциплины",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRemoveTeacherFromDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InEditing"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: открепления преподавателя от дисциплины",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: открепления преподавателя от дисциплины"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: открепления преподавателя от дисциплины",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522569133,
+          "stop": 1687522569680
+        },
+        {
+          "name": "Очистить сущности из контингента дисциплины по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522569681,
+          "stop": 1687522575234
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522575234,
+          "stop": 1687522575797
+        },
+        {
+          "name": "Проверка того что добавленный преподаватель отображается на странице дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522575797,
+          "stop": 1687522577300
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c1df50b444294f2caa651bb4e20f7ecd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522568569,
+      "stop": 1687522577301
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522568569,
+  "stop": 1687522577301
+}

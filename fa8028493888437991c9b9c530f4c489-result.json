@@ -1,0 +1,150 @@
+{
+  "uuid": "bb72d8db-9e59-4f09-be79-fcfeede243e8-tr-0-2259",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityEditingTests.Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityEditingTests.Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "ErrorWithIncorrectValueNumberOfAttemptsInTestActivity"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением '0'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522352114,
+          "stop": 1687522353029
+        },
+        {
+          "name": "Редактировать 'Количество попыток' контрольной",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522353029,
+          "stop": 1687522358104
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522358104,
+          "stop": 1687522360770
+        },
+        {
+          "name": "Проверка того что отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522360770,
+          "stop": 1687522361741
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "44fdd81f961a4860b2adefb65520ed76-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522352075,
+      "stop": 1687522361742
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "0"
+    }
+  ],
+  "start": 1687522352075,
+  "stop": 1687522361742
+}

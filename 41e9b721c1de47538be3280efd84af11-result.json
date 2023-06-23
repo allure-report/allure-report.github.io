@@ -1,0 +1,218 @@
+{
+  "uuid": "114f4118-e441-4314-b9db-8e723b7d7820-tr-0-1501",
+  "historyId": "OdinUiTests.Tests.Discipline.DisTemplateTests.Создание шаблона дисциплины: можно создать шаблон, если заполнены все поля",
+  "fullName": "OdinUiTests.Tests.Discipline.DisTemplateTests.Создание шаблона дисциплины: можно создать шаблон, если заполнены все поля",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateDisTemplateWithFillingAllFields"
+    },
+    {
+      "name": "testClass",
+      "value": "DisTemplateTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейный шаблон дисциплины"
+    }
+  ],
+  "links": [],
+  "name": "Создание шаблона дисциплины: можно создать шаблон, если заполнены все поля",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание шаблона дисциплины: можно создать шаблон, если заполнены все поля"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание шаблона дисциплины: можно создать шаблон, если заполнены все поля",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания шаблона дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522605152,
+          "stop": 1687522606326
+        },
+        {
+          "name": "Заполнить всех полей",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Редактировать названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522606327,
+              "stop": 1687522609582
+            },
+            {
+              "name": "Редактировать краткое названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522609582,
+              "stop": 1687522611145
+            },
+            {
+              "name": "Редактировать описания дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522611145,
+              "stop": 1687522613469
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522606326,
+          "stop": 1687522615258
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522615258,
+          "stop": 1687522615617
+        },
+        {
+          "name": "Проверка того что корректно ли создан дисциплина",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что корректно ли создан дисциплина",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522615618,
+              "stop": 1687522617084
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522615617,
+          "stop": 1687522617357
+        },
+        {
+          "name": "Получить id дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522617357,
+          "stop": 1687522617390
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "072221c57d644096b8dc04e9529336ca-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522605146,
+      "stop": 1687522617478
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522605146,
+  "stop": 1687522617478
+}

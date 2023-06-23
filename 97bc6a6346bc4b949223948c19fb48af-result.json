@@ -1,0 +1,169 @@
+{
+  "uuid": "0d5fcb0d-4d51-4649-8109-d663311db62c-tr-0-1250",
+  "historyId": "OdinUiTests.Tests.Library.LibraryInTileViewTests.Библиотека, плиточный вид: можно переименовать каталог",
+  "fullName": "OdinUiTests.Tests.Library.LibraryInTileViewTests.Библиотека, плиточный вид: можно переименовать каталог",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRenameCatalog"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryInTileViewTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    }
+  ],
+  "links": [],
+  "name": "Библиотека, плиточный вид: можно переименовать каталог",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Библиотека, плиточный вид: можно переименовать каталог"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Библиотека, плиточный вид: можно переименовать каталог",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522633636,
+          "stop": 1687522634809
+        },
+        {
+          "name": "Переименовать название материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522634811,
+              "stop": 1687522637902
+            },
+            {
+              "name": "Прокрутить страницу до появление материала или каталога",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522637902,
+              "stop": 1687522640343
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522634810,
+          "stop": 1687522646568
+        },
+        {
+          "name": "Проверка того что каталог был переименован",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522646612,
+              "stop": 1687522651533
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522646568,
+          "stop": 1687522652702
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "03ecc64d810144bea784b06dee06cc88-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522633430,
+      "stop": 1687522652702
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522633430,
+  "stop": 1687522652702
+}

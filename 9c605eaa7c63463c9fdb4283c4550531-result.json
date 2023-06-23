@@ -1,0 +1,184 @@
+{
+  "uuid": "d8b4f717-40a4-45aa-9a6f-aac15d0d48fb-tr-0-1299",
+  "historyId": "OdinUiTests.Tests.Library.LibraryInListViewTests.Библиотека, списочный вид: можно редактировать материал через actions-кнопки",
+  "fullName": "OdinUiTests.Tests.Library.LibraryInListViewTests.Библиотека, списочный вид: можно редактировать материал через actions-кнопки",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEditMaterialViaActionsButton"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryInListViewTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    }
+  ],
+  "links": [],
+  "name": "Библиотека, списочный вид: можно редактировать материал через actions-кнопки",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Библиотека, списочный вид: можно редактировать материал через actions-кнопки"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Библиотека, списочный вид: можно редактировать материал через actions-кнопки",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522794498,
+          "stop": 1687522794882
+        },
+        {
+          "name": "Переключать текущий вид библотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522794882,
+              "stop": 1687522796846
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522794882,
+          "stop": 1687522798185
+        },
+        {
+          "name": "Редактировать материал с библиотеки по кнопке редактировать в списке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522798186,
+              "stop": 1687522799605
+            },
+            {
+              "name": "Прокрутить страницу до появление материала или каталога",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522799606,
+              "stop": 1687522801190
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522798186,
+          "stop": 1687522804019
+        },
+        {
+          "name": "Проверка перехода на страницу редактирования материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522804020,
+          "stop": 1687522805604
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b4b89429f9c94f92a6b02c6232b4e2f7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522794289,
+      "stop": 1687522805605
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522794289,
+  "stop": 1687522805605
+}

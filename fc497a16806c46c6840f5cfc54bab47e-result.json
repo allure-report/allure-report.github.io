@@ -1,0 +1,202 @@
+{
+  "uuid": "dd4c04e8-1335-462b-80ec-e173556f8375-tr-0-2381",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Создание дисциплины: есть возможность создать дисциплину сняв галку ‘Все студенты потока’",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Создание дисциплины: есть возможность создать дисциплину сняв галку ‘Все студенты потока’",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateDisciplineByUncheckingBoxAllCohortStudents"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InCreating"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Создание дисциплины: есть возможность создать дисциплину сняв галку ‘Все студенты потока’",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание дисциплины: есть возможность создать дисциплину сняв галку ‘Все студенты потока’"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание дисциплины: есть возможность создать дисциплину сняв галку ‘Все студенты потока’",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522563420,
+          "stop": 1687522564223
+        },
+        {
+          "name": "Заполнения обязательных полей для создании дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Редактировать названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522564223,
+              "stop": 1687522566788
+            },
+            {
+              "name": "Редактировать краткое названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522566788,
+              "stop": 1687522568615
+            },
+            {
+              "name": "Редактировать описания дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522568615,
+              "stop": 1687522570337
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522564223,
+          "stop": 1687522570337
+        },
+        {
+          "name": "Убрать галку с чекбокса 'Все студенты потока'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522570338,
+          "stop": 1687522571883
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522571883,
+          "stop": 1687522572093
+        },
+        {
+          "name": "Проверка того что корректно ли создан дисциплина со студентами потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522572094,
+          "stop": 1687522574106
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "aadf2ad050074d5c99d7b0a2904409a2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522563317,
+      "stop": 1687522574107
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522563317,
+  "stop": 1687522574107
+}

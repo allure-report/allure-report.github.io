@@ -1,0 +1,126 @@
+{
+  "uuid": "fc3c8e38-26a6-4645-bd90-a3950107ac3c-tr-0-1494",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineStudentTests.Страница оценок дисциплины: невозможности выставления оценки студентом",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineStudentTests.Страница оценок дисциплины: невозможности выставления оценки студентом",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckGradingByStudent"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineStudentTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Страница оценок дисциплины: невозможности выставления оценки студентом",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница оценок дисциплины: невозможности выставления оценки студентом"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница оценок дисциплины: невозможности выставления оценки студентом",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522578782,
+          "stop": 1687522579629
+        },
+        {
+          "name": "Нажать на заголовок вкладки 'Оценки'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522579629,
+          "stop": 1687522582982
+        },
+        {
+          "name": "Проверка того что поля выставления оценки не отображается студенту",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522582982,
+          "stop": 1687522584837
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "049675bc5ad4424a8477463ad53b9d8e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522578765,
+      "stop": 1687522584837
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522578765,
+  "stop": 1687522584837
+}

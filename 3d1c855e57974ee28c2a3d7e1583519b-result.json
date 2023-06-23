@@ -1,0 +1,141 @@
+{
+  "uuid": "9941a972-ca40-4806-b39b-19c7ef446bfc-tr-0-2410",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактированиедисциплины: есть возможность сохранить дисциплину выбрав галку ‘Все студенты потока’",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактированиедисциплины: есть возможность сохранить дисциплину выбрав галку ‘Все студенты потока’",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEditDisciplineByCheckingBoxAllCohortStudents"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InEditing"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактированиедисциплины: есть возможность сохранить дисциплину выбрав галку ‘Все студенты потока’",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактированиедисциплины: есть возможность сохранить дисциплину выбрав галку ‘Все студенты потока’"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактированиедисциплины: есть возможность сохранить дисциплину выбрав галку ‘Все студенты потока’",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522647900,
+          "stop": 1687522649078
+        },
+        {
+          "name": "Проверка того что галка 'Все студенты потока' по умолчанию выбрано",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522649078,
+          "stop": 1687522653793
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522653794,
+          "stop": 1687522654169
+        },
+        {
+          "name": "Проверка того что корректно ли создан дисциплина со студентами потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522654170,
+          "stop": 1687522657893
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "abb0c796b46e412fb2897ba37c7efa7e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522647729,
+      "stop": 1687522657893
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522647729,
+  "stop": 1687522657893
+}

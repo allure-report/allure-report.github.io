@@ -1,0 +1,276 @@
+{
+  "uuid": "82d71b60-d769-4941-aa58-e90109042187-tr-0-1262",
+  "historyId": "OdinUiTests.Tests.Library.LibraryInTileViewTests.Библиотека, плиточный вид: можно переместить материал в другой каталог",
+  "fullName": "OdinUiTests.Tests.Library.LibraryInTileViewTests.Библиотека, плиточный вид: можно переместить материал в другой каталог",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckMoveMaterialToCatalogInTileView"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryInTileViewTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    }
+  ],
+  "links": [],
+  "name": "Библиотека, плиточный вид: можно переместить материал в другой каталог",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Библиотека, плиточный вид: можно переместить материал в другой каталог"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Библиотека, плиточный вид: можно переместить материал в другой каталог",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522763453,
+          "stop": 1687522764362
+        },
+        {
+          "name": "Переместить материал в другой каталог",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522764362,
+              "stop": 1687522766888
+            },
+            {
+              "name": "Подсчет материалов в библиотеки до добавления файла",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Прокрутить вниз до появлении последного материала",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "name": "Ожидать пока загрузится библиотека",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1687522766888,
+                      "stop": 1687522768192
+                    },
+                    {
+                      "name": "Ожидать пока загрузится библиотека",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1687522768344,
+                      "stop": 1687522770146
+                    },
+                    {
+                      "name": "Ожидать пока загрузится библиотека",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1687522770262,
+                      "stop": 1687522771597
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687522766888,
+                  "stop": 1687522771634
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522766888,
+              "stop": 1687522771698
+            },
+            {
+              "name": "Прокрутить страницу до появление материала или каталога",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522771698,
+              "stop": 1687522772012
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522764362,
+          "stop": 1687522780046
+        },
+        {
+          "name": "Проверка того что материал был перемещен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522780085,
+              "stop": 1687522782963
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522780046,
+          "stop": 1687522798461
+        },
+        {
+          "name": "Проверка того что материал был найден",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522798461,
+          "stop": 1687522799008
+        },
+        {
+          "name": "Проверка того что материал был добавлен в библиотеку",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522799008,
+          "stop": 1687522799114
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8713b83931e04562b91bcd491eddf89c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522763213,
+      "stop": 1687522799114
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522763213,
+  "stop": 1687522799114
+}

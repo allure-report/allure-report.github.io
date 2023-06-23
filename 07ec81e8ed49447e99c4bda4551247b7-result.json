@@ -1,0 +1,130 @@
+{
+  "uuid": "b110878f-a046-4d5d-8276-bbe5a09182e6-tr-0-2321",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница командной контрольной: статус ожидает проверки, если в попытке есть хотя бы один вопрос, требующий проверки",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityStatusTests.Страница командной контрольной: статус ожидает проверки, если в попытке есть хотя бы один вопрос, требующий проверки",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "StatusIsPendingReviewForAttemptsNeedsReview"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityStatusTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница командной контрольной: статус ожидает проверки, если в попытке есть хотя бы один вопрос, требующий проверки",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div data-v-422f06fd=\"\">...</div> is not clickable at point (1051, 416). Other element would receive the click: <div data-v-ad7fb932=\"\" class=\"q-card__section q-card__section--vert text-center q-pa-none\">...</div>\n  (Session info: headless chrome=111.0.5563.146)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at OdinUiTests.Pages.ActivityCommonPage.<StartTest>b__57_0() in /azp/_work/5/s/Pages/ActivityCommonPage.cs:line 106\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ActivityCommonPage.StartTest() in /azp/_work/5/s/Pages/ActivityCommonPage.cs:line 101\n   at OdinUiTests.Tests.Activity.TestActivityStatusTests.StatusIsPendingReviewForAttemptsNeedsReview(String actId) in /azp/_work/5/s/Tests/Activity/TestActivityTests.cs:line 586"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница командной контрольной: статус ожидает проверки, если в попытке есть хотя бы один вопрос, требующий проверки",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div data-v-422f06fd=\"\">...</div> is not clickable at point (1051, 416). Other element would receive the click: <div data-v-ad7fb932=\"\" class=\"q-card__section q-card__section--vert text-center q-pa-none\">...</div>\n  (Session info: headless chrome=111.0.5563.146)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at OdinUiTests.Pages.ActivityCommonPage.<StartTest>b__57_0() in /azp/_work/5/s/Pages/ActivityCommonPage.cs:line 106\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ActivityCommonPage.StartTest() in /azp/_work/5/s/Pages/ActivityCommonPage.cs:line 101\n   at OdinUiTests.Tests.Activity.TestActivityStatusTests.StatusIsPendingReviewForAttemptsNeedsReview(String actId) in /azp/_work/5/s/Tests/Activity/TestActivityTests.cs:line 586"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522460244,
+          "stop": 1687522461356
+        },
+        {
+          "name": "Перейти к тесту и начать тест",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "element click intercepted: Element <div data-v-422f06fd=\"\">...</div> is not clickable at point (1051, 416). Other element would receive the click: <div data-v-ad7fb932=\"\" class=\"q-card__section q-card__section--vert text-center q-pa-none\">...</div>\n  (Session info: headless chrome=111.0.5563.146)",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at OdinUiTests.Pages.ActivityCommonPage.<StartTest>b__57_0() in /azp/_work/5/s/Pages/ActivityCommonPage.cs:line 106\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522461356,
+          "stop": 1687522466339
+        }
+      ],
+      "attachments": [
+        {
+          "name": "StatusIsPendingReviewForAttemptsNeedsReview.jpg",
+          "source": "96d41d7b54d5467db9bfc655ae1f7b7b-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "eccbcadd746f4ffb9516f1793a89b52f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522459137,
+      "stop": 1687522466878
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "538"
+    }
+  ],
+  "start": 1687522459137,
+  "stop": 1687522466878
+}

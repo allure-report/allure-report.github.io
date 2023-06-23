@@ -1,0 +1,160 @@
+{
+  "uuid": "ce607596-ff28-428c-be51-894b42fd5e37-tr-0-2153",
+  "historyId": "OdinUiTests.Tests.Activity.ActivityDurationTests.Редактирование активности: успешное сохранение, если заполнена только дата окончания",
+  "fullName": "OdinUiTests.Tests.Activity.ActivityDurationTests.Редактирование активности: успешное сохранение, если заполнена только дата окончания",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfStartDateEmptyInAcivity"
+    },
+    {
+      "name": "testClass",
+      "value": "ActivityDurationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Обычная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование активности: успешное сохранение, если заполнена только дата окончания",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование активности: успешное сохранение, если заполнена только дата окончания"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование активности: успешное сохранение, если заполнена только дата окончания",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522260424,
+          "stop": 1687522261350
+        },
+        {
+          "name": "Очистить дата начала активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522261350,
+          "stop": 1687522264813
+        },
+        {
+          "name": "Редактировать дата окончания активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522264813,
+          "stop": 1687522270211
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522270211,
+          "stop": 1687522271867
+        },
+        {
+          "name": "Получить дату началы или дату окончания",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522271867,
+          "stop": 1687522274403
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "eef75ef294ff44f78649665178d1aefa-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522260412,
+      "stop": 1687522274404
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522260412,
+  "stop": 1687522274404
+}

@@ -1,0 +1,322 @@
+{
+  "uuid": "3df3e93c-f748-4b96-8461-481b477ca7e6-tr-0-1285",
+  "historyId": "OdinUiTests.Tests.Library.LibraryInListViewTests.Библиотека, списочный вид: можно переименовать материал",
+  "fullName": "OdinUiTests.Tests.Library.LibraryInListViewTests.Библиотека, списочный вид: можно переименовать материал",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRenameMaterialInListView"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryInListViewTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    }
+  ],
+  "links": [],
+  "name": "Библиотека, списочный вид: можно переименовать материал",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Библиотека, списочный вид: можно переименовать материал"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Библиотека, списочный вид: можно переименовать материал",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522647191,
+          "stop": 1687522648293
+        },
+        {
+          "name": "Переключать текущий вид библотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522648293,
+              "stop": 1687522652289
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522648293,
+          "stop": 1687522652305
+        },
+        {
+          "name": "Получить название собственного материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522652307,
+              "stop": 1687522653852
+            },
+            {
+              "name": "Проверка сравнения материалов библиотеки по название",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522653966,
+              "stop": 1687522653966
+            },
+            {
+              "name": "Прокрутить страницу до появление материала или каталога",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522653966,
+              "stop": 1687522654306
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522652306,
+          "stop": 1687522656327
+        },
+        {
+          "name": "Переименовать название материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522656327,
+              "stop": 1687522658126
+            },
+            {
+              "name": "Прокрутить страницу до появление материала или каталога",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522658126,
+              "stop": 1687522658581
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522656327,
+          "stop": 1687522668176
+        },
+        {
+          "name": "Проверка того что материал был переименован",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687522668244,
+                  "stop": 1687522672533
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687522672766,
+                  "stop": 1687522674720
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687522674978,
+                  "stop": 1687522677097
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687522677541,
+                  "stop": 1687522679784
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687522668244,
+              "stop": 1687522679891
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522668176,
+          "stop": 1687522680161
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b08bd9466a714e24836fee8a366a8257-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522647143,
+      "stop": 1687522680161
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522647143,
+  "stop": 1687522680161
+}

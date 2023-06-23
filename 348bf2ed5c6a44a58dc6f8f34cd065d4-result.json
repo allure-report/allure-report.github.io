@@ -1,0 +1,141 @@
+{
+  "uuid": "6c1aafab-7055-4b0e-b908-7705a826d919-tr-0-1449",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineChatBlockTests.Страница активности: отсутствия доступа к кнопке 'Открыть чат активности', если чат дисциплины заблокирован",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineChatBlockTests.Страница активности: отсутствия доступа к кнопке 'Открыть чат активности', если чат дисциплины заблокирован",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckNotAccessOpenChatActivity"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineChatBlockTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Страница активности: отсутствия доступа к кнопке 'Открыть чат активности', если чат дисциплины заблокирован",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница активности: отсутствия доступа к кнопке 'Открыть чат активности', если чат дисциплины заблокирован"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница активности: отсутствия доступа к кнопке 'Открыть чат активности', если чат дисциплины заблокирован",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522476680,
+          "stop": 1687522477817
+        },
+        {
+          "name": "Открыть первую доступную активность",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522477819,
+          "stop": 1687522482174
+        },
+        {
+          "name": "Проверка того что чат активности отключен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522482175,
+          "stop": 1687522483633
+        },
+        {
+          "name": "Нажать на отключенный чат активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522483633,
+          "stop": 1687522487209
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "05d04b558bbc4e1a96def0edde772636-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522476672,
+      "stop": 1687522487209
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687522476672,
+  "stop": 1687522487209
+}

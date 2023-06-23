@@ -1,0 +1,146 @@
+{
+  "uuid": "3c978d0a-069e-459c-9f0e-f0789c1c3ad7-tr-0-2393",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: добавление преподавателя из списка",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InEditing.Редактирование дисциплины: добавление преподавателя из списка",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "bc9d8ca8b333"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddTeacherByUserInfoInEditing"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InEditing"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: добавление преподавателя из списка",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: добавление преподавателя из списка"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: добавление преподавателя из списка",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522547807,
+          "stop": 1687522548447
+        },
+        {
+          "name": "Добавить сущности в контингент дисциплины по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522548447,
+          "stop": 1687522555705
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522555705,
+          "stop": 1687522556051
+        },
+        {
+          "name": "Проверка того что добавленный преподаватель отображается на странице дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522556051,
+          "stop": 1687522557294
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b58e3ff9302049a4abc666a01cae6be5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522547182,
+      "stop": 1687522557294
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Смирнов Семен"
+    }
+  ],
+  "start": 1687522547182,
+  "stop": 1687522557294
+}
