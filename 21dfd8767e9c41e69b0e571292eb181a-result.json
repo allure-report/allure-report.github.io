@@ -1,0 +1,122 @@
+{
+  "uuid": "85e54169-3bc4-435e-963b-819d61363a21-tr-0-1011",
+  "historyId": "OdinUiTests.Tests.UserProfile.UserProfileTestsPartOne.Редактирование профиля пользователя: поля 'Контакты' заблокированы до ввода пароля",
+  "fullName": "OdinUiTests.Tests.UserProfile.UserProfileTestsPartOne.Редактирование профиля пользователя: поля 'Контакты' заблокированы до ввода пароля",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "edddeab8019d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.UserProfile"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckBlockContactFieldsBeforeInterPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "UserProfileTestsPartOne"
+    },
+    {
+      "name": "tag",
+      "value": "Профиль"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Профиль"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование профиля пользователя: поля 'Контакты' заблокированы до ввода пароля",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование профиля пользователя: поля 'Контакты' заблокированы до ввода пароля"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование профиля пользователя: поля 'Контакты' заблокированы до ввода пароля",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу профиля пользователя",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521427941,
+          "stop": 1687521428227
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521428227,
+          "stop": 1687521430977
+        },
+        {
+          "name": "Проверка того что поля 'Контакты' некликабельны",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687521430977,
+          "stop": 1687521431711
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e5e0222b386845e18c647997f28735c5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687521427933,
+      "stop": 1687521431712
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687521427933,
+  "stop": 1687521431712
+}
