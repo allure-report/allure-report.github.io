@@ -1,0 +1,111 @@
+{
+  "uuid": "903feb7d-f97e-4a72-89cd-9a134e1da7b8-tr-0-2375",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Создание дисциплины: галка ‘Все студенты потока’ дизаблена и невозможно его снять, если дисциплина относится к нацпроекту",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineContingentTests+InCreating.Создание дисциплины: галка ‘Все студенты потока’ дизаблена и невозможно его снять, если дисциплина относится к нацпроекту",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "434abd9a2ce9"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIsDisabledCheckboxAllStudentInCreatingDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineContingentTests+InCreating"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    }
+  ],
+  "links": [],
+  "name": "Создание дисциплины: галка ‘Все студенты потока’ дизаблена и невозможно его снять, если дисциплина относится к нацпроекту",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание дисциплины: галка ‘Все студенты потока’ дизаблена и невозможно его снять, если дисциплина относится к нацпроекту"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание дисциплины: галка ‘Все студенты потока’ дизаблена и невозможно его снять, если дисциплина относится к нацпроекту",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687519350231,
+          "stop": 1687519351027
+        },
+        {
+          "name": "Проверка того что чекбокс 'Все студенты потока' дизаблена",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687519351027,
+          "stop": 1687519353136
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1a8e12333cf141149924413d2a8db1e2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687519350167,
+      "stop": 1687519353137
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687519350167,
+  "stop": 1687519353137
+}

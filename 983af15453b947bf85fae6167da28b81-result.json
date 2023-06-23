@@ -1,0 +1,160 @@
+{
+  "uuid": "a153c103-61fc-430e-aacb-5a37c4cf49fa-tr-0-2454",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InTaskWithSolution.Страница активности: работает кнопка 'Моё решение' для студента",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityStudentTests+InTaskWithSolution.Страница активности: работает кнопка 'Моё решение' для студента",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "434abd9a2ce9"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckTransitionToMySolution"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityStudentTests+InTaskWithSolution"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница активности: работает кнопка 'Моё решение' для студента",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница активности: работает кнопка 'Моё решение' для студента"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница активности: работает кнопка 'Моё решение' для студента",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687519139644,
+          "stop": 1687519140134
+        },
+        {
+          "name": "Нажать на кнопку 'Мое решение'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687519140135,
+          "stop": 1687519141496
+        },
+        {
+          "name": "Получить заголовок страницы решение задания",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687519141497,
+          "stop": 1687519142266
+        },
+        {
+          "name": "Проверка того что показывается решение данного студента",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687519142327,
+          "stop": 1687519142401
+        },
+        {
+          "name": "Проверка того что показывается чат решение данного студента",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687519142402,
+          "stop": 1687519142464
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1c913f82a7b74ad1b2307e81c227d67d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687519139639,
+      "stop": 1687519142465
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687519139639,
+  "stop": 1687519142465
+}
