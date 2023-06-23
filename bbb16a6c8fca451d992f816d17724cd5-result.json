@@ -1,0 +1,135 @@
+{
+  "uuid": "cae8daf9-2677-450d-886b-d2463d07de33-tr-0-1618",
+  "historyId": "OdinUiTests.Tests.Cohort.EducationCompletionPageTests.Поиск студента по ФИО на странице завершения обучения",
+  "fullName": "OdinUiTests.Tests.Cohort.EducationCompletionPageTests.Поиск студента по ФИО на странице завершения обучения",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "8f8e842d20d2"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "FindStudentWithName"
+    },
+    {
+      "name": "testClass",
+      "value": "EducationCompletionPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "subSuite",
+      "value": "Завершение обучения"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Поиск студента по ФИО на странице завершения обучения",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Поиск студента по ФИО на странице завершения обучения"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Поиск студента по ФИО на странице завершения обучения",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу завершения обучения потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522230308,
+          "stop": 1687522230786
+        },
+        {
+          "name": "Поиск студента по ФИО",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522230786,
+          "stop": 1687522232554
+        },
+        {
+          "name": "Проверка того, что студент найден по ФИО",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687522232554,
+          "stop": 1687522232619
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "13612d6794bc44cabaca34745d987cd4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687522230303,
+      "stop": 1687522232620
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Тестовый Виктор Викторович"
+    }
+  ],
+  "start": 1687522230303,
+  "stop": 1687522232620
+}
