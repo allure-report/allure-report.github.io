@@ -1,0 +1,267 @@
+{
+  "uuid": "06039e40-d8ea-4de2-a864-610744ef05a8-tr-0-1855",
+  "historyId": "OdinUiTests.Tests.Chat.GroupChatTests.Список чатов - групповой чат: можно добавить новый чат для групп и студентов",
+  "fullName": "OdinUiTests.Tests.Chat.GroupChatTests.Список чатов - групповой чат: можно добавить новый чат для групп и студентов",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddGroupChatWithUsers"
+    },
+    {
+      "name": "testClass",
+      "value": "GroupChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Групповой чат"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Список чатов - групповой чат: можно добавить новый чат для групп и студентов",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Список чатов - групповой чат: можно добавить новый чат для групп и студентов"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Список чатов - групповой чат: можно добавить новый чат для групп и студентов",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть список чатов",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500552969,
+          "stop": 1687500553893
+        },
+        {
+          "name": "Нажать на кнопку добавления чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500553893,
+          "stop": 1687500555104
+        },
+        {
+          "name": "Заполнение полей Поток, Группа, Пользователи при создании групп.чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Рандомна выбрать контингента чата",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500555641,
+              "stop": 1687500558953
+            },
+            {
+              "name": "Рандомна выбрать контингента чата",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500558953,
+              "stop": 1687500562246
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500555105,
+          "stop": 1687500562246
+        },
+        {
+          "name": "Клик на кнопку 'Создать'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500562246,
+          "stop": 1687500564032
+        },
+        {
+          "name": "Проверка того что чат с пользователями был добавлен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат был добавлен",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500564032,
+              "stop": 1687500565929
+            },
+            {
+              "name": "Нажать на кнопку 'Редактировать' чат",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500565929,
+              "stop": 1687500567947
+            },
+            {
+              "name": "Получить названия выбранной контингента чата",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500567947,
+              "stop": 1687500570305
+            },
+            {
+              "name": "Получить названия выбранной контингента чата",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500570305,
+              "stop": 1687500572849
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500564032,
+          "stop": 1687500572849
+        },
+        {
+          "name": "Получить id чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500572849,
+          "stop": 1687500572868
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "80cbebe1920146e9b0f9580e9b26cd4f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500552959,
+      "stop": 1687500572869
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500552959,
+  "stop": 1687500572869
+}

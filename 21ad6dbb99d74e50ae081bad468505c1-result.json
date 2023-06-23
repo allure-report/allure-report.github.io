@@ -1,0 +1,156 @@
+{
+  "uuid": "bb2c99b0-345b-4692-945c-4836614f89b3-tr-0-1530",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока: ошибка валидации, если название не указано",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока: ошибка валидации, если название не указано",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateCohortIfNameNotFilled"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortCreatingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Создание потока: ошибка валидации, если название не указано",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание потока: ошибка валидации, если название не указано"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание потока: ошибка валидации, если название не указано",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500703593,
+          "stop": 1687500703922
+        },
+        {
+          "name": "Вставить значение в поля 'Название*'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500703922,
+          "stop": 1687500705691
+        },
+        {
+          "name": "Проверка появление ошибки валидации в поля ''",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500705691,
+          "stop": 1687500706799
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500706799,
+          "stop": 1687500706885
+        },
+        {
+          "name": "Проверка появление ошибки валидации в поля ''",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500706885,
+          "stop": 1687500708005
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "502843ae4a484c2daad2b84990418517-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500703591,
+      "stop": 1687500708005
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500703591,
+  "stop": 1687500708005
+}

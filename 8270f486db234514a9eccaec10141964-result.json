@@ -1,0 +1,167 @@
+{
+  "uuid": "25ec63f7-b798-40f5-9c3f-359eadb0e40a-tr-0-1041",
+  "historyId": "OdinUiTests.Tests.StoсkMarket.StockMarketTestsPartOne.Страница материала: можно убрать материал с биржи преподавателем, разместившим его на бирже",
+  "fullName": "OdinUiTests.Tests.StoсkMarket.StockMarketTestsPartOne.Страница материала: можно убрать материал с биржи преподавателем, разместившим его на бирже",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.StoсkMarket"
+    },
+    {
+      "name": "testMethod",
+      "value": "RemoveMaterialFromStock"
+    },
+    {
+      "name": "testClass",
+      "value": "StockMarketTestsPartOne"
+    },
+    {
+      "name": "tag",
+      "value": "Биржа"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Биржа"
+    }
+  ],
+  "links": [],
+  "name": "Страница материала: можно убрать материал с биржи преподавателем, разместившим его на бирже",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница материала: можно убрать материал с биржи преподавателем, разместившим его на бирже"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница материала: можно убрать материал с биржи преподавателем, разместившим его на бирже",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500725474,
+          "stop": 1687500725825
+        },
+        {
+          "name": "Нажать на кнопку 'Убрать с биржи'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500725825,
+          "stop": 1687500728066
+        },
+        {
+          "name": "Открыть страницу биржи",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500728066,
+          "stop": 1687500728352
+        },
+        {
+          "name": "Вводить названия материала в фильтр биржи",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500728352,
+          "stop": 1687500729130
+        },
+        {
+          "name": "Нажать на кнопку 'Применить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500729130,
+          "stop": 1687500730612
+        },
+        {
+          "name": "Материал который не выставлен на биржу не должен отображатся",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500730613,
+          "stop": 1687500731208
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5ab509e12ba644a2b057b80a042793db-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500725426,
+      "stop": 1687500731209
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500725426,
+  "stop": 1687500731209
+}

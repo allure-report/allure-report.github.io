@@ -1,0 +1,182 @@
+{
+  "uuid": "ab6e8104-33bc-4a6b-95cf-13459196c580-tr-0-1027",
+  "historyId": "OdinUiTests.Tests.UserProfile.UserProfileTestsPartTwo.Редактирование профиля пользователя: можно изменить email",
+  "fullName": "OdinUiTests.Tests.UserProfile.UserProfileTestsPartTwo.Редактирование профиля пользователя: можно изменить email",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.UserProfile"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEmailField"
+    },
+    {
+      "name": "testClass",
+      "value": "UserProfileTestsPartTwo"
+    },
+    {
+      "name": "tag",
+      "value": "Профиль"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Профиль"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование профиля пользователя: можно изменить email",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование профиля пользователя: можно изменить email"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование профиля пользователя: можно изменить email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получить строку только из букв, рандомна",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500773158,
+          "stop": 1687500773158
+        },
+        {
+          "name": "Открыть страницу профиля пользователя",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500775654,
+          "stop": 1687500776223
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500776223,
+          "stop": 1687500778532
+        },
+        {
+          "name": "Разблокировать поля 'Контакты'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500778533,
+          "stop": 1687500780401
+        },
+        {
+          "name": "Редактировать полю 'Email'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500780401,
+          "stop": 1687500781699
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500781699,
+          "stop": 1687500781766
+        },
+        {
+          "name": "Получить значение поля 'Email'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500781767,
+          "stop": 1687500782897
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "61dc166dae6b454aa188747105079bdb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500773141,
+      "stop": 1687500782946
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500773141,
+  "stop": 1687500782946
+}

@@ -1,0 +1,156 @@
+{
+  "uuid": "ef129706-ffbf-4bfb-a8ba-2fbfa2e6dfee-tr-0-1601",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortInfoTests.Переход со страницы потока на страницу завершения обучения потока",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortInfoTests.Переход со страницы потока на страницу завершения обучения потока",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckTransitionToEducationCompletionPage"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortInfoTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Переход со страницы потока на страницу завершения обучения потока",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Переход со страницы потока на страницу завершения обучения потока"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Переход со страницы потока на страницу завершения обучения потока",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500683089,
+          "stop": 1687500683679
+        },
+        {
+          "name": "Получить название потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500683679,
+          "stop": 1687500684259
+        },
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500684259,
+          "stop": 1687500684622
+        },
+        {
+          "name": "Нажать на кнопку 'Завершить обучение' потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500684623,
+          "stop": 1687500686287
+        },
+        {
+          "name": "Проверка того, что название потока на странице отображается, кликабельно и совпадает с настоящим",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500686287,
+          "stop": 1687500686887
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e0a793eaa4cf48ccb1fa1be15546b582-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500683085,
+      "stop": 1687500686887
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500683085,
+  "stop": 1687500686887
+}

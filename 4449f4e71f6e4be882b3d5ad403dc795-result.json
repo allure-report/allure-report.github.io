@@ -1,0 +1,228 @@
+{
+  "uuid": "afb97866-aaa8-4818-a825-0740097d8607-tr-0-1710",
+  "historyId": "OdinUiTests.Tests.Chat.PersonalChatCallTests.Миничат звонка - личный чат: можно раскрывать изображения",
+  "fullName": "OdinUiTests.Tests.Chat.PersonalChatCallTests.Миничат звонка - личный чат: можно раскрывать изображения",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckOpenImageInPersonalCallChat"
+    },
+    {
+      "name": "testClass",
+      "value": "PersonalChatCallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат личного звонка"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Миничат звонка - личный чат: можно раскрывать изображения",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат звонка - личный чат: можно раскрывать изображения"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат звонка - личный чат: можно раскрывать изображения",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500617765,
+          "stop": 1687500618032
+        },
+        {
+          "name": "Нажать на кнопку чата в звонке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку Присоединиться в предбаннике",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500618032,
+              "stop": 1687500622463
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500618032,
+          "stop": 1687500626479
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500626480,
+          "stop": 1687500627542
+        },
+        {
+          "name": "Открыть изображение в чате",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500627542,
+              "stop": 1687500627620
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500627542,
+          "stop": 1687500627777
+        },
+        {
+          "name": "Проверка того изображение был открыть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500627777,
+          "stop": 1687500628332
+        },
+        {
+          "name": "Закрыть все модалки, если они были открыты",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500628332,
+          "stop": 1687500628977
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "CheckOpenImageInPersonalCallChat-FailsBeforeEndOfCall.jpg",
+              "source": "f5c8343b82224ea6b29ec5e40792d524-attachment.jpg",
+              "type": "image/jpeg"
+            }
+          ],
+          "parameters": [],
+          "start": 1687500628977,
+          "stop": 1687500629498
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a00d7cedba644c15b77d00802c550a47-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500617761,
+      "stop": 1687500629498
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500617761,
+  "stop": 1687500629498
+}

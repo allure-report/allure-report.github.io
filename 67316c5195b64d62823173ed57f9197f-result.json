@@ -1,0 +1,207 @@
+{
+  "uuid": "73dfcd8a-a823-43b8-b8f6-ec0bcfe2d667-tr-0-1928",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineMiniChatTests.Миничат - комната дисциплины: можно найти отправленное сообщение",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineMiniChatTests.Миничат - комната дисциплины: можно найти отправленное сообщение",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckFindSentMessageInDisciplineMiniChat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineMiniChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат дисциплины"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - комната дисциплины: можно найти отправленное сообщение",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат - комната дисциплины: можно найти отправленное сообщение"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат - комната дисциплины: можно найти отправленное сообщение",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500318319,
+          "stop": 1687500319268
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500319268,
+              "stop": 1687500319457
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500319268,
+          "stop": 1687500319720
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500319720,
+          "stop": 1687500320290
+        },
+        {
+          "name": "Получить текст рандомного сообщения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500320290,
+              "stop": 1687500320395
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500320290,
+          "stop": 1687500320472
+        },
+        {
+          "name": "Найти отправленное сообщение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500320472,
+          "stop": 1687500321161
+        },
+        {
+          "name": "Проверка того что отправленное сообщение был найден",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500321161,
+          "stop": 1687500322338
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f889b08189bd40948988bc5af9d3e34d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500318315,
+      "stop": 1687500322338
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500318315,
+  "stop": 1687500322339
+}

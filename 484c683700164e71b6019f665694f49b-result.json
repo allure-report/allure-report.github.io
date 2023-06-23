@@ -1,0 +1,156 @@
+{
+  "uuid": "1a8069f5-4f85-44b7-bc7e-4ea5525625dd-tr-0-1590",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): отсутствует кнопка ‘Удалить поток’, если в потоке есть слушатели",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО (СЗ): отсутствует кнопка ‘Удалить поток’, если в потоке есть слушатели",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIsNotPossibleRemoveCohortWithStudents"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока ДО (СЗ): отсутствует кнопка ‘Удалить поток’, если в потоке есть слушатели",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока ДО (СЗ): отсутствует кнопка ‘Удалить поток’, если в потоке есть слушатели"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока ДО (СЗ): отсутствует кнопка ‘Удалить поток’, если в потоке есть слушатели",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500717551,
+          "stop": 1687500717607
+        },
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500717607,
+          "stop": 1687500717963
+        },
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500718508,
+          "stop": 1687500718539
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500718547,
+          "stop": 1687500719684
+        },
+        {
+          "name": "Проверка того что кнопка ‘Удалить поток’ не отображается",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500719684,
+          "stop": 1687500720280
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "efb6fb51d57245afb57205314158ed77-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500717547,
+      "stop": 1687500720281
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500717547,
+  "stop": 1687500720281
+}

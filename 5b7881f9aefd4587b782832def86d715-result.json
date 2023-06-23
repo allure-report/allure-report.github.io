@@ -1,0 +1,198 @@
+{
+  "uuid": "8908e5b0-71ef-4828-a3bb-7a1178a0b900-tr-0-2030",
+  "historyId": "OdinUiTests.Tests.Chat.PersonalMiniChatTests.Миничат - личный чат: можно сделать звонок",
+  "fullName": "OdinUiTests.Tests.Chat.PersonalMiniChatTests.Миничат - личный чат: можно сделать звонок",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCallInPersonalMiniChat"
+    },
+    {
+      "name": "testClass",
+      "value": "PersonalMiniChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат личного чата"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - личный чат: можно сделать звонок",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат - личный чат: можно сделать звонок"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат - личный чат: можно сделать звонок",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500612760,
+          "stop": 1687500614750
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500614750,
+              "stop": 1687500615226
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500614750,
+          "stop": 1687500615894
+        },
+        {
+          "name": "Нажать на кнопку звонка из чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500615894,
+          "stop": 1687500619127
+        },
+        {
+          "name": "Проверка того что звонок был начать",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку Присоединиться в предбаннике",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500620279,
+              "stop": 1687500622607
+            },
+            {
+              "name": "Нажать на кнопку завершения звонка",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [
+                {
+                  "name": "CheckCallInPersonalMiniChat-FailsBeforeEndOfCall.jpg",
+                  "source": "d351e420a9304ba680c1987b6fcb5805-attachment.jpg",
+                  "type": "image/jpeg"
+                }
+              ],
+              "parameters": [],
+              "start": 1687500626547,
+              "stop": 1687500627055
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500619127,
+          "stop": 1687500627055
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8776cded65244a66951ceb96530c0eab-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500612746,
+      "stop": 1687500627084
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500612746,
+  "stop": 1687500627084
+}

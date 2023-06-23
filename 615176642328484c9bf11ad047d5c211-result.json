@@ -1,0 +1,165 @@
+{
+  "uuid": "b5ceee20-d643-49b1-a77a-cb7734abacf0-tr-0-1575",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока: ошибка валидации, если дата начала не заполнена",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока: ошибка валидации, если дата начала не заполнена",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEditCohortIfEachDateNotFilled"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока: ошибка валидации, если дата начала не заполнена",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока: ошибка валидации, если дата начала не заполнена"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока: ошибка валидации, если дата начала не заполнена",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500681131,
+          "stop": 1687500681436
+        },
+        {
+          "name": "Очистить значение в поля ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500681436,
+          "stop": 1687500682613
+        },
+        {
+          "name": "Проверка появление ошибки валидации в поля ''",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500682613,
+          "stop": 1687500683747
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500683747,
+          "stop": 1687500683813
+        },
+        {
+          "name": "Проверка появление ошибки валидации в поля ''",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500683813,
+          "stop": 1687500684918
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9e094af0b7ec4d28a9db3eeec0fd6d82-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500681128,
+      "stop": 1687500684919
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "startDate"
+    },
+    {
+      "name": "Param #1",
+      "value": "True"
+    }
+  ],
+  "start": 1687500681128,
+  "stop": 1687500684919
+}

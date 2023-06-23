@@ -1,0 +1,157 @@
+{
+  "uuid": "58b141b2-1083-41ca-ab92-2d6769ce6d50-tr-0-2431",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests+AccessToClosedRoom.Миничат - добавленная комната дисциплины: отсутствие доступа в закрытую комнату пользователю, не состоящему в ней",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests+AccessToClosedRoom.Миничат - добавленная комната дисциплины: отсутствие доступа в закрытую комнату пользователю, не состоящему в ней",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAccessToClosedRoomInMinichat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineRoomMiniChatTests+AccessToClosedRoom"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат дисциплины"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - добавленная комната дисциплины: отсутствие доступа в закрытую комнату пользователю, не состоящему в ней",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат - добавленная комната дисциплины: отсутствие доступа в закрытую комнату пользователю, не состоящему в ней"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат - добавленная комната дисциплины: отсутствие доступа в закрытую комнату пользователю, не состоящему в ней",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500262611,
+          "stop": 1687500263084
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500263084,
+              "stop": 1687500264213
+            },
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500264640,
+              "stop": 1687500265687
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500263084,
+          "stop": 1687500265823
+        },
+        {
+          "name": "Проверка того что комната отсутствует среди чатов в миничате",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500265824,
+          "stop": 1687500267279
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f94fe9899c6840c28ed66b8d21254919-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500259348,
+      "stop": 1687500267279
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500259348,
+  "stop": 1687500267279
+}

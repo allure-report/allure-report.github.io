@@ -1,0 +1,232 @@
+{
+  "uuid": "3fd86414-89de-4b53-8476-0bff1d849bcf-tr-0-1552",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока: можно создать поток после внесения правок в длительность потока",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока: можно создать поток после внесения правок в длительность потока",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateCohortAfterChangeMismatchWarningOfDuration"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortCreatingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Создание потока: можно создать поток после внесения правок в длительность потока",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание потока: можно создать поток после внесения правок в длительность потока"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание потока: можно создать поток после внесения правок в длительность потока",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500787922,
+          "stop": 1687500788211
+        },
+        {
+          "name": "Вставить значение в поля 'Название*'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500788211,
+          "stop": 1687500789997
+        },
+        {
+          "name": "Выбрать значение в поля ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500789997,
+          "stop": 1687500792676
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500792676,
+          "stop": 1687500792752
+        },
+        {
+          "name": "Нажать на кнопку 'Исправить' в модалке предупреждение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500792752,
+          "stop": 1687500793356
+        },
+        {
+          "name": "Выбрать значение в поля ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500793356,
+          "stop": 1687500796049
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500796049,
+          "stop": 1687500796093
+        },
+        {
+          "name": "Проверка правильность создания потока с установленными датами",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Получить название потока",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500797676,
+              "stop": 1687500797724
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500796093,
+          "stop": 1687500797775
+        },
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500797776,
+          "stop": 1687500797801
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "96de424b53114d8cbdc4691029f59d52-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500787889,
+      "stop": 1687500797802
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687500787889,
+  "stop": 1687500797802
+}

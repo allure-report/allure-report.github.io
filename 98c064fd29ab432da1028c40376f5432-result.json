@@ -1,0 +1,213 @@
+{
+  "uuid": "102090c5-ae2a-44f5-b2a2-8e57b9bcecfd-tr-0-1542",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока ДО: невозможно создать поток из шаблона программы ВО",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока ДО: невозможно создать поток из шаблона программы ВО",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateCohortFromUnsuitableTemplate"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortCreatingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Создание потока ДО: невозможно создать поток из шаблона программы ВО",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание потока ДО: невозможно создать поток из шаблона программы ВО"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание потока ДО: невозможно создать поток из шаблона программы ВО",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500748982,
+          "stop": 1687500749340
+        },
+        {
+          "name": "Нажать на кнопку 'Выбрать шаблон'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500749340,
+          "stop": 1687500751061
+        },
+        {
+          "name": "Проверка того что шаблон другого типа не отображается в окне библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Переключать к другой библиотеки, выбрав рандомно",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500751061,
+                  "stop": 1687500752673
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500751061,
+              "stop": 1687500756421
+            },
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500757512,
+                  "stop": 1687500758603
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500758687,
+                  "stop": 1687500759771
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500757512,
+              "stop": 1687500759777
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500751061,
+          "stop": 1687500759799
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7846f4d7053343409d5b9b80346a52c8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500748926,
+      "stop": 1687500759800
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "696940"
+    },
+    {
+      "name": "Param #1",
+      "value": "4"
+    }
+  ],
+  "start": 1687500748926,
+  "stop": 1687500759800
+}

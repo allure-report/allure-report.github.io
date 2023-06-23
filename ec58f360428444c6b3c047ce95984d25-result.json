@@ -1,0 +1,222 @@
+{
+  "uuid": "5a5c7a8a-3a7e-44b6-a890-55a0f9908d32-tr-0-1521",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока ДО: можно создать поток, если все обязательные поля корректно заполнены",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока ДО: можно создать поток, если все обязательные поля корректно заполнены",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateCohortWhenAllRequiredFieldsAreFilled"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortCreatingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Создание потока ДО: можно создать поток, если все обязательные поля корректно заполнены",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание потока ДО: можно создать поток, если все обязательные поля корректно заполнены"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание потока ДО: можно создать поток, если все обязательные поля корректно заполнены",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500635266,
+          "stop": 1687500635608
+        },
+        {
+          "name": "Нажать на кнопку 'Добавить' поток",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500635608,
+          "stop": 1687500637274
+        },
+        {
+          "name": "Вставить значение в поля 'Название*'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500637274,
+          "stop": 1687500639108
+        },
+        {
+          "name": "Выбрать значение в поля ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500639108,
+          "stop": 1687500642044
+        },
+        {
+          "name": "Выбрать значение в поля ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500642044,
+          "stop": 1687500645365
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500645365,
+          "stop": 1687500645642
+        },
+        {
+          "name": "Проверка правильность создания потока с установленными датами",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Получить название потока",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500647226,
+              "stop": 1687500647265
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500645642,
+          "stop": 1687500647314
+        },
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500647314,
+          "stop": 1687500647338
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3c13acba908d4ea49d7b142c6142840f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500635263,
+      "stop": 1687500647338
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "4"
+    }
+  ],
+  "start": 1687500635263,
+  "stop": 1687500647339
+}

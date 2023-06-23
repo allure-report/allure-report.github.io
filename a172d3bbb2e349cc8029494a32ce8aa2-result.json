@@ -1,0 +1,304 @@
+{
+  "uuid": "c3938e10-dbca-44ad-8262-729453adc41c-tr-0-1524",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока ДО: можно создать поток из шаблона, если все обязательные поля корректно заполнены",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortCreatingTests.Создание потока ДО: можно создать поток из шаблона, если все обязательные поля корректно заполнены",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "3204a3e91aec"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateCohortFromTemplateWhenAllRequiredFieldsAreFilled"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortCreatingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Создание потока ДО: можно создать поток из шаблона, если все обязательные поля корректно заполнены",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание потока ДО: можно создать поток из шаблона, если все обязательные поля корректно заполнены"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание потока ДО: можно создать поток из шаблона, если все обязательные поля корректно заполнены",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500670379,
+          "stop": 1687500670857
+        },
+        {
+          "name": "Нажать на кнопку 'Выбрать шаблон'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500670857,
+          "stop": 1687500672605
+        },
+        {
+          "name": "Найти и выбрать шаблон программы по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Переключать к другой библиотеки, выбрав рандомно",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500672605,
+                  "stop": 1687500674215
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500672605,
+              "stop": 1687500677889
+            },
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500678956,
+                  "stop": 1687500680046
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1687500680107,
+                  "stop": 1687500681193
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500678956,
+              "stop": 1687500681200
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500672605,
+          "stop": 1687500681992
+        },
+        {
+          "name": "Вставить значение в поля 'Название*'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500681992,
+          "stop": 1687500683304
+        },
+        {
+          "name": "Выбрать значение в поля ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500683304,
+          "stop": 1687500686412
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500686412,
+          "stop": 1687500686479
+        },
+        {
+          "name": "Проверка правильность создания потока из шаблона",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Получить название потока",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1687500689052,
+              "stop": 1687500689098
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500686479,
+          "stop": 1687500689187
+        },
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1687500689187,
+          "stop": 1687500689231
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a1c93976f1e84f33a10eca1d51beadf0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687500670311,
+      "stop": 1687500689232
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "697185"
+    },
+    {
+      "name": "Param #1",
+      "value": "4"
+    }
+  ],
+  "start": 1687500670311,
+  "stop": 1687500689232
+}
