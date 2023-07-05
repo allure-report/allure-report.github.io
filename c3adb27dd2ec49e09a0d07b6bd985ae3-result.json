@@ -1,0 +1,142 @@
+{
+  "uuid": "65a9b0de-183e-4d38-8bf9-f7de9885ec21-tr-0-1269",
+  "historyId": "OdinUiTests.Tests.Library.LibraryActionPanelTests.Библиотека, плиточный вид: работает поиск по типу материала",
+  "fullName": "OdinUiTests.Tests.Library.LibraryActionPanelTests.Библиотека, плиточный вид: работает поиск по типу материала",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckFindMaterialsByType"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryActionPanelTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Библиотека, плиточный вид: работает поиск по типу материала",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Библиотека, плиточный вид: работает поиск по типу материала"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Библиотека, плиточный вид: работает поиск по типу материала",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559697255,
+          "stop": 1688559697730
+        },
+        {
+          "name": "Найти материал с помощью поиска по типу в библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559697730,
+              "stop": 1688559699439
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559697730,
+          "stop": 1688559700434
+        },
+        {
+          "name": "Получить количество найденных материалов",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559700435,
+          "stop": 1688559700990
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "754a0870da854ef4992e25b5c3750f14-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559697162,
+      "stop": 1688559700990
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559697162,
+  "stop": 1688559700990
+}

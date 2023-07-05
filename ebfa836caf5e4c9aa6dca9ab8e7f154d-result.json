@@ -1,0 +1,176 @@
+{
+  "uuid": "5d54aa6f-4b26-400a-a713-64c94a4eed98-tr-0-1388",
+  "historyId": "OdinUiTests.Tests.Discipline.IOTGraphTests.Страница дисциплины с ИОТ: можно перейти в редактирование блока",
+  "fullName": "OdinUiTests.Tests.Discipline.IOTGraphTests.Страница дисциплины с ИОТ: можно перейти в редактирование блока",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckGoToBlockEditing"
+    },
+    {
+      "name": "testClass",
+      "value": "IOTGraphTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Траекторная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница дисциплины с ИОТ: можно перейти в редактирование блока",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница дисциплины с ИОТ: можно перейти в редактирование блока"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница дисциплины с ИОТ: можно перейти в редактирование блока",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559713103,
+          "stop": 1688559713454
+        },
+        {
+          "name": "Добавить блок в дисциплину с ИОТ если она отсутствует",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Рандомна получить вид блока для добавления",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559713454,
+              "stop": 1688559713454
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559713454,
+          "stop": 1688559714530
+        },
+        {
+          "name": "Получить тип первого блока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559714530,
+          "stop": 1688559716766
+        },
+        {
+          "name": "Нажать на кнопку редактирование первого блока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559716766,
+          "stop": 1688559719372
+        },
+        {
+          "name": "Проверка того что форма редактирование открылся",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559719372,
+          "stop": 1688559720522
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "eecc8cd6cd404f84a9d09ab324b667a1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559713100,
+      "stop": 1688559720522
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559713100,
+  "stop": 1688559720522
+}

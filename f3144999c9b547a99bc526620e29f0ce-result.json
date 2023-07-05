@@ -1,0 +1,173 @@
+{
+  "uuid": "85dc0367-4836-401f-8b04-e9f47284ac80-tr-0-1265",
+  "historyId": "OdinUiTests.Tests.Library.LibraryActionPanelTests.Библиотека, плиточный вид: можно переключаться на другую библиотеку",
+  "fullName": "OdinUiTests.Tests.Library.LibraryActionPanelTests.Библиотека, плиточный вид: можно переключаться на другую библиотеку",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSwitchToAnotherLibrary"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryActionPanelTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Библиотека, плиточный вид: можно переключаться на другую библиотеку",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Библиотека, плиточный вид: можно переключаться на другую библиотеку"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Библиотека, плиточный вид: можно переключаться на другую библиотеку",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559683024,
+          "stop": 1688559683343
+        },
+        {
+          "name": "Переключать к другой библиотеки, выбрав рандомно",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559683344,
+              "stop": 1688559685221
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559683343,
+          "stop": 1688559688157
+        },
+        {
+          "name": "Проверка того что библиотека был переключен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559688159,
+              "stop": 1688559688858
+            },
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559688923,
+              "stop": 1688559690004
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559688158,
+          "stop": 1688559690102
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f91e93914ea743f69046a29c085d3dde-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559683020,
+      "stop": 1688559690102
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559683020,
+  "stop": 1688559690103
+}

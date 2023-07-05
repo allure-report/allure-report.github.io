@@ -1,0 +1,151 @@
+{
+  "uuid": "2f8988c8-8cc7-4fb1-b99b-3ff64775a416-tr-0-2423",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityStatusWithOneAttemptTests.Страница командной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityStatusWithOneAttemptTests.Страница командной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "StatusChangesIfMinThresholdChanges"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityStatusWithOneAttemptTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница командной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница командной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница командной контрольной: статус меняется, если преподаватель меняет минимальный порог баллов",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559488356,
+          "stop": 1688559488826
+        },
+        {
+          "name": "Проверка того результаты теста зависить от настройки теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка цвета баллов в попытках",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559490142,
+              "stop": 1688559490167
+            },
+            {
+              "name": "Звездочка отображается у последней попытки",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559490167,
+              "stop": 1688559490195
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559488826,
+          "stop": 1688559490244
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9277c4e4d04f44aea35930745cf1ce91-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559486035,
+      "stop": 1688559490245
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "538"
+    }
+  ],
+  "start": 1688559486035,
+  "stop": 1688559490245
+}

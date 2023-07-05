@@ -1,0 +1,161 @@
+{
+  "uuid": "b529d88f-1024-4368-8616-d1573cdfa3c8-tr-0-2407",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityResultTests.Результат прохождения теста: можно отметить 'Верно' ответ вопроса с типом ответа свободный ответ или файл",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityResultTests.Результат прохождения теста: можно отметить 'Верно' ответ вопроса с типом ответа свободный ответ или файл",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckMarkCorrectTextOrFileAnswer"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityResultTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Результат прохождения теста: можно отметить 'Верно' ответ вопроса с типом ответа свободный ответ или файл",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Результат прохождения теста: можно отметить 'Верно' ответ вопроса с типом ответа свободный ответ или файл"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Результат прохождения теста: можно отметить 'Верно' ответ вопроса с типом ответа свободный ответ или файл",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559504095,
+          "stop": 1688559504545
+        },
+        {
+          "name": "Нажать на попытку теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559504545,
+          "stop": 1688559507526
+        },
+        {
+          "name": "Нажать на кнопки верно/неверно в ответ вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559507526,
+          "stop": 1688559508593
+        },
+        {
+          "name": "Проверка того что кнопка верно был выбран",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Получить айди результата тестирования",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559510729,
+              "stop": 1688559510730
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559508593,
+          "stop": 1688559510997
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "016b34b01d2d4c33ab77ae3a71332507-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559504050,
+      "stop": 1688559510998
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559504050,
+  "stop": 1688559510998
+}

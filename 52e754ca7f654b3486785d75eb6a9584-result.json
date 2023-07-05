@@ -1,0 +1,160 @@
+{
+  "uuid": "de5850ad-bcab-41dd-a3b7-560621cd4cea-tr-0-1491",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineDurationTests.Редактирование дисциплины: наличия ошибки если поле дата окончания пустое",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineDurationTests.Редактирование дисциплины: наличия ошибки если поле дата окончания пустое",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfEndDateEmptyInDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineDurationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: наличия ошибки если поле дата окончания пустое",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: наличия ошибки если поле дата окончания пустое"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: наличия ошибки если поле дата окончания пустое",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559585106,
+          "stop": 1688559585443
+        },
+        {
+          "name": "Выбрать дату началы дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559585444,
+          "stop": 1688559588956
+        },
+        {
+          "name": "Очистить дата окончания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559588956,
+          "stop": 1688559590175
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559590175,
+          "stop": 1688559590361
+        },
+        {
+          "name": "Отображается ошибка валидации для полей дат",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559590361,
+          "stop": 1688559590547
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fe531687bd0f4200920534acff4b70e8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559585098,
+      "stop": 1688559590547
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559585098,
+  "stop": 1688559590547
+}

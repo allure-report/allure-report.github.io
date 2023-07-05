@@ -1,0 +1,223 @@
+{
+  "uuid": "9f8fc955-2173-48a7-88d3-0e568679fbd1-tr-0-1380",
+  "historyId": "OdinUiTests.Tests.Discipline.IOTGraphTests.Страница дисциплины с ИОТ: над первым блоком можно добавить ещё один блок",
+  "fullName": "OdinUiTests.Tests.Discipline.IOTGraphTests.Страница дисциплины с ИОТ: над первым блоком можно добавить ещё один блок",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddBlockAboveFirstBlock"
+    },
+    {
+      "name": "testClass",
+      "value": "IOTGraphTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Траекторная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница дисциплины с ИОТ: над первым блоком можно добавить ещё один блок",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница дисциплины с ИОТ: над первым блоком можно добавить ещё один блок"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница дисциплины с ИОТ: над первым блоком можно добавить ещё один блок",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Рандомна получить вид блока для добавления",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559657116,
+          "stop": 1688559657116
+        },
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559657116,
+          "stop": 1688559657528
+        },
+        {
+          "name": "Добавить блок в дисциплину с ИОТ если она отсутствует",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Рандомна получить вид блока для добавления",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559657529,
+              "stop": 1688559657529
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559657528,
+          "stop": 1688559658115
+        },
+        {
+          "name": "Нажать на кнопку добавления блока указав нужную кнопку",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559658115,
+          "stop": 1688559660726
+        },
+        {
+          "name": "Добавления блока в указанное место в дисциплину с ИОТ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что блок был добавлен в дисциплину с ИОТ",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559662159,
+              "stop": 1688559663357
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559660726,
+          "stop": 1688559663357
+        },
+        {
+          "name": "Проверка добавленного блока в указанном месте",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что блок был добавлен в дисциплину с ИОТ",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559664478,
+              "stop": 1688559667090
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559663357,
+          "stop": 1688559667122
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b68616534a6849b2a1d344dd0a06ca7c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559657098,
+      "stop": 1688559667122
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559657098,
+  "stop": 1688559667122
+}

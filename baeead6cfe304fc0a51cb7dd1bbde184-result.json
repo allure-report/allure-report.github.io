@@ -1,0 +1,198 @@
+{
+  "uuid": "233abf74-dcb4-406d-bcba-9cc77b6c0f5c-tr-0-1273",
+  "historyId": "OdinUiTests.Tests.Library.LibraryActionPanelTests.Библиотека, плиточный вид: можно переключать текущий вид библиотеки с плитка на список",
+  "fullName": "OdinUiTests.Tests.Library.LibraryActionPanelTests.Библиотека, плиточный вид: можно переключать текущий вид библиотеки с плитка на список",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckChangeViewOfLibraryInTileView"
+    },
+    {
+      "name": "testClass",
+      "value": "LibraryActionPanelTests"
+    },
+    {
+      "name": "tag",
+      "value": "Библиотека"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Библиотека"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Библиотека, плиточный вид: можно переключать текущий вид библиотеки с плитка на список",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Библиотека, плиточный вид: можно переключать текущий вид библиотеки с плитка на список"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Библиотека, плиточный вид: можно переключать текущий вид библиотеки с плитка на список",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559712424,
+          "stop": 1688559712695
+        },
+        {
+          "name": "Переключать текущий вид библотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559712695,
+              "stop": 1688559713831
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559712695,
+          "stop": 1688559713844
+        },
+        {
+          "name": "Переключать текущий вид библотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559713850,
+              "stop": 1688559715887
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559713844,
+          "stop": 1688559716197
+        },
+        {
+          "name": "Получить названия текущего вида библотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока загрузится библиотека",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559716200,
+              "stop": 1688559717657
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559716198,
+          "stop": 1688559717664
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c26d1c70f39b4ec694cad0c8eba3c858-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559712422,
+      "stop": 1688559717664
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "Плитка"
+    },
+    {
+      "name": "Param #1",
+      "value": "Список"
+    }
+  ],
+  "start": 1688559712422,
+  "stop": 1688559717664
+}

@@ -1,0 +1,150 @@
+{
+  "uuid": "852de4a8-8c13-494c-bb08-cf84bb76840c-tr-0-2362",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityEditingTests.Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением > 20",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityEditingTests.Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением > 20",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "ErrorWithIncorrectValueNumberOfAttemptsInTestActivity"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением > 20",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением > 20"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование контрольной: отображение ошибки валидации для поля 'Количество попыток сдачи' с значением > 20",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559431342,
+          "stop": 1688559431951
+        },
+        {
+          "name": "Редактировать 'Количество попыток' контрольной",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559431951,
+          "stop": 1688559433729
+        },
+        {
+          "name": "Нажать на кнопку сохранить",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559433729,
+          "stop": 1688559435265
+        },
+        {
+          "name": "Проверка того что отображается ошибка валидации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559435266,
+          "stop": 1688559435949
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d6bbc4cb24ee4ff8bcfcb910aaa134bb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559431241,
+      "stop": 1688559435949
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "25"
+    }
+  ],
+  "start": 1688559431241,
+  "stop": 1688559435949
+}

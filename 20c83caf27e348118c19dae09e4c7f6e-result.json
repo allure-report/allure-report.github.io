@@ -1,0 +1,158 @@
+{
+  "uuid": "816cad8f-41cf-4499-9149-ec4411d14239-tr-0-1457",
+  "historyId": "OdinUiTests.Tests.Discipline.DisContingentEditingTests.Редактирование дисциплины: добавление преподавателя по ссылке на профиль",
+  "fullName": "OdinUiTests.Tests.Discipline.DisContingentEditingTests.Редактирование дисциплины: добавление преподавателя по ссылке на профиль",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "ba46fde069d7"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddTeacherByUserInfoInEditing"
+    },
+    {
+      "name": "testClass",
+      "value": "DisContingentEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: добавление преподавателя по ссылке на профиль",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Преподаватель не был добавлен в дисциплину\n  Expected: True\n  But was:  False\n",
+    "trace": "   at OdinUiTests.Tests.Discipline.DisContingentEditingTests.CheckAddTeacherByUserInfoInEditing(String userInfo) in /azp/_work/3/s/Tests/Discipline/DisCreateEditTests.cs:line 934\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: добавление преподавателя по ссылке на профиль",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Преподаватель не был добавлен в дисциплину\n  Expected: True\n  But was:  False\n",
+        "trace": "   at OdinUiTests.Tests.Discipline.DisContingentEditingTests.CheckAddTeacherByUserInfoInEditing(String userInfo) in /azp/_work/3/s/Tests/Discipline/DisCreateEditTests.cs:line 934\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559642293,
+          "stop": 1688559642644
+        },
+        {
+          "name": "Добавить сущности в контингент дисциплины по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559642644,
+          "stop": 1688559648231
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559648231,
+          "stop": 1688559648394
+        },
+        {
+          "name": "Проверка того что добавленный преподаватель отображается на странице дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559648394,
+          "stop": 1688559649522
+        }
+      ],
+      "attachments": [
+        {
+          "name": "CheckAddTeacherByUserInfoInEditing.jpg",
+          "source": "52f9f577cd034dee803a7e982cf40356-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "ddc5935891d24652bdcdcb15e1233ddf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559641631,
+      "stop": 1688559649898
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "User/Info/25"
+    }
+  ],
+  "start": 1688559641631,
+  "stop": 1688559649898
+}
