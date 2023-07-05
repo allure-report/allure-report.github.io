@@ -1,0 +1,146 @@
+{
+  "uuid": "083eaa9c-380c-42c4-8188-553d1de97a7f-tr-0-1103",
+  "historyId": "OdinUiTests.Tests.Program.ProgramCreationTests.Cоздание обр программы ДПО: если не заполнить одно обязательное поле",
+  "fullName": "OdinUiTests.Tests.Program.ProgramCreationTests.Cоздание обр программы ДПО: если не заполнить одно обязательное поле",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "9b8d6ad8976d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Program"
+    },
+    {
+      "name": "testMethod",
+      "value": "AddEducationProgaramWithError"
+    },
+    {
+      "name": "testClass",
+      "value": "ProgramCreationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Программа"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Программа"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Cоздание обр программы ДПО: если не заполнить одно обязательное поле",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cоздание обр программы ДПО: если не заполнить одно обязательное поле"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Cоздание обр программы ДПО: если не заполнить одно обязательное поле",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создании образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559665537,
+          "stop": 1688559665864
+        },
+        {
+          "name": "Заполнить обязательные поля в создании образовательной программе",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559665864,
+          "stop": 1688559666582
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559666582,
+          "stop": 1688559667318
+        },
+        {
+          "name": "Проверка на появление ошибки при незаполненном обязательном поле в создании образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559667319,
+          "stop": 1688559667885
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "931998b10d7843169d48551d664831c1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559665533,
+      "stop": 1688559667885
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "True"
+    }
+  ],
+  "start": 1688559665533,
+  "stop": 1688559667885
+}

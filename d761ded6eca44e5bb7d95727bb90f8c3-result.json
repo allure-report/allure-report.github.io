@@ -1,0 +1,300 @@
+{
+  "uuid": "86889044-506b-466e-9a49-003d517b17a2-tr-0-2485",
+  "historyId": "OdinUiTests.Tests.Chat.GroupMiniChatTests+ChatEditing.Миничат - групповой чат: можно восстановить чат из архива",
+  "fullName": "OdinUiTests.Tests.Chat.GroupMiniChatTests+ChatEditing.Миничат - групповой чат: можно восстановить чат из архива",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "9b8d6ad8976d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRestoreGroupChatFromArchiveInMinichat"
+    },
+    {
+      "name": "testClass",
+      "value": "GroupMiniChatTests+ChatEditing"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат группового чата"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - групповой чат: можно восстановить чат из архива",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at OdinUiTests.Services.CommonService.WaitUntilSpinnersIsDisappear(IWebDriver driver) in /azp/_work/3/s/Services/CommonService.cs:line 248\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass97_0.<CheckChatHasBeenAdded>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 657\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.CheckChatHasBeenAdded(String name, Boolean withRefresh, Boolean isDisRoom) in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 652\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass96_0.<CheckRoomChatNameHasBeenChanged>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 644\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.CheckRoomChatNameHasBeenChanged(String name, Boolean isDisRoom, String chatId, Boolean withRefresh) in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 626\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass123_0.<CheckChatHasBeenRestored>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 1211\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.CheckChatHasBeenRestored(String name, Boolean isDisRoom, String chatId, Boolean withRefresh) in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 1209\n   at OdinUiTests.Tests.Chat.GroupMiniChatTests.ChatEditing.CheckRestoreGroupChatFromArchiveInMinichat() in /azp/_work/3/s/Tests/Chat/MiniChatTests.cs:line 612"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат - групповой чат: можно восстановить чат из архива",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at OdinUiTests.Services.CommonService.WaitUntilSpinnersIsDisappear(IWebDriver driver) in /azp/_work/3/s/Services/CommonService.cs:line 248\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass97_0.<CheckChatHasBeenAdded>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 657\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.CheckChatHasBeenAdded(String name, Boolean withRefresh, Boolean isDisRoom) in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 652\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass96_0.<CheckRoomChatNameHasBeenChanged>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 644\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.CheckRoomChatNameHasBeenChanged(String name, Boolean isDisRoom, String chatId, Boolean withRefresh) in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 626\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass123_0.<CheckChatHasBeenRestored>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 1211\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.CheckChatHasBeenRestored(String name, Boolean isDisRoom, String chatId, Boolean withRefresh) in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 1209\n   at OdinUiTests.Tests.Chat.GroupMiniChatTests.ChatEditing.CheckRestoreGroupChatFromArchiveInMinichat() in /azp/_work/3/s/Tests/Chat/MiniChatTests.cs:line 612"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559357897,
+          "stop": 1688559358050
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559358051,
+              "stop": 1688559359144
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559358051,
+          "stop": 1688559359872
+        },
+        {
+          "name": "Восстановить чат из архива в миничате",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Отправка чата в архив",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559359872,
+              "stop": 1688559361461
+            },
+            {
+              "name": "Проверка того что чат отсутствует среди чатов в миничате",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688559361566,
+                  "stop": 1688559362628
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559361566,
+              "stop": 1688559362688
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559359872,
+          "stop": 1688559364600
+        },
+        {
+          "name": "Проверка того что чат был восстановлен из архива",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 30 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at OdinUiTests.Services.CommonService.WaitUntilSpinnersIsDisappear(IWebDriver driver) in /azp/_work/3/s/Services/CommonService.cs:line 248\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass97_0.<CheckChatHasBeenAdded>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 657\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.CheckChatHasBeenAdded(String name, Boolean withRefresh, Boolean isDisRoom) in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 652\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass96_0.<CheckRoomChatNameHasBeenChanged>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 644\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.CheckRoomChatNameHasBeenChanged(String name, Boolean isDisRoom, String chatId, Boolean withRefresh) in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 626\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass123_0.<CheckChatHasBeenRestored>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 1211\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что названия чата был изменен в миничате",
+              "status": "broken",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false,
+                "message": "Timed out after 30 seconds",
+                "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at OdinUiTests.Services.CommonService.WaitUntilSpinnersIsDisappear(IWebDriver driver) in /azp/_work/3/s/Services/CommonService.cs:line 248\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass97_0.<CheckChatHasBeenAdded>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 657\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.CheckChatHasBeenAdded(String name, Boolean withRefresh, Boolean isDisRoom) in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 652\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass96_0.<CheckRoomChatNameHasBeenChanged>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 644\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Проверка того что чат отсутствует среди чатов в миничате",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1688559364797,
+                      "stop": 1688559365927
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688559364786,
+                  "stop": 1688559367161
+                },
+                {
+                  "name": "Открыть чат по айди",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688559367161,
+                  "stop": 1688559367695
+                },
+                {
+                  "name": "Проверка того что чат был добавлен",
+                  "status": "broken",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false,
+                    "message": "Timed out after 30 seconds",
+                    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at OdinUiTests.Services.CommonService.WaitUntilSpinnersIsDisappear(IWebDriver driver) in /azp/_work/3/s/Services/CommonService.cs:line 248\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass97_0.<CheckChatHasBeenAdded>b__0() in /azp/_work/3/s/Pages/ChatCommonPage.cs:line 657\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688559367695,
+                  "stop": 1688559398720
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559364600,
+              "stop": 1688559398721
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559364600,
+          "stop": 1688559398721
+        }
+      ],
+      "attachments": [
+        {
+          "name": "CheckRestoreGroupChatFromArchiveInMinichat.jpg",
+          "source": "90cb212ef603453ba537bda9b3765706-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "ef0cb1bc94c640a2ae9b26571b35ddd6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559357837,
+      "stop": 1688559399092
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559357837,
+  "stop": 1688559399092
+}

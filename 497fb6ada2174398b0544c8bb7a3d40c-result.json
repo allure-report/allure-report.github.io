@@ -1,0 +1,213 @@
+{
+  "uuid": "d29341c2-fb3c-4d6b-a7fe-f730643fac09-tr-0-1617",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortCreationValidationTests.Создание потока ДО: невозможно создать поток из шаблона программы ВО",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortCreationValidationTests.Создание потока ДО: невозможно создать поток из шаблона программы ВО",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "9b8d6ad8976d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateCohortFromUnsuitableTemplate"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortCreationValidationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Создание потока ДО: невозможно создать поток из шаблона программы ВО",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание потока ДО: невозможно создать поток из шаблона программы ВО"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание потока ДО: невозможно создать поток из шаблона программы ВО",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559641288,
+          "stop": 1688559641629
+        },
+        {
+          "name": "Нажать на кнопку 'Выбрать шаблон'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559641629,
+          "stop": 1688559643410
+        },
+        {
+          "name": "Проверка того что шаблон другого типа не отображается в окне библиотеки",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Переключать к другой библиотеки, выбрав рандомно",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688559643410,
+                  "stop": 1688559644537
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559643410,
+              "stop": 1688559647522
+            },
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688559648617,
+                  "stop": 1688559649760
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688559649868,
+                  "stop": 1688559650998
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559648617,
+              "stop": 1688559651005
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559643410,
+          "stop": 1688559651037
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b165807e5360429b8eb83562e6124b59-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559641224,
+      "stop": 1688559651037
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "696940"
+    },
+    {
+      "name": "Param #1",
+      "value": "3228"
+    }
+  ],
+  "start": 1688559641224,
+  "stop": 1688559651037
+}

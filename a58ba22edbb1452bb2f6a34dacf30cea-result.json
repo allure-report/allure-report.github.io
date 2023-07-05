@@ -1,0 +1,136 @@
+{
+  "uuid": "037ffd08-c6a8-48f8-abb9-50784be9744b-tr-0-1647",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока: можно удалить поток без дисциплин и семестров",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока: можно удалить поток без дисциплин и семестров",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "9b8d6ad8976d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRemoveCohortWithoutDisciplinesAndSemesters"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока: можно удалить поток без дисциплин и семестров",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"block\">...</span> is not clickable at point (1069, 561). Other element would receive the click: <div data-v-269d3ce6=\"\" class=\"q-card__actions justify-end q-card__actions--horiz row\">...</div>\n  (Session info: headless chrome=111.0.5563.146)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at OdinUiTests.Pages.CohortCreateEditPage.<ConfirmRemoving>b__39_0() in /azp/_work/3/s/Pages/CohortCreateEditPage.cs:line 206\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.CohortCreateEditPage.ConfirmRemoving() in /azp/_work/3/s/Pages/CohortCreateEditPage.cs:line 203\n   at OdinUiTests.Tests.Cohort.CohortEditingTests.CheckRemoveCohortWithoutDisciplinesAndSemesters() in /azp/_work/3/s/Tests/Cohort/CohortCreateEditTests.cs:line 508"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока: можно удалить поток без дисциплин и семестров",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span class=\"block\">...</span> is not clickable at point (1069, 561). Other element would receive the click: <div data-v-269d3ce6=\"\" class=\"q-card__actions justify-end q-card__actions--horiz row\">...</div>\n  (Session info: headless chrome=111.0.5563.146)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at OdinUiTests.Pages.CohortCreateEditPage.<ConfirmRemoving>b__39_0() in /azp/_work/3/s/Pages/CohortCreateEditPage.cs:line 206\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.CohortCreateEditPage.ConfirmRemoving() in /azp/_work/3/s/Pages/CohortCreateEditPage.cs:line 203\n   at OdinUiTests.Tests.Cohort.CohortEditingTests.CheckRemoveCohortWithoutDisciplinesAndSemesters() in /azp/_work/3/s/Tests/Cohort/CohortCreateEditTests.cs:line 508"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559664569,
+          "stop": 1688559664981
+        },
+        {
+          "name": "Нажать на кнопку 'Удалить поток'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559664982,
+          "stop": 1688559666722
+        },
+        {
+          "name": "Подтвердить удаление потока нажав на кнопку 'Удалить' из модалки",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "element click intercepted: Element <span class=\"block\">...</span> is not clickable at point (1069, 561). Other element would receive the click: <div data-v-269d3ce6=\"\" class=\"q-card__actions justify-end q-card__actions--horiz row\">...</div>\n  (Session info: headless chrome=111.0.5563.146)",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at OdinUiTests.Pages.CohortCreateEditPage.<ConfirmRemoving>b__39_0() in /azp/_work/3/s/Pages/CohortCreateEditPage.cs:line 206\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559666722,
+          "stop": 1688559667846
+        }
+      ],
+      "attachments": [
+        {
+          "name": "CheckRemoveCohortWithoutDisciplinesAndSemesters.jpg",
+          "source": "06a139fce1d74f0bac1be0e0f34b7b1c-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "ccb2722cc9014fd8aeab79328e227a2d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559664470,
+      "stop": 1688559668107
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559664470,
+  "stop": 1688559668107
+}

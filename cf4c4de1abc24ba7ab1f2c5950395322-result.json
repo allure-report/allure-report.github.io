@@ -1,0 +1,172 @@
+{
+  "uuid": "e71c54b3-4139-42f6-a3e4-bb1aedc21249-tr-0-1108",
+  "historyId": "OdinUiTests.Tests.Program.ProgramCreationTests.Cоздание обр программы ВО: если заполнить все поля",
+  "fullName": "OdinUiTests.Tests.Program.ProgramCreationTests.Cоздание обр программы ВО: если заполнить все поля",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "9b8d6ad8976d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Program"
+    },
+    {
+      "name": "testMethod",
+      "value": "CreateHighEducProgramFillAllFields"
+    },
+    {
+      "name": "testClass",
+      "value": "ProgramCreationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Программа"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Программа"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Cоздание обр программы ВО: если заполнить все поля",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cоздание обр программы ВО: если заполнить все поля"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Cоздание обр программы ВО: если заполнить все поля",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создании образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559681714,
+          "stop": 1688559682046
+        },
+        {
+          "name": "Заполнить обязательные поля в создании образовательной программе",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Добавить тег знаний в дисциплину",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688559684844,
+              "stop": 1688559688092
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559682047,
+          "stop": 1688559692024
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559692024,
+          "stop": 1688559694230
+        },
+        {
+          "name": "Получить заголовок образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559694230,
+          "stop": 1688559694290
+        },
+        {
+          "name": "Получить id образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559694290,
+          "stop": 1688559694317
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "d35b793561124c3c926f1d0253edef31-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559681708,
+      "stop": 1688559694317
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559681708,
+  "stop": 1688559694317
+}

@@ -1,0 +1,126 @@
+{
+  "uuid": "fe3b50c5-c557-4371-9d03-95235d0fa995-tr-0-1686",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortInfoTests.Страница потока: Студенты не имею доступ к активностям архивного потока",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortInfoTests.Страница потока: Студенты не имею доступ к активностям архивного потока",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "9b8d6ad8976d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckNoAccessStudentToActivityCohortArchive"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortInfoTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Страница потока: Студенты не имею доступ к активностям архивного потока",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница потока: Студенты не имею доступ к активностям архивного потока"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница потока: Студенты не имею доступ к активностям архивного потока",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559657956,
+          "stop": 1688559658266
+        },
+        {
+          "name": "Нажать на дисциплину",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559658267,
+          "stop": 1688559659756
+        },
+        {
+          "name": "Проверка недоступности к активностям при потоке в архиве",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559659756,
+          "stop": 1688559660899
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "31f44e6f3bca4b61a9e6e20cca27fd8e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559655812,
+      "stop": 1688559660936
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559655812,
+  "stop": 1688559660936
+}

@@ -1,0 +1,161 @@
+{
+  "uuid": "645b2883-7802-4dc1-b822-c0f549ff777c-tr-0-1622",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortCreationWarningModalTests.Создание потока: предупреждение о несоответствии длительности потока для программ 72 часов",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortCreationWarningModalTests.Создание потока: предупреждение о несоответствии длительности потока для программ 72 часов",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "9b8d6ad8976d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateCohortWithMismatchWarningOfDuration"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortCreationWarningModalTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Создание потока: предупреждение о несоответствии длительности потока для программ 72 часов",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание потока: предупреждение о несоответствии длительности потока для программ 72 часов"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание потока: предупреждение о несоответствии длительности потока для программ 72 часов",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559609525,
+          "stop": 1688559610301
+        },
+        {
+          "name": "Вставить значение в поля 'Название*'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559610301,
+          "stop": 1688559612319
+        },
+        {
+          "name": "Выбрать значение в поля ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559612319,
+          "stop": 1688559615489
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559615489,
+          "stop": 1688559615663
+        },
+        {
+          "name": "Проверка появление модалки предупреждение о несоответствии длительности потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559615663,
+          "stop": 1688559615776
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "526102b94b4048e9a20fa1b7aaf8db07-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559609369,
+      "stop": 1688559615776
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "72"
+    }
+  ],
+  "start": 1688559609369,
+  "stop": 1688559615776
+}

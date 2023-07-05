@@ -1,0 +1,186 @@
+{
+  "uuid": "c939d29c-1097-4351-b7c1-dc3c1790e10c-tr-0-1019",
+  "historyId": "OdinUiTests.Tests.UserProfile.GeneralUserInfoEditingTests.Редактирование профиля пользователя: можно изменить ФИО в транслитерации",
+  "fullName": "OdinUiTests.Tests.UserProfile.GeneralUserInfoEditingTests.Редактирование профиля пользователя: можно изменить ФИО в транслитерации",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "9b8d6ad8976d"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.UserProfile"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckUserNameFiledsInTransliteration"
+    },
+    {
+      "name": "testClass",
+      "value": "GeneralUserInfoEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Профиль"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Профиль"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование профиля пользователя: можно изменить ФИО в транслитерации",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование профиля пользователя: можно изменить ФИО в транслитерации"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование профиля пользователя: можно изменить ФИО в транслитерации",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу профиля пользователя",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559699637,
+          "stop": 1688559699964
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559699964,
+          "stop": 1688559701832
+        },
+        {
+          "name": "Переключить свитча транслитерации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559701832,
+          "stop": 1688559702453
+        },
+        {
+          "name": "Редактировать ФИО пользователя в транслитерации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559702453,
+          "stop": 1688559706862
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559706862,
+          "stop": 1688559706950
+        },
+        {
+          "name": "Переключить язык интерфейса на английский",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559706950,
+          "stop": 1688559709437
+        },
+        {
+          "name": "Получить заголовок страницы профиля",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688559709437,
+          "stop": 1688559709488
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "cc7d5ca21ffc46eba93e5caa677939d4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688559699633,
+      "stop": 1688559709488
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688559699633,
+  "stop": 1688559709488
+}
