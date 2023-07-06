@@ -1,0 +1,172 @@
+{
+  "uuid": "56efda6e-f821-4572-84eb-8c9c4e2f6982-tr-0-2061",
+  "historyId": "OdinUiTests.Tests.Chat.TaskMiniChatTests.Миничат - обсуждение решения: можно прикрепить и отправить файл с компьютера",
+  "fullName": "OdinUiTests.Tests.Chat.TaskMiniChatTests.Миничат - обсуждение решения: можно прикрепить и отправить файл с компьютера",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendFileMessageInTaskMiniChat"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskMiniChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат решения"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - обсуждение решения: можно прикрепить и отправить файл с компьютера",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Exception : Нужный чат не был найден среди чатов в миничате",
+    "trace": "   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 247\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.TaskMiniChatTests.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 378"
+  },
+  "stage": "finished",
+  "description": "\nSetUp SetUp method failed\n",
+  "steps": [
+    {
+      "name": "Миничат - обсуждение решения: можно прикрепить и отправить файл с компьютера skipped because of OneTimeSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Exception : Нужный чат не был найден среди чатов в миничате",
+        "trace": "   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 247\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.TaskMiniChatTests.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 378"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618949521,
+          "stop": 1688618949560
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Нужный чат не был найден среди чатов в миничате",
+            "trace": "   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 247\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618949560,
+              "stop": 1688618950657
+            },
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618950763,
+              "stop": 1688618951871
+            },
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618951886,
+              "stop": 1688618952938
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618949560,
+          "stop": 1688618952961
+        }
+      ],
+      "attachments": [
+        {
+          "name": "CheckSendFileMessageInTaskMiniChat.jpg",
+          "source": "d1466585398643a383bae5b2e0845b59-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "06c63172bf784eb59da805bf32fbd2ed-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618949516,
+      "stop": 1688618953404
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618949516,
+  "stop": 1688618953404
+}

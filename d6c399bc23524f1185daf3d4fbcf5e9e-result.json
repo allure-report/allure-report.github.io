@@ -1,0 +1,191 @@
+{
+  "uuid": "fa1b0ec4-4b19-4fde-94b7-65f11c6bc19f-tr-0-1824",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineChatTests.Список чатов - комната дисциплины: можно удалить сообщение",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineChatTests.Список чатов - комната дисциплины: можно удалить сообщение",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckDeleteMessageInDisciplineChat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Список чатов - комната дисциплины: можно удалить сообщение",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Список чатов - комната дисциплины: можно удалить сообщение"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Список чатов - комната дисциплины: можно удалить сообщение",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618651126,
+          "stop": 1688618651703
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618651703,
+          "stop": 1688618652889
+        },
+        {
+          "name": "Получить id последнего сообщения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618656205,
+              "stop": 1688618656321
+            },
+            {
+              "name": "Ожидать пока появытся слово 'Отправляется...'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618656321,
+              "stop": 1688618657387
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618652889,
+          "stop": 1688618657418
+        },
+        {
+          "name": "Удалить отправленное сообщение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618657418,
+          "stop": 1688618660286
+        },
+        {
+          "name": "Проверка того что сообщение было удалено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618660286,
+          "stop": 1688618663608
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8425c5de94724722b871d5c950dc214e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618651119,
+      "stop": 1688618663608
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618651119,
+  "stop": 1688618663608
+}

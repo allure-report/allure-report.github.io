@@ -1,0 +1,131 @@
+{
+  "uuid": "192ca2dd-33e4-4c9f-bf07-84f48f96367c-tr-0-1100",
+  "historyId": "OdinUiTests.Tests.Program.ProgramCreationTests.Cоздание обр программы ДПО: проверка кнопки 'Отмена'",
+  "fullName": "OdinUiTests.Tests.Program.ProgramCreationTests.Cоздание обр программы ДПО: проверка кнопки 'Отмена'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Program"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCancelCreatingProgram"
+    },
+    {
+      "name": "testClass",
+      "value": "ProgramCreationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Программа"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Программа"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Cоздание обр программы ДПО: проверка кнопки 'Отмена'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Cоздание обр программы ДПО: проверка кнопки 'Отмена'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Cоздание обр программы ДПО: проверка кнопки 'Отмена'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создании образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619088130,
+          "stop": 1688619088481
+        },
+        {
+          "name": "Нажать на кнопку 'Отмена' при создании образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619088481,
+          "stop": 1688619090621
+        },
+        {
+          "name": "Получить url подразделения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619090621,
+          "stop": 1688619092235
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4816f1ede3ab426b83abf7a10e4c0c6d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619088127,
+      "stop": 1688619092238
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "True"
+    }
+  ],
+  "start": 1688619088127,
+  "stop": 1688619092238
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "39e9f770-1d0e-4d22-b021-2e74b8de8bfb-tc-0-2050",
+  "name": "OdinUiTests.Tests.Chat.TaskMiniChatTests.Миничат - обсуждение решения: можно прикрепить и отправить файл с компьютера",
+  "children": [
+    "56efda6e-f821-4572-84eb-8c9c4e2f6982-tr-0-2061"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618953404,
+      "stop": 1688618953404
+    },
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Exception : Нужный чат не был найден среди чатов в миничате",
+        "trace": "   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 247\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.TaskMiniChatTests.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 378"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618953404,
+      "stop": 1688618953404
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618953404,
+      "stop": 1688618953404
+    }
+  ],
+  "links": [],
+  "start": 1688618949516,
+  "stop": 1688618953404
+}

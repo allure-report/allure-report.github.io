@@ -1,0 +1,177 @@
+{
+  "uuid": "b3357c8a-1c02-4833-a00a-fb7875edf447-tr-0-1868",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineRoomChatTests.Список чатов - добавленная комната дисциплины: невозможно добавить комнату, если не заполнен поля 'Название'",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineRoomChatTests.Список чатов - добавленная комната дисциплины: невозможно добавить комнату, если не заполнен поля 'Название'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddDisciplineChatRoomWithoutName"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineRoomChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Список чатов - добавленная комната дисциплины: невозможно добавить комнату, если не заполнен поля 'Название'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Список чатов - добавленная комната дисциплины: невозможно добавить комнату, если не заполнен поля 'Название'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Список чатов - добавленная комната дисциплины: невозможно добавить комнату, если не заполнен поля 'Название'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618771692,
+          "stop": 1688618772204
+        },
+        {
+          "name": "Нажать на кнопку 'Добавить комнату'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618773259,
+              "stop": 1688618777529
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618772204,
+          "stop": 1688618778351
+        },
+        {
+          "name": "Заполнение поля 'Название' и чексбокс 'Закрытая комната' при создании комнаты",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Вставить значение в поля 'Название'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618778351,
+              "stop": 1688618778970
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618778351,
+          "stop": 1688618779788
+        },
+        {
+          "name": "Проверка того что кнопка 'Создать' некликабельная",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618779788,
+          "stop": 1688618780884
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ef76c2371d8c4afbb5796ba42e8721a1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618771687,
+      "stop": 1688618780884
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618771687,
+  "stop": 1688618780884
+}

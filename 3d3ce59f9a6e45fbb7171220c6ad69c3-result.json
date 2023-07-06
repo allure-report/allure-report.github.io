@@ -1,0 +1,230 @@
+{
+  "uuid": "07fa4c57-bd2e-49bc-8259-ec59ed455dac-tr-0-2065",
+  "historyId": "OdinUiTests.Tests.Chat.TaskMiniChatTests.Миничат - обсуждение решения: можно отправить сообщения по нажатию на Enter",
+  "fullName": "OdinUiTests.Tests.Chat.TaskMiniChatTests.Миничат - обсуждение решения: можно отправить сообщения по нажатию на Enter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendMessageByTappingEnterInTaskMiniChat"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskMiniChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат решения"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - обсуждение решения: можно отправить сообщения по нажатию на Enter",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Текстовое сообщение не был отправлен по нажатию на Enter\n  Expected: True\n  But was:  False\n",
+    "trace": "   at OdinUiTests.Tests.Chat.TaskMiniChatTests.CheckSendMessageByTappingEnterInTaskMiniChat() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 441\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат - обсуждение решения: можно отправить сообщения по нажатию на Enter",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Текстовое сообщение не был отправлен по нажатию на Enter\n  Expected: True\n  But was:  False\n",
+        "trace": "   at OdinUiTests.Tests.Chat.TaskMiniChatTests.CheckSendMessageByTappingEnterInTaskMiniChat() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 441\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618964671,
+          "stop": 1688618965337
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618965337,
+              "stop": 1688618966385
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618965337,
+          "stop": 1688618966575
+        },
+        {
+          "name": "Открыть чат решения студента по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618966575,
+              "stop": 1688618969229
+            },
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618969355,
+              "stop": 1688618970404
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618966575,
+          "stop": 1688618971807
+        },
+        {
+          "name": "Отправить сообщение нажатем на enter",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618971807,
+          "stop": 1688618973474
+        },
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618973474,
+          "stop": 1688618973920
+        },
+        {
+          "name": "Проверка того что сообщение было отправлено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618973920,
+          "stop": 1688618978122
+        }
+      ],
+      "attachments": [
+        {
+          "name": "CheckSendMessageByTappingEnterInTaskMiniChat.jpg",
+          "source": "3cecec11ad9e42ec955447fffac80d6f-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "85ceccd0861f4743bed3a3b2f1d577d7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618964668,
+      "stop": 1688618978393
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618964668,
+  "stop": 1688618978393
+}

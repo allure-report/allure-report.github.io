@@ -1,0 +1,125 @@
+{
+  "uuid": "a17670ff-7841-448c-9f4a-4eb6c9176cb9-tr-0-1812",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineChatTests.Список чатов - комната дисциплины: можно найти чат в поиске по названию",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineChatTests.Список чатов - комната дисциплины: можно найти чат в поиске по названию",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckFindDisciplineChatByNameInSearch"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Список чатов - комната дисциплины: можно найти чат в поиске по названию",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at OdinUiTests.Services.CommonService.WaitUntilSpinnersIsDisappear(IWebDriver driver) in /azp/_work/7/s/Services/CommonService.cs:line 248\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass146_0.<SearchChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 1663\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.SearchChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 1657\n   at OdinUiTests.Tests.Chat.ChatCommon.FindChatByNameInSearch(IWebDriver driver, String disName, String chatName) in /azp/_work/7/s/Tests/Chat/ChatCommon.cs:line 523\n   at OdinUiTests.Tests.Chat.DisciplineChatTests.CheckFindDisciplineChatByNameInSearch() in /azp/_work/7/s/Tests/Chat/ChatTests.cs:line 87"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Список чатов - комната дисциплины: можно найти чат в поиске по названию",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 30 seconds",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at OdinUiTests.Services.CommonService.WaitUntilSpinnersIsDisappear(IWebDriver driver) in /azp/_work/7/s/Services/CommonService.cs:line 248\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass146_0.<SearchChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 1663\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.SearchChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 1657\n   at OdinUiTests.Tests.Chat.ChatCommon.FindChatByNameInSearch(IWebDriver driver, String disName, String chatName) in /azp/_work/7/s/Tests/Chat/ChatCommon.cs:line 523\n   at OdinUiTests.Tests.Chat.DisciplineChatTests.CheckFindDisciplineChatByNameInSearch() in /azp/_work/7/s/Tests/Chat/ChatTests.cs:line 87"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть список чатов",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618538028,
+          "stop": 1688618538521
+        },
+        {
+          "name": "Поиск чата по названию",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Timed out after 30 seconds",
+            "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at OdinUiTests.Services.CommonService.WaitUntilSpinnersIsDisappear(IWebDriver driver) in /azp/_work/7/s/Services/CommonService.cs:line 248\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass146_0.<SearchChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 1663\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618538521,
+          "stop": 1688618572197
+        }
+      ],
+      "attachments": [
+        {
+          "name": "CheckFindDisciplineChatByNameInSearch.jpg",
+          "source": "e30ded7bdd114025b2365b05c2f4ed09-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "4bbaf543b798437691bcb1ee16d3d37b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618538022,
+      "stop": 1688618572700
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618538022,
+  "stop": 1688618572700
+}

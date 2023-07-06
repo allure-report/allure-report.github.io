@@ -1,0 +1,141 @@
+{
+  "uuid": "c2dab257-afc5-4fa5-841c-b68797e8ecdf-tr-0-1643",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО: успешное сохранение, при отметке/снятии галки ‘Разрешена регистрация по ссылке’",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО: успешное сохранение, при отметке/снятии галки ‘Разрешена регистрация по ссылке’",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEditCohortByCheckingCheckboxRegistrationLink"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока ДО: успешное сохранение, при отметке/снятии галки ‘Разрешена регистрация по ссылке’",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока ДО: успешное сохранение, при отметке/снятии галки ‘Разрешена регистрация по ссылке’"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока ДО: успешное сохранение, при отметке/снятии галки ‘Разрешена регистрация по ссылке’",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619090976,
+          "stop": 1688619091408
+        },
+        {
+          "name": "Отметить или снять галку с чекбокса ‘Разрешена регистрация по ссылке’",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619091409,
+          "stop": 1688619094202
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619094202,
+          "stop": 1688619094275
+        },
+        {
+          "name": "Проверка правильность создания потока с разрешением регистрации по ссылке или без",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619094276,
+          "stop": 1688619103244
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ab355aa75c3f41dabc22ee49924de03a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619090973,
+      "stop": 1688619103244
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619090973,
+  "stop": 1688619103244
+}

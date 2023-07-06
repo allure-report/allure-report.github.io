@@ -1,0 +1,146 @@
+{
+  "uuid": "a0031007-8fb3-45c0-8382-04b7f11ba738-tr-0-1635",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО: работает кнопка 'Отмена'",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingTests.Редактирование потока ДО: работает кнопка 'Отмена'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCancelCohortEditing"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока ДО: работает кнопка 'Отмена'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока ДО: работает кнопка 'Отмена'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока ДО: работает кнопка 'Отмена'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619018543,
+          "stop": 1688619019157
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619019157,
+          "stop": 1688619032666
+        },
+        {
+          "name": "Нажать на кнопку 'Отмена' в редактирование потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619032666,
+          "stop": 1688619035424
+        },
+        {
+          "name": "Получить url потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619035424,
+          "stop": 1688619045142
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "98a4d310481f4defad19c5f8345c44b1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619018538,
+      "stop": 1688619045149
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "3"
+    }
+  ],
+  "start": 1688619018538,
+  "stop": 1688619045149
+}

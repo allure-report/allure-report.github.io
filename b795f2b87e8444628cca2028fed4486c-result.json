@@ -1,0 +1,88 @@
+{
+  "uuid": "6d1f4e90-e3c8-4295-80a0-192d58934e18-tr-0-1115",
+  "historyId": "OdinUiTests.Tests.Program.ProgramInfoPageTests.Страница обр программы: Студенты не имеют доступ к активностям архивной обр программы",
+  "fullName": "OdinUiTests.Tests.Program.ProgramInfoPageTests.Страница обр программы: Студенты не имеют доступ к активностям архивной обр программы",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Program"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckNoAccessStudentToActivityEducationalProgramArchive"
+    },
+    {
+      "name": "testClass",
+      "value": "ProgramInfoPageTests"
+    },
+    {
+      "name": "tag",
+      "value": "Программа"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Программа"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Страница обр программы: Студенты не имеют доступ к активностям архивной обр программы",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.AggregateException : One or more errors occurred. (Request timed out)\n  ----> System.TimeoutException : Request timed out\n  ----> System.Threading.Tasks.TaskCanceledException : The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.\n  ----> System.TimeoutException : A task was canceled.\n  ----> System.Threading.Tasks.TaskCanceledException : A task was canceled.",
+    "trace": "   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)\n   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)\n   at OdinUiTests.Services.ActivityService.GetActivityInfoForEdit(String actId, Boolean isTemplate) in /azp/_work/7/s/Services/ActivityService.cs:line 257\n   at OdinUiTests.Pages.ProgramInfoPage.GetActivityIdFromDisciplineCohort(String cohortId) in /azp/_work/7/s/Pages/ProgramInfoPage.cs:line 177\n   at OdinUiTests.Tests.Program.ProgramInfoPageTests.CheckNoAccessStudentToActivityEducationalProgramArchive() in /azp/_work/7/s/Tests/Program/ProgramCommonTests.cs:line 168\n--TimeoutException\n   at RestSharp.RestClientExtensions.GetAsync(IRestClient client, RestRequest request, CancellationToken cancellationToken)\n--TaskCanceledException\n   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\n   at RestSharp.RestClient.ExecuteRequestAsync(RestRequest request, CancellationToken cancellationToken)\n--TimeoutException\n\n--TaskCanceledException\n   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница обр программы: Студенты не имеют доступ к активностям архивной обр программы",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.AggregateException : One or more errors occurred. (Request timed out)\n  ----> System.TimeoutException : Request timed out\n  ----> System.Threading.Tasks.TaskCanceledException : The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing.\n  ----> System.TimeoutException : A task was canceled.\n  ----> System.Threading.Tasks.TaskCanceledException : A task was canceled.",
+        "trace": "   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)\n   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)\n   at OdinUiTests.Services.ActivityService.GetActivityInfoForEdit(String actId, Boolean isTemplate) in /azp/_work/7/s/Services/ActivityService.cs:line 257\n   at OdinUiTests.Pages.ProgramInfoPage.GetActivityIdFromDisciplineCohort(String cohortId) in /azp/_work/7/s/Pages/ProgramInfoPage.cs:line 177\n   at OdinUiTests.Tests.Program.ProgramInfoPageTests.CheckNoAccessStudentToActivityEducationalProgramArchive() in /azp/_work/7/s/Tests/Program/ProgramCommonTests.cs:line 168\n--TimeoutException\n   at RestSharp.RestClientExtensions.GetAsync(IRestClient client, RestRequest request, CancellationToken cancellationToken)\n--TaskCanceledException\n   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\n   at RestSharp.RestClient.ExecuteRequestAsync(RestRequest request, CancellationToken cancellationToken)\n--TimeoutException\n\n--TaskCanceledException\n   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "CheckNoAccessStudentToActivityEducationalProgramArchive.jpg",
+          "source": "61e9fe365ee14920a7b95251dbd5cb0a-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "42625b345692475e940eb8a3650a58fc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619090894,
+      "stop": 1688619196311
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619090894,
+  "stop": 1688619196311
+}

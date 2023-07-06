@@ -1,0 +1,126 @@
+{
+  "uuid": "a15f74ad-af25-47a4-8763-cb611756aaa6-tr-0-1680",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortInfoTests.Страница потока: При архивации потока появляется модалка подтверждения действия",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortInfoTests.Страница потока: При архивации потока появляется модалка подтверждения действия",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckWindowsSendCohortArchive"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortInfoTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Страница потока: При архивации потока появляется модалка подтверждения действия",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница потока: При архивации потока появляется модалка подтверждения действия"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница потока: При архивации потока появляется модалка подтверждения действия",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619068717,
+          "stop": 1688619069046
+        },
+        {
+          "name": "Нажать на кнопку Отправить в архив",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619069047,
+          "stop": 1688619075534
+        },
+        {
+          "name": "Проверка отправки потока в архив",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619075534,
+          "stop": 1688619076592
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4e2b1d09f9a54011914a607ac421edac-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619068604,
+      "stop": 1688619076592
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619068604,
+  "stop": 1688619076592
+}

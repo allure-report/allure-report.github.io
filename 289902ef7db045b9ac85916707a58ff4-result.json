@@ -1,0 +1,228 @@
+{
+  "uuid": "99bd2cf9-0f4d-4d79-9613-93645e039e03-tr-0-1760",
+  "historyId": "OdinUiTests.Tests.Chat.GroupChatCallTests.Миничат звонка - групповой чат: можно прикрепить и отправить файл с компьютера",
+  "fullName": "OdinUiTests.Tests.Chat.GroupChatCallTests.Миничат звонка - групповой чат: можно прикрепить и отправить файл с компьютера",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendFileMessageInGroupCallChat"
+    },
+    {
+      "name": "testClass",
+      "value": "GroupChatCallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат группового звонка"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Миничат звонка - групповой чат: можно прикрепить и отправить файл с компьютера",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат звонка - групповой чат: можно прикрепить и отправить файл с компьютера"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат звонка - групповой чат: можно прикрепить и отправить файл с компьютера",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618624166,
+          "stop": 1688618624766
+        },
+        {
+          "name": "Нажать на кнопку чата в звонке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку Присоединиться в предбаннике",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618624766,
+              "stop": 1688618630325
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618624766,
+          "stop": 1688618636794
+        },
+        {
+          "name": "Отправить файловый сообщение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока появытся слово 'Отправляется...'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618642839,
+              "stop": 1688618644023
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618636795,
+          "stop": 1688618644023
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "CheckSendFileMessageInGroupCallChat-FailsBeforeEndOfCall.jpg",
+              "source": "b24574777b204f4294bbeffff343e4cf-attachment.jpg",
+              "type": "image/jpeg"
+            }
+          ],
+          "parameters": [],
+          "start": 1688618644023,
+          "stop": 1688618645721
+        },
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618645722,
+          "stop": 1688618646229
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618646229,
+          "stop": 1688618649549
+        },
+        {
+          "name": "Проверка того что файловый сообщение было отправлено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618649550,
+          "stop": 1688618649635
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "29a36711cdbc4bad80277da42f57ed9e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618624161,
+      "stop": 1688618649635
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618624161,
+  "stop": 1688618649635
+}

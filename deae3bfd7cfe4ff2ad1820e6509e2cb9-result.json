@@ -1,0 +1,172 @@
+{
+  "uuid": "495d33bf-c37d-485b-a455-ddc4678d6c7d-tr-0-2479",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests+ChatEditing.Миничат - добавленная комната дисциплины: можно отправить чат в архив",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests+ChatEditing.Миничат - добавленная комната дисциплины: можно отправить чат в архив",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendDisciplineChatRoomToArchiveInMinichat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineRoomMiniChatTests+ChatEditing"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат дисциплины"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - добавленная комната дисциплины: можно отправить чат в архив",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Exception : Нужный чат не был найден среди чатов в миничате",
+    "trace": "   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 247\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests.ChatEditing.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 291"
+  },
+  "stage": "finished",
+  "description": "\nSetUp SetUp method failed\n",
+  "steps": [
+    {
+      "name": "Миничат - добавленная комната дисциплины: можно отправить чат в архив skipped because of GetChatRoomId failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Exception : Нужный чат не был найден среди чатов в миничате",
+        "trace": "   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 247\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests.ChatEditing.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 291"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618431334,
+          "stop": 1688618431383
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "Нужный чат не был найден среди чатов в миничате",
+            "trace": "   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 247\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618431383,
+              "stop": 1688618432459
+            },
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618432897,
+              "stop": 1688618433950
+            },
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618433961,
+              "stop": 1688618435030
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618431383,
+          "stop": 1688618435051
+        }
+      ],
+      "attachments": [
+        {
+          "name": "CheckSendDisciplineChatRoomToArchiveInMinichat.jpg",
+          "source": "4b6cb158215d42458c1b2f4466a8b962-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "867af8d9b9c14b43bad95a92f06bcc44-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618431329,
+      "stop": 1688618435485
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618431329,
+  "stop": 1688618435485
+}

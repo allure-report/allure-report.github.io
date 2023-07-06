@@ -1,0 +1,111 @@
+{
+  "uuid": "55acdbda-f1db-4536-8a4e-c5f436b3ef1d-tr-0-1684",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortInfoTests.Страница потока: отсутствия доступа студента к выгрузкам",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortInfoTests.Страница потока: отсутствия доступа студента к выгрузкам",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckNotAccessToUploadsForStudents"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortInfoTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Страница потока: отсутствия доступа студента к выгрузкам",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница потока: отсутствия доступа студента к выгрузкам"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница потока: отсутствия доступа студента к выгрузкам",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619085648,
+          "stop": 1688619085964
+        },
+        {
+          "name": "Проверка недоступности кнопки выгрузкок потока для студента",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619085964,
+          "stop": 1688619092207
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "576f50c1f517435f86a946808f295afe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619082933,
+      "stop": 1688619092207
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619082933,
+  "stop": 1688619092207
+}

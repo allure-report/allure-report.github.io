@@ -1,0 +1,76 @@
+{
+  "uuid": "685ec5f1-ab92-46b0-b307-7ea394e2b14d-tc-0-1830",
+  "name": "OdinUiTests.Tests.Chat.DisciplineRoomChatTests.Список чатов - добавленная комната дисциплины: можно отправить чат в архив",
+  "children": [
+    "62a479ad-3f7c-4221-8609-c09ca1c5b5c9-tr-0-1872"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618812447,
+      "stop": 1688618812447
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618812447,
+      "stop": 1688618812447
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618812447,
+      "stop": 1688618812447
+    },
+    {
+      "name": "SendChatToArchive",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".chat-name\"}\n  (Session info: headless chrome=111.0.5563.146)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass129_0.<GetChatName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 1333\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.GetChatName() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 1331\n   at OdinUiTests.Tests.Chat.ChatCommon.SendChatToArchive(IWebDriver driver, String id, String disName) in /azp/_work/7/s/Tests/Chat/ChatCommon.cs:line 455\n   at OdinUiTests.Tests.Chat.DisciplineRoomChatTests.CheckSendDisciplineChatRoomToArchive() in /azp/_work/7/s/Tests/Chat/ChatTests.cs:line 358"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618812447,
+      "stop": 1688618812447
+    }
+  ],
+  "links": [],
+  "start": 1688618810496,
+  "stop": 1688618812447
+}

@@ -1,0 +1,228 @@
+{
+  "uuid": "fc303112-f54c-4fdd-a236-ddc7ff757150-tr-0-1731",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineRoomChatCallTests.Миничат звонка - добавленная комната дисциплины: можно найти отправленное сообщение",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineRoomChatCallTests.Миничат звонка - добавленная комната дисциплины: можно найти отправленное сообщение",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckFindSentMessageInDisciplineRoomCallChat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineRoomChatCallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат звонка дисциплины"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Миничат звонка - добавленная комната дисциплины: можно найти отправленное сообщение",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат звонка - добавленная комната дисциплины: можно найти отправленное сообщение"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат звонка - добавленная комната дисциплины: можно найти отправленное сообщение",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618535246,
+          "stop": 1688618535983
+        },
+        {
+          "name": "Нажать на кнопку чата в звонке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку Присоединиться в предбаннике",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618535983,
+              "stop": 1688618540902
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618535983,
+          "stop": 1688618549118
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618549119,
+          "stop": 1688618554946
+        },
+        {
+          "name": "Получить текст рандомного сообщения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618554946,
+              "stop": 1688618555011
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618554946,
+          "stop": 1688618555054
+        },
+        {
+          "name": "Найти отправленное сообщение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618555054,
+          "stop": 1688618556380
+        },
+        {
+          "name": "Проверка того что отправленное сообщение был найден",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618556380,
+          "stop": 1688618558060
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "CheckFindSentMessageInDisciplineRoomCallChat-FailsBeforeEndOfCall.jpg",
+              "source": "81a312d0119247f7bf518523c8c451dc-attachment.jpg",
+              "type": "image/jpeg"
+            }
+          ],
+          "parameters": [],
+          "start": 1688618558060,
+          "stop": 1688618559720
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0923d07716fd4f60a882ad00903005af-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618535241,
+      "stop": 1688618559720
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618535241,
+  "stop": 1688618559720
+}

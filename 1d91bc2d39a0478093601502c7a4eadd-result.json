@@ -1,0 +1,274 @@
+{
+  "uuid": "167214aa-a213-45a0-83b0-9a26ac5e0995-tr-0-1716",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineChatCallTests.Миничат звонка - комната дисциплины: можно добавить реакцию на сообщение",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineChatCallTests.Миничат звонка - комната дисциплины: можно добавить реакцию на сообщение",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddReactionToLastMessageInDisciplineCallChat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineChatCallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат звонка дисциплины"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Миничат звонка - комната дисциплины: можно добавить реакцию на сообщение",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат звонка - комната дисциплины: можно добавить реакцию на сообщение"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат звонка - комната дисциплины: можно добавить реакцию на сообщение",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618659979,
+          "stop": 1688618660570
+        },
+        {
+          "name": "Нажать на кнопку чата в звонке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку Присоединиться в предбаннике",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618660570,
+              "stop": 1688618666031
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618660570,
+          "stop": 1688618672799
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618672799,
+          "stop": 1688618675474
+        },
+        {
+          "name": "Получить id последнего сообщения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618676535,
+              "stop": 1688618676605
+            },
+            {
+              "name": "Ожидать пока появытся слово 'Отправляется...'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618676605,
+              "stop": 1688618677661
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618675474,
+          "stop": 1688618677686
+        },
+        {
+          "name": "Добавить реакцию к сообщение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618677686,
+              "stop": 1688618677734
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618677686,
+          "stop": 1688618681047
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "CheckAddReactionToLastMessageInDisciplineCallChat-FailsBeforeEndOfCall.jpg",
+              "source": "ae864fcee2284a6b97ff11ac09f5663f-attachment.jpg",
+              "type": "image/jpeg"
+            }
+          ],
+          "parameters": [],
+          "start": 1688618681047,
+          "stop": 1688618682244
+        },
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618682244,
+          "stop": 1688618682746
+        },
+        {
+          "name": "Проверка того что реакция был добавлен к сообщению",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618682746,
+          "stop": 1688618686982
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "baceb5696f184b6396accfe7f48c7196-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618659971,
+      "stop": 1688618686982
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618659971,
+  "stop": 1688618686982
+}

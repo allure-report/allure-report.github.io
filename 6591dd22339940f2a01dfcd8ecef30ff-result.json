@@ -1,0 +1,244 @@
+{
+  "uuid": "b9e647b7-dcc0-4cb1-b342-5a56228b9814-tr-0-1739",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineRoomChatCallTests.Миничат звонка - добавленная комната дисциплины: можно отправить сообщения по нажатию на Enter",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineRoomChatCallTests.Миничат звонка - добавленная комната дисциплины: можно отправить сообщения по нажатию на Enter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendMessageByTappingEnterInDisciplineRoomCallChat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineRoomChatCallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат звонка дисциплины"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Миничат звонка - добавленная комната дисциплины: можно отправить сообщения по нажатию на Enter",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат звонка - добавленная комната дисциплины: можно отправить сообщения по нажатию на Enter"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат звонка - добавленная комната дисциплины: можно отправить сообщения по нажатию на Enter",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618636179,
+          "stop": 1688618636926
+        },
+        {
+          "name": "Нажать на кнопку чата в звонке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку Присоединиться в предбаннике",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618636926,
+              "stop": 1688618642486
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618636926,
+          "stop": 1688618648836
+        },
+        {
+          "name": "Отправить сообщение нажатем на enter",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618648837,
+          "stop": 1688618651554
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "CheckSendMessageByTappingEnterInDisciplineRoomCallChat-FailsBeforeEndOfCall.jpg",
+              "source": "2247636053594d548a2802d587f968e0-attachment.jpg",
+              "type": "image/jpeg"
+            }
+          ],
+          "parameters": [],
+          "start": 1688618651554,
+          "stop": 1688618653259
+        },
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618653259,
+          "stop": 1688618653754
+        },
+        {
+          "name": "Проверка того что сообщение было отправлено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Получить id последнего сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Проверка того что чат имеет какое-либо сообщения",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618658540,
+                  "stop": 1688618658620
+                },
+                {
+                  "name": "Ожидать пока появытся слово 'Отправляется...'",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618658620,
+                  "stop": 1688618659698
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618657486,
+              "stop": 1688618659737
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618653754,
+          "stop": 1688618659783
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2802915c080746c99e7077ecbe639159-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618636136,
+      "stop": 1688618659783
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618636136,
+  "stop": 1688618659783
+}

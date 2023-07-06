@@ -1,0 +1,146 @@
+{
+  "uuid": "c864a5d7-670e-4c0a-a857-1156c39d643b-tr-0-1588",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortCreationTests.Создание потока ВО: работает кнопка 'Отмена'",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortCreationTests.Создание потока ВО: работает кнопка 'Отмена'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCancelCohortCreation"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortCreationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Создание потока ВО: работает кнопка 'Отмена'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание потока ВО: работает кнопка 'Отмена'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание потока ВО: работает кнопка 'Отмена'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618921862,
+          "stop": 1688618922572
+        },
+        {
+          "name": "Нажать на кнопку 'Добавить' поток",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618922572,
+          "stop": 1688618928877
+        },
+        {
+          "name": "Нажать на кнопку 'Отмена' в создание потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618928877,
+          "stop": 1688618930104
+        },
+        {
+          "name": "Получить адрес образовательной программы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618930104,
+          "stop": 1688618934741
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "baa70d4219374cc8927e50e7a0e27f24-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618921856,
+      "stop": 1688618934741
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "5"
+    }
+  ],
+  "start": 1688618921856,
+  "stop": 1688618934742
+}

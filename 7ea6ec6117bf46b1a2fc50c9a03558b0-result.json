@@ -1,0 +1,213 @@
+{
+  "uuid": "934cf20a-3830-4b8e-8ae8-1e3720f1a96d-tr-0-1750",
+  "historyId": "OdinUiTests.Tests.Chat.GroupChatCallTests.Миничат звонка - групповой чат: невозможно отправить пустое сообщение",
+  "fullName": "OdinUiTests.Tests.Chat.GroupChatCallTests.Миничат звонка - групповой чат: невозможно отправить пустое сообщение",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendEmptyMessageInGroupCallChat"
+    },
+    {
+      "name": "testClass",
+      "value": "GroupChatCallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат группового звонка"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Миничат звонка - групповой чат: невозможно отправить пустое сообщение",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат звонка - групповой чат: невозможно отправить пустое сообщение"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат звонка - групповой чат: невозможно отправить пустое сообщение",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618471528,
+          "stop": 1688618472010
+        },
+        {
+          "name": "Нажать на кнопку чата в звонке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку Присоединиться в предбаннике",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618472010,
+              "stop": 1688618478587
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618472010,
+          "stop": 1688618489308
+        },
+        {
+          "name": "Отправить сообщение в чат",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока появытся слово 'Отправляется...'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618495982,
+              "stop": 1688618497054
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618489309,
+          "stop": 1688618497054
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "CheckSendEmptyMessageInGroupCallChat-FailsBeforeEndOfCall.jpg",
+              "source": "09fbbaeaae7649ea98cb7e5dd2681530-attachment.jpg",
+              "type": "image/jpeg"
+            }
+          ],
+          "parameters": [],
+          "start": 1688618497054,
+          "stop": 1688618499283
+        },
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618499283,
+          "stop": 1688618500063
+        },
+        {
+          "name": "Проверка того что сообщение было отправлено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618500063,
+          "stop": 1688618504336
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "67e9dbb8bd8b4e218572a46f7f910d4c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618471524,
+      "stop": 1688618504337
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618471524,
+  "stop": 1688618504337
+}

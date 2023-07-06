@@ -1,0 +1,392 @@
+{
+  "uuid": "1cf8b1ff-0d45-4dc4-83aa-4f67cae4d864-tr-0-2030",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests.Миничат - добавленная комната дисциплины: можно цитировать сообщению",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests.Миничат - добавленная комната дисциплины: можно цитировать сообщению",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddQuoteToLastMessageInDisciplineRoomMiniChat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineRoomMiniChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат дисциплины"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - добавленная комната дисциплины: можно цитировать сообщению",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат - добавленная комната дисциплины: можно цитировать сообщению"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат - добавленная комната дисциплины: можно цитировать сообщению",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618423408,
+          "stop": 1688618423467
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618423467,
+              "stop": 1688618424525
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618423467,
+          "stop": 1688618424950
+        },
+        {
+          "name": "Открыть внутренный чат по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618424950,
+          "stop": 1688618429926
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618429926,
+          "stop": 1688618438331
+        },
+        {
+          "name": "Ответить на отправленное сообщение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618438332,
+              "stop": 1688618438472
+            },
+            {
+              "name": "Получить id последнего сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Проверка того что чат имеет какое-либо сообщения",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618442298,
+                  "stop": 1688618442379
+                },
+                {
+                  "name": "Ожидать пока появытся слово 'Отправляется...'",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618442379,
+                  "stop": 1688618443443
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618441159,
+              "stop": 1688618443469
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618438331,
+          "stop": 1688618443495
+        },
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618443495,
+          "stop": 1688618444206
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618444206,
+          "stop": 1688618447701
+        },
+        {
+          "name": "Проверка того что сообщение было отвечено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что сообщение было отправлено",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Получить id последнего сообщения",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "name": "Проверка того что чат имеет какое-либо сообщения",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1688618449912,
+                      "stop": 1688618450012
+                    },
+                    {
+                      "name": "Ожидать пока появытся слово 'Отправляется...'",
+                      "status": "passed",
+                      "statusDetails": {
+                        "known": false,
+                        "muted": false,
+                        "flaky": false
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "start": 1688618450012,
+                      "stop": 1688618451095
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618448842,
+                  "stop": 1688618451123
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618447702,
+              "stop": 1688618451164
+            },
+            {
+              "name": "Получить id последнего сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Проверка того что чат имеет какое-либо сообщения",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618452229,
+                  "stop": 1688618452335
+                },
+                {
+                  "name": "Ожидать пока появытся слово 'Отправляется...'",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618452335,
+                  "stop": 1688618453406
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618451164,
+              "stop": 1688618453429
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618447702,
+          "stop": 1688618453455
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fb5afc0cafe34303bc39b01ace5c01b1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618423393,
+      "stop": 1688618453456
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618423393,
+  "stop": 1688618453456
+}

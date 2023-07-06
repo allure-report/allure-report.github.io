@@ -1,0 +1,157 @@
+{
+  "uuid": "34c45d1d-287d-4bfe-a961-a6d31c25083d-tr-0-1999",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineMiniChatTests.Миничат - комната дисциплины: можно редактировать сообщение в течение 4 часов после отправки",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineMiniChatTests.Миничат - комната дисциплины: можно редактировать сообщение в течение 4 часов после отправки",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEditLastMessageInDisciplineMiniChat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineMiniChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат дисциплины"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - комната дисциплины: можно редактировать сообщение в течение 4 часов после отправки",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.JavaScriptException : javascript error: Cannot set properties of null (setting 'scrollLeft')\n  (Session info: headless chrome=111.0.5563.146)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\n   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScriptInternal(IWebDriver driver, String script, Object[] args)\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScript(IWebDriver driver, String script, Object[] args)\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 239\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.DisciplineMiniChatTests.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 29"
+  },
+  "stage": "finished",
+  "description": "\nSetUp SetUp method failed\n",
+  "steps": [
+    {
+      "name": "Миничат - комната дисциплины: можно редактировать сообщение в течение 4 часов после отправки skipped because of OneTimeSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.JavaScriptException : javascript error: Cannot set properties of null (setting 'scrollLeft')\n  (Session info: headless chrome=111.0.5563.146)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\n   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScriptInternal(IWebDriver driver, String script, Object[] args)\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScript(IWebDriver driver, String script, Object[] args)\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 239\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.DisciplineMiniChatTests.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 29"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618420649,
+          "stop": 1688618420698
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "javascript error: Cannot set properties of null (setting 'scrollLeft')\n  (Session info: headless chrome=111.0.5563.146)",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\n   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScriptInternal(IWebDriver driver, String script, Object[] args)\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScript(IWebDriver driver, String script, Object[] args)\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 239\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618420698,
+              "stop": 1688618421751
+            },
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618421857,
+              "stop": 1688618422922
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618420698,
+          "stop": 1688618422946
+        }
+      ],
+      "attachments": [
+        {
+          "name": "CheckEditLastMessageInDisciplineMiniChat.jpg",
+          "source": "fa208e7cf95041ffbdc9ecf191ea67b9-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "bd88a143fbb64f909f42ff3066ccd047-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618420646,
+      "stop": 1688618423470
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618420646,
+  "stop": 1688618423471
+}

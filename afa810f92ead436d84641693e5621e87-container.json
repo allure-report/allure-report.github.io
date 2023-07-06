@@ -1,0 +1,61 @@
+{
+  "uuid": "ff7a3c1b-d37c-48b6-b62f-631f36dff377-tc-0-1994",
+  "name": "OdinUiTests.Tests.Chat.DisciplineMiniChatTests.Миничат - комната дисциплины: можно редактировать сообщение в течение 4 часов после отправки",
+  "children": [
+    "34c45d1d-287d-4bfe-a961-a6d31c25083d-tr-0-1999"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618423470,
+      "stop": 1688618423470
+    },
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.JavaScriptException : javascript error: Cannot set properties of null (setting 'scrollLeft')\n  (Session info: headless chrome=111.0.5563.146)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\n   at OpenQA.Selenium.WebDriver.ExecuteScript(String script, Object[] args)\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScriptInternal(IWebDriver driver, String script, Object[] args)\n   at OpenQA.Selenium.Support.Extensions.WebDriverExtensions.ExecuteJavaScript(IWebDriver driver, String script, Object[] args)\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 239\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.DisciplineMiniChatTests.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 29"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618423470,
+      "stop": 1688618423470
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618423470,
+      "stop": 1688618423470
+    }
+  ],
+  "links": [],
+  "start": 1688618420646,
+  "stop": 1688618423471
+}

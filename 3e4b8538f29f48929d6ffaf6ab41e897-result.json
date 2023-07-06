@@ -1,0 +1,208 @@
+{
+  "uuid": "977ae7f7-c0d1-4b26-87e9-1db708a998c3-tr-0-1951",
+  "historyId": "OdinUiTests.Tests.Chat.PersonalChatTests.Список чатов - личный чат: можно отправить смайлики",
+  "fullName": "OdinUiTests.Tests.Chat.PersonalChatTests.Список чатов - личный чат: можно отправить смайлики",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendEmojiInPersonalChat"
+    },
+    {
+      "name": "testClass",
+      "value": "PersonalChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Личный чат"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Список чатов - личный чат: можно отправить смайлики",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Список чатов - личный чат: можно отправить смайлики"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Список чатов - личный чат: можно отправить смайлики",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618867543,
+          "stop": 1688618867993
+        },
+        {
+          "name": "Получить рандомна смайлик",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618867993,
+          "stop": 1688618873261
+        },
+        {
+          "name": "Отправить смайлик",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока появытся слово 'Отправляется...'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618874362,
+              "stop": 1688618874961
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618873261,
+          "stop": 1688618874961
+        },
+        {
+          "name": "Проверка того что сообщение было отправлено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Получить id последнего сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Проверка того что чат имеет какое-либо сообщения",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618881046,
+                  "stop": 1688618881114
+                },
+                {
+                  "name": "Ожидать пока появытся слово 'Отправляется...'",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618881114,
+                  "stop": 1688618882181
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618879978,
+              "stop": 1688618882230
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618874961,
+          "stop": 1688618882282
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c4553d8d138c4155aff7c597b9421e45-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618867535,
+      "stop": 1688618882283
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618867535,
+  "stop": 1688618882283
+}

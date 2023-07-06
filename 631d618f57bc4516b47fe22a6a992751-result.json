@@ -1,0 +1,207 @@
+{
+  "uuid": "221163fa-7387-4100-9ead-f97223e1fd87-tr-0-2113",
+  "historyId": "OdinUiTests.Tests.Chat.PersonalMiniChatTests.Миничат - личный чат: можно прикрепить и отправить файл с компьютера",
+  "fullName": "OdinUiTests.Tests.Chat.PersonalMiniChatTests.Миничат - личный чат: можно прикрепить и отправить файл с компьютера",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendFileMessageInPersonalMiniChat"
+    },
+    {
+      "name": "testClass",
+      "value": "PersonalMiniChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат личного чата"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Миничат - личный чат: можно прикрепить и отправить файл с компьютера",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат - личный чат: можно прикрепить и отправить файл с компьютера"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат - личный чат: можно прикрепить и отправить файл с компьютера",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть главную страницу с открытием миничата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618923689,
+          "stop": 1688618925859
+        },
+        {
+          "name": "Открыть чат в миничате по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618925859,
+              "stop": 1688618929096
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618925859,
+          "stop": 1688618929472
+        },
+        {
+          "name": "Отправить файловый сообщение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ожидать пока появытся слово 'Отправляется...'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618933512,
+              "stop": 1688618934649
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618929473,
+          "stop": 1688618934649
+        },
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618934649,
+          "stop": 1688618935165
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618935165,
+          "stop": 1688618936239
+        },
+        {
+          "name": "Проверка того что файловый сообщение было отправлено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618936239,
+          "stop": 1688618939456
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b7478f225c8345d29238d9f9544d5fef-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618923683,
+      "stop": 1688618939456
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618923683,
+  "stop": 1688618939456
+}

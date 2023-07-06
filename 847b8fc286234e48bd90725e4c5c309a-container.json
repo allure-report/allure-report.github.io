@@ -1,0 +1,61 @@
+{
+  "uuid": "b5737ccd-71f7-446d-bdd5-13175ab6ecf2-tc-0-2098",
+  "name": "OdinUiTests.Tests.Chat.PersonalMiniChatTests.Миничат - личный чат: можно отправить сообщения по нажатию на Enter",
+  "children": [
+    "d97dbb87-4417-4847-b7df-d4250fc7a30f-tr-0-2117"
+  ],
+  "befores": [
+    {
+      "name": "OneTimeSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618948191,
+      "stop": 1688618948191
+    },
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div data-v-756beebe=\"\" class=\"ellipsis link\">...</div> is not clickable at point (1510, 48). Other element would receive the click: <i class=\"q-icon notranslate material-icons q-tabs__arrow q-tabs__arrow--left absolute q-tab__icon\" aria-hidden=\"true\" role=\"presentation\">...</i>\n  (Session info: headless chrome=111.0.5563.146)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 229\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.PersonalMiniChatTests.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 661"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618948191,
+      "stop": 1688618948191
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618948191,
+      "stop": 1688618948191
+    }
+  ],
+  "links": [],
+  "start": 1688618945456,
+  "stop": 1688618948191
+}

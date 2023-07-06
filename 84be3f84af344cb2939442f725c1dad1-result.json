@@ -1,0 +1,146 @@
+{
+  "uuid": "4f0b3d1b-0938-4275-ac1d-44d597da40a5-tr-0-1017",
+  "historyId": "OdinUiTests.Tests.UserProfile.GeneralUserInfoEditingTests.Редактирование профиля пользователя: можно отключить транслитерацию",
+  "fullName": "OdinUiTests.Tests.UserProfile.GeneralUserInfoEditingTests.Редактирование профиля пользователя: можно отключить транслитерацию",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.UserProfile"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSwitchToOwnTransliteration"
+    },
+    {
+      "name": "testClass",
+      "value": "GeneralUserInfoEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Профиль"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Профиль"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование профиля пользователя: можно отключить транслитерацию",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование профиля пользователя: можно отключить транслитерацию"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование профиля пользователя: можно отключить транслитерацию",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу профиля пользователя",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619172888,
+          "stop": 1688619173196
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619173196,
+          "stop": 1688619174936
+        },
+        {
+          "name": "Переключить свитча транслитерации",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619174936,
+          "stop": 1688619175603
+        },
+        {
+          "name": "Проверка того что свитч транслитерация переключен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619175603,
+          "stop": 1688619175645
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e8e217b095fe4ba5b6d5228d407d3fa7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619172886,
+      "stop": 1688619175645
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "False"
+    }
+  ],
+  "start": 1688619172886,
+  "stop": 1688619175645
+}

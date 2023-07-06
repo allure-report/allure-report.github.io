@@ -1,0 +1,228 @@
+{
+  "uuid": "d047922d-4cad-4b02-a291-206e9605e276-tr-0-1737",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineRoomChatCallTests.Миничат звонка - добавленная комната дисциплины: можно раскрывать изображения",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineRoomChatCallTests.Миничат звонка - добавленная комната дисциплины: можно раскрывать изображения",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckOpenImageInDisciplineRoomCallChat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineRoomChatCallTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Мини-чат звонка дисциплины"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Миничат звонка - добавленная комната дисциплины: можно раскрывать изображения",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Миничат звонка - добавленная комната дисциплины: можно раскрывать изображения"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Миничат звонка - добавленная комната дисциплины: можно раскрывать изображения",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу звонку по айди чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618618439,
+          "stop": 1688618619003
+        },
+        {
+          "name": "Нажать на кнопку чата в звонке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку Присоединиться в предбаннике",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618619003,
+              "stop": 1688618624074
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618619003,
+          "stop": 1688618630362
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618630362,
+          "stop": 1688618632603
+        },
+        {
+          "name": "Открыть изображение в чате",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618632603,
+              "stop": 1688618632740
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618632603,
+          "stop": 1688618633045
+        },
+        {
+          "name": "Проверка того изображение был открыть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618633045,
+          "stop": 1688618633686
+        },
+        {
+          "name": "Закрыть все модалки, если они были открыты",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618633686,
+          "stop": 1688618634559
+        },
+        {
+          "name": "Нажать на кнопку завершения звонка",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [
+            {
+              "name": "CheckOpenImageInDisciplineRoomCallChat-FailsBeforeEndOfCall.jpg",
+              "source": "74a0cd80daf741a999af497cfe40733e-attachment.jpg",
+              "type": "image/jpeg"
+            }
+          ],
+          "parameters": [],
+          "start": 1688618634559,
+          "stop": 1688618636134
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c61a134a576741159b4adad0910a1580-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618618425,
+      "stop": 1688618636135
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618618425,
+  "stop": 1688618636135
+}

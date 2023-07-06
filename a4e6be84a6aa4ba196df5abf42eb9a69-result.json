@@ -1,0 +1,176 @@
+{
+  "uuid": "3c3a22c2-94da-479d-b30b-8d58e20b6f28-tr-0-1908",
+  "historyId": "OdinUiTests.Tests.Chat.GroupChatTests.Список чатов - групповой чат: можно найти отправленное сообщение",
+  "fullName": "OdinUiTests.Tests.Chat.GroupChatTests.Список чатов - групповой чат: можно найти отправленное сообщение",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckFindSentMessageInGroupChat"
+    },
+    {
+      "name": "testClass",
+      "value": "GroupChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Групповой чат"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Список чатов - групповой чат: можно найти отправленное сообщение",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Список чатов - групповой чат: можно найти отправленное сообщение"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Список чатов - групповой чат: можно найти отправленное сообщение",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618643120,
+          "stop": 1688618643637
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618643637,
+          "stop": 1688618644950
+        },
+        {
+          "name": "Получить текст рандомного сообщения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618644950,
+              "stop": 1688618647120
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618644950,
+          "stop": 1688618647207
+        },
+        {
+          "name": "Найти отправленное сообщение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618647207,
+          "stop": 1688618648658
+        },
+        {
+          "name": "Проверка того что отправленное сообщение был найден",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618648658,
+          "stop": 1688618649790
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ce1f304a2e72410bb4d28d9df6899bae-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618643113,
+      "stop": 1688618649790
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618643113,
+  "stop": 1688618649790
+}

@@ -1,0 +1,156 @@
+{
+  "uuid": "2124db34-7f86-48b7-9afb-af4ed5b56a24-tr-0-1663",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingValidationTests.Редактирование потока: ошибка валидации, если дата начала и окончания не заполнены",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingValidationTests.Редактирование потока: ошибка валидации, если дата начала и окончания не заполнены",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEditCohortIfStartAndEndDateNotFilled"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingValidationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока: ошибка валидации, если дата начала и окончания не заполнены",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока: ошибка валидации, если дата начала и окончания не заполнены"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока: ошибка валидации, если дата начала и окончания не заполнены",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619060601,
+          "stop": 1688619060924
+        },
+        {
+          "name": "Очистить значение в поля ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619060924,
+          "stop": 1688619062682
+        },
+        {
+          "name": "Очистить значение в поля ",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619062682,
+          "stop": 1688619063864
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619063864,
+          "stop": 1688619063949
+        },
+        {
+          "name": "Проверка появление ошибки валидации в поля ''",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619063949,
+          "stop": 1688619065097
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e5d9d18d8ac941158c1fe22164713e26-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619060598,
+      "stop": 1688619065130
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619060598,
+  "stop": 1688619065130
+}

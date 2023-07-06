@@ -1,0 +1,177 @@
+{
+  "uuid": "f08cf1f1-5868-45f6-9e87-918540ad789a-tr-0-1891",
+  "historyId": "OdinUiTests.Tests.Chat.TaskChatTests.Список чатов - обсуждение решения: можно отправить сообщения по нажатию на Enter",
+  "fullName": "OdinUiTests.Tests.Chat.TaskChatTests.Список чатов - обсуждение решения: можно отправить сообщения по нажатию на Enter",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendMessageByTappingEnterInTaskChat"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Чат решения"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Список чатов - обсуждение решения: можно отправить сообщения по нажатию на Enter",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Список чатов - обсуждение решения: можно отправить сообщения по нажатию на Enter"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Список чатов - обсуждение решения: можно отправить сообщения по нажатию на Enter",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618930312,
+          "stop": 1688618930739
+        },
+        {
+          "name": "Отправить сообщение нажатем на enter",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618930739,
+          "stop": 1688618937476
+        },
+        {
+          "name": "Проверка того что сообщение было отправлено",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Получить id последнего сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Проверка того что чат имеет какое-либо сообщения",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618943129,
+                  "stop": 1688618943178
+                },
+                {
+                  "name": "Ожидать пока появытся слово 'Отправляется...'",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688618943178,
+                  "stop": 1688618944248
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618942058,
+              "stop": 1688618944288
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618937476,
+          "stop": 1688618944353
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "920ba0cdba0b46f8abbe2b9d9a74130c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618930308,
+      "stop": 1688618944353
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618930308,
+  "stop": 1688618944354
+}

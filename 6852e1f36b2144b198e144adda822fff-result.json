@@ -1,0 +1,156 @@
+{
+  "uuid": "b5e1b444-70c9-44b8-9a25-af0f93404f71-tr-0-1669",
+  "historyId": "OdinUiTests.Tests.Cohort.CohortEditingValidationTests.Редактирование потока ДО (СЗ): нет возможности изменить даты потока, если в нем есть слушатели",
+  "fullName": "OdinUiTests.Tests.Cohort.CohortEditingValidationTests.Редактирование потока ДО (СЗ): нет возможности изменить даты потока, если в нем есть слушатели",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Cohort"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIsNotPossibleChangeDatesInEditingCohort"
+    },
+    {
+      "name": "testClass",
+      "value": "CohortEditingValidationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Поток"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Поток"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование потока ДО (СЗ): нет возможности изменить даты потока, если в нем есть слушатели",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование потока ДО (СЗ): нет возможности изменить даты потока, если в нем есть слушатели"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование потока ДО (СЗ): нет возможности изменить даты потока, если в нем есть слушатели",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619076251,
+          "stop": 1688619076889
+        },
+        {
+          "name": "Открыть страницу потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619076889,
+          "stop": 1688619077254
+        },
+        {
+          "name": "Получить id потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619080529,
+          "stop": 1688619080566
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619080583,
+          "stop": 1688619081757
+        },
+        {
+          "name": "Проверка того что поля даты не кликабельны",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619081757,
+          "stop": 1688619085046
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9fb704c5686941d9b41338ade8ff4864-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619076247,
+      "stop": 1688619085046
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619076247,
+  "stop": 1688619085046
+}

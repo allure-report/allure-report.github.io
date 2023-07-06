@@ -1,0 +1,167 @@
+{
+  "uuid": "9dacb477-1850-408f-bd75-d8d87520759e-tr-0-1806",
+  "historyId": "OdinUiTests.Tests.Chat.DisciplineChatTests.Список чатов - комната дисциплины: можно сделать звонок",
+  "fullName": "OdinUiTests.Tests.Chat.DisciplineChatTests.Список чатов - комната дисциплины: можно сделать звонок",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCallInDisciplineChat"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Список чатов - комната дисциплины: можно сделать звонок",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Список чатов - комната дисциплины: можно сделать звонок"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Список чатов - комната дисциплины: можно сделать звонок",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618491912,
+          "stop": 1688618492342
+        },
+        {
+          "name": "Нажать на кнопку звонка из чата",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618492342,
+          "stop": 1688618500679
+        },
+        {
+          "name": "Проверка того что звонок был начать",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку Присоединиться в предбаннике",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618501776,
+              "stop": 1688618505160
+            },
+            {
+              "name": "Нажать на кнопку завершения звонка",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [
+                {
+                  "name": "CheckCallInDisciplineChat-FailsBeforeEndOfCall.jpg",
+                  "source": "a7f2d0981aa0454a95173740c356a53a-attachment.jpg",
+                  "type": "image/jpeg"
+                }
+              ],
+              "parameters": [],
+              "start": 1688618513217,
+              "stop": 1688618514927
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618500679,
+          "stop": 1688618514927
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6b464cf5f6a746c085110a30ef9aea61-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618491898,
+      "stop": 1688618514927
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618491898,
+  "stop": 1688618514927
+}

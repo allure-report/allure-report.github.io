@@ -1,0 +1,171 @@
+{
+  "uuid": "d742274c-a91d-4959-bd21-e3456856c94c-tr-0-1032",
+  "historyId": "OdinUiTests.Tests.UserProfile.AddressAndContactsEditingTests.Редактирование профиля пользователя: можно изменить email",
+  "fullName": "OdinUiTests.Tests.UserProfile.AddressAndContactsEditingTests.Редактирование профиля пользователя: можно изменить email",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.UserProfile"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckEmailField"
+    },
+    {
+      "name": "testClass",
+      "value": "AddressAndContactsEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Профиль"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Профиль"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование профиля пользователя: можно изменить email",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование профиля пользователя: можно изменить email"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование профиля пользователя: можно изменить email",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу профиля пользователя",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619185111,
+          "stop": 1688619185395
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619185395,
+          "stop": 1688619188631
+        },
+        {
+          "name": "Разблокировать поля 'Контакты'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619188631,
+          "stop": 1688619190511
+        },
+        {
+          "name": "Редактировать полю 'Email'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619190511,
+          "stop": 1688619191819
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619191819,
+          "stop": 1688619191893
+        },
+        {
+          "name": "Получить значение поля 'Email'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619191893,
+          "stop": 1688619193050
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b1be9f1be66f4ebc99a33cbd79d65a34-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619183400,
+      "stop": 1688619193155
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619183400,
+  "stop": 1688619193155
+}

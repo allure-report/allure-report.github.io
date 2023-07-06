@@ -1,0 +1,61 @@
+{
+  "uuid": "8e9acca8-c6fc-439a-be9f-217948e918bb-tc-0-2023",
+  "name": "OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests.Миничат - добавленная комната дисциплины: можно раскрывать изображения",
+  "children": [
+    "e7b76202-2061-4608-ab57-6b1bbe339fb7-tr-0-2040"
+  ],
+  "befores": [
+    {
+      "name": "GetChatRoomId",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618504775,
+      "stop": 1688618504775
+    },
+    {
+      "name": "SetUp",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Exception : Нужный чат не был найден среди чатов в миничате",
+        "trace": "   at OdinUiTests.Pages.ChatCommonPage.<>c__DisplayClass72_0.<OpenChatWithName>b__0() in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 247\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\n   at OdinUiTests.Pages.ChatCommonPage.OpenChatWithName(String chatName) in /azp/_work/7/s/Pages/ChatCommonPage.cs:line 170\n   at OdinUiTests.Tests.Chat.DisciplineRoomMiniChatTests.SetUp() in /azp/_work/7/s/Tests/Chat/MiniChatTests.cs:line 164"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618504775,
+      "stop": 1688618504775
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688618504775,
+      "stop": 1688618504775
+    }
+  ],
+  "links": [],
+  "start": 1688618500711,
+  "stop": 1688618504776
+}

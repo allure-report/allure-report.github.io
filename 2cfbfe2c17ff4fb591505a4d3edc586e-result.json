@@ -1,0 +1,207 @@
+{
+  "uuid": "682a4b6e-d714-471d-92b6-9b84dcf39a4e-tr-0-1893",
+  "historyId": "OdinUiTests.Tests.Chat.TaskChatTests.Список чатов - обсуждение решения: можно добавить реакцию на сообщение",
+  "fullName": "OdinUiTests.Tests.Chat.TaskChatTests.Список чатов - обсуждение решения: можно добавить реакцию на сообщение",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "1826551dfcce"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Chat"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAddReactionToLastMessageInTaskChat"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskChatTests"
+    },
+    {
+      "name": "tag",
+      "value": "Чат"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Чат"
+    },
+    {
+      "name": "subSuite",
+      "value": "Чат решения"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Список чатов - обсуждение решения: можно добавить реакцию на сообщение",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Список чатов - обсуждение решения: можно добавить реакцию на сообщение"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Список чатов - обсуждение решения: можно добавить реакцию на сообщение",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть чат по айди",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618944380,
+          "stop": 1688618944771
+        },
+        {
+          "name": "Ожидать пока спиннеры из мини-чата исчезнуть",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618944771,
+          "stop": 1688618945863
+        },
+        {
+          "name": "Получить id последнего сообщения",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618950167,
+              "stop": 1688618950226
+            },
+            {
+              "name": "Ожидать пока появытся слово 'Отправляется...'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618950226,
+              "stop": 1688618951277
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618945863,
+          "stop": 1688618951308
+        },
+        {
+          "name": "Добавить реакцию к сообщение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка того что чат имеет какое-либо сообщения",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618951308,
+              "stop": 1688618951353
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618951308,
+          "stop": 1688618954103
+        },
+        {
+          "name": "Проверка того что реакция был добавлен к сообщению",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618954103,
+          "stop": 1688618958408
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0319ecf8117a4c25afa2e3d21fae464c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618944355,
+      "stop": 1688618958408
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618944355,
+  "stop": 1688618958409
+}
