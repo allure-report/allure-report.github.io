@@ -1,0 +1,181 @@
+{
+  "uuid": "ca1e3efe-7299-4a0c-870f-67c4b038c025-tr-0-1250",
+  "historyId": "OdinUiTests.Tests.Library.TestTrainQuestionsValidationTests.Конструктор теста-тренажера: проставление отметки верности варианта ответа",
+  "fullName": "OdinUiTests.Tests.Library.TestTrainQuestionsValidationTests.Конструктор теста-тренажера: проставление отметки верности варианта ответа",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAndUncheckAnswerOptionInTestTrain"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTrainQuestionsValidationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Материал"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Материал"
+    },
+    {
+      "name": "subSuite",
+      "value": "Конструктор тест-тренажера"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "Конструктор теста-тренажера: проставление отметки верности варианта ответа",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Конструктор теста-тренажера: проставление отметки верности варианта ответа"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Конструктор теста-тренажера: проставление отметки верности варианта ответа",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619400755,
+          "stop": 1688619401135
+        },
+        {
+          "name": "Нажать на карандаш первого вопроса для редактирование вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619401135,
+          "stop": 1688619403517
+        },
+        {
+          "name": "Отметка верности варианта ответа",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Ждать пока появятся слово 'Сохранено'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688619403960,
+              "stop": 1688619406600
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619403517,
+          "stop": 1688619407658
+        },
+        {
+          "name": "Нажать на ссылку для перехода в страницу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619407658,
+          "stop": 1688619407757
+        },
+        {
+          "name": "Получить состояние правильности ответа первого вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619407757,
+          "stop": 1688619409659
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e7b6794d959a47849bc7b375512a3435-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619400753,
+      "stop": 1688619409659
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "true"
+    }
+  ],
+  "start": 1688619400753,
+  "stop": 1688619409659
+}

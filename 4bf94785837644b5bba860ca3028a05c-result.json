@@ -1,0 +1,221 @@
+{
+  "uuid": "f050e9f7-607f-4f1f-9f18-0ca2afe8345d-tr-0-1437",
+  "historyId": "OdinUiTests.Tests.Discipline.DisContingentCreationTests.Создание дисциплины: есть возможность создать дисциплину выбрав галку ‘Все студенты потока’",
+  "fullName": "OdinUiTests.Tests.Discipline.DisContingentCreationTests.Создание дисциплины: есть возможность создать дисциплину выбрав галку ‘Все студенты потока’",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCreateDisciplineByCheckingBoxAllCohortStudents"
+    },
+    {
+      "name": "testClass",
+      "value": "DisContingentCreationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Создание дисциплины: есть возможность создать дисциплину выбрав галку ‘Все студенты потока’",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание дисциплины: есть возможность создать дисциплину выбрав галку ‘Все студенты потока’"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание дисциплины: есть возможность создать дисциплину выбрав галку ‘Все студенты потока’",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619199959,
+          "stop": 1688619200234
+        },
+        {
+          "name": "Заполнения обязательных полей для создании дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Редактировать названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688619200234,
+              "stop": 1688619201974
+            },
+            {
+              "name": "Редактировать краткое названия дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688619201974,
+              "stop": 1688619203176
+            },
+            {
+              "name": "Редактировать описания дисциплины",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688619203176,
+              "stop": 1688619204426
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619200234,
+          "stop": 1688619204426
+        },
+        {
+          "name": "Проверка того что галка 'Все студенты потока' по умолчанию выбрано",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619204426,
+          "stop": 1688619205504
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619205504,
+          "stop": 1688619205576
+        },
+        {
+          "name": "Проверка того что корректно ли создан дисциплина со студентами потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619205577,
+          "stop": 1688619207827
+        },
+        {
+          "name": "Получить id дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619207827,
+          "stop": 1688619207831
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1c074102b0a14215bef3d6f94fcb7484-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619199882,
+      "stop": 1688619207831
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619199882,
+  "stop": 1688619207831
+}

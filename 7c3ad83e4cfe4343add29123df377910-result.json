@@ -1,0 +1,242 @@
+{
+  "uuid": "b8602503-53d6-4447-b5bf-a773a998be2e-tr-0-2426",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityStatusWithOneAttemptTests.Страница командной контрольной: статус и цвет у количества баллов в попытке различаются в зависимости от успешности",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityStatusWithOneAttemptTests.Страница командной контрольной: статус и цвет у количества баллов в попытке различаются в зависимости от успешности",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckStatusScoreColorAndIcon"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityStatusWithOneAttemptTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница командной контрольной: статус и цвет у количества баллов в попытке различаются в зависимости от успешности",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница командной контрольной: статус и цвет у количества баллов в попытке различаются в зависимости от успешности"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница командной контрольной: статус и цвет у количества баллов в попытке различаются в зависимости от успешности",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618984338,
+          "stop": 1688618984746
+        },
+        {
+          "name": "Перейти к тесту и начать тест",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку 'Приступить'",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688618993172,
+              "stop": 1688618995375
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618984746,
+          "stop": 1688618995375
+        },
+        {
+          "name": "Ответить на все вопросы",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618995375,
+          "stop": 1688619001973
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить на проверку'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619001973,
+          "stop": 1688619002078
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить на проверку' в модалке",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619002078,
+          "stop": 1688619002688
+        },
+        {
+          "name": "Нажать на хлебную крошку активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619002688,
+          "stop": 1688619006874
+        },
+        {
+          "name": "Проверка того результаты теста зависить от настройки теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Проверка цвета баллов в попытках",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688619013035,
+              "stop": 1688619013054
+            },
+            {
+              "name": "Звездочка отображается у последней попытки",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688619013054,
+              "stop": 1688619013084
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619006874,
+          "stop": 1688619013109
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8e4fcd5228ce4fe4b5c940a621aa465d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618981605,
+      "stop": 1688619013109
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "135"
+    }
+  ],
+  "start": 1688618981605,
+  "stop": 1688619013110
+}

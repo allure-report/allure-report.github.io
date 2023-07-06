@@ -1,0 +1,213 @@
+{
+  "uuid": "e2e81abc-ea86-4d0f-8a3b-0c6d47df4328-tr-0-2379",
+  "historyId": "OdinUiTests.Tests.Activity.TestCommandActivityTests.Страница активности контрольная: редактирование команды",
+  "fullName": "OdinUiTests.Tests.Activity.TestCommandActivityTests.Страница активности контрольная: редактирование команды",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "EditCommandToControlTypeActivityInCommandMode"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCommandActivityTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница активности контрольная: редактирование команды",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Команда сохранено, но выбранные студенты не были добавлены\n  Expected: True\n  But was:  False\n",
+    "trace": "   at OdinUiTests.Tests.Activity.TestCommandActivityTests.EditCommandToControlTypeActivityInCommandMode() in /azp/_work/1/s/Tests/Activity/TestActivityTests.cs:line 274\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница активности контрольная: редактирование команды",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Команда сохранено, но выбранные студенты не были добавлены\n  Expected: True\n  But was:  False\n",
+        "trace": "   at OdinUiTests.Tests.Activity.TestCommandActivityTests.EditCommandToControlTypeActivityInCommandMode() in /azp/_work/1/s/Tests/Activity/TestActivityTests.cs:line 274\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618901433,
+          "stop": 1688618901713
+        },
+        {
+          "name": "Проверка и получение названия существующей команды",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618901714,
+          "stop": 1688618906075
+        },
+        {
+          "name": "Открыть существующего команду по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618906075,
+          "stop": 1688618913346
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' чтобы редактировать команду",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618913346,
+          "stop": 1688618913463
+        },
+        {
+          "name": "Добавить еще одного студента в команду",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618913463,
+          "stop": 1688618914648
+        },
+        {
+          "name": "Сохранить команду",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618914648,
+          "stop": 1688618917326
+        },
+        {
+          "name": "Открыть существующего команду по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618917326,
+          "stop": 1688618922911
+        },
+        {
+          "name": "Проверка того что выбранные студенты были добавлены",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618922911,
+          "stop": 1688618922932
+        }
+      ],
+      "attachments": [
+        {
+          "name": "EditCommandToControlTypeActivityInCommandMode.jpg",
+          "source": "50a523c76ab449de9b8af97283332a49-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "742855cb285543ab878cd1624afa17d0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618901430,
+      "stop": 1688618923220
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618901430,
+  "stop": 1688618923220
+}

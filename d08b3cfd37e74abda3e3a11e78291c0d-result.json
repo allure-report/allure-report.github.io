@@ -1,0 +1,231 @@
+{
+  "uuid": "97d0b7c5-4a60-4ee3-a107-b857c4235fc0-tr-0-1341",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineCreationTests.Создание дисциплины ВО: можно создать дисциплину из шаблона дисциплины с активностями",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineCreationTests.Создание дисциплины ВО: можно создать дисциплину из шаблона дисциплины с активностями",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CreatDisciplineFromDisciplineTemplateWithActivities"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineCreationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Создание дисциплины ВО: можно создать дисциплину из шаблона дисциплины с активностями",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание дисциплины ВО: можно создать дисциплину из шаблона дисциплины с активностями"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание дисциплины ВО: можно создать дисциплину из шаблона дисциплины с активностями",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619210980,
+          "stop": 1688619211461
+        },
+        {
+          "name": "Нажать на кнопку 'Выбрать шаблон'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619211461,
+          "stop": 1688619212108
+        },
+        {
+          "name": "Выбрать шаблон из библиотеки по названию",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Прокрутить вниз до появлении последного материала",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688619213143,
+                  "stop": 1688619214211
+                },
+                {
+                  "name": "Ожидать пока загрузится библиотека",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688619214250,
+                  "stop": 1688619215318
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688619213143,
+              "stop": 1688619215323
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619212108,
+          "stop": 1688619216542
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619216542,
+          "stop": 1688619216620
+        },
+        {
+          "name": "Проверка того что активности шаблона совпадают с активности дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619216620,
+          "stop": 1688619218744
+        },
+        {
+          "name": "Получить id дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619218744,
+          "stop": 1688619218749
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "68c7f083197d431e9d3a75c49028b3a8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619210890,
+      "stop": 1688619218749
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "39"
+    },
+    {
+      "name": "Param #1",
+      "value": "True"
+    }
+  ],
+  "start": 1688619210890,
+  "stop": 1688619218749
+}

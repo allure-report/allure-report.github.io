@@ -1,0 +1,160 @@
+{
+  "uuid": "3d9a538e-583c-4a24-85bc-af307b3d1e71-tr-0-2381",
+  "historyId": "OdinUiTests.Tests.Activity.TestCommandActivityTests.Страница активности контрольная: удаление команды",
+  "fullName": "OdinUiTests.Tests.Activity.TestCommandActivityTests.Страница активности контрольная: удаление команды",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "DeleteCommandToControlTypeActivityInCommandMode"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCommandActivityTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница активности контрольная: удаление команды",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница активности контрольная: удаление команды"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница активности контрольная: удаление команды",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу активности",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618923224,
+          "stop": 1688618923492
+        },
+        {
+          "name": "Проверка и получение названия существующей команды",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618923492,
+          "stop": 1688618932821
+        },
+        {
+          "name": "Открыть существующего команду по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618932821,
+          "stop": 1688618941559
+        },
+        {
+          "name": "Удалить существующего команды",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618941559,
+          "stop": 1688618944437
+        },
+        {
+          "name": "Проверка того что команда была удалена",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618944437,
+          "stop": 1688618949525
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1a414e3c4151412c9df568609c4e18d3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618923221,
+      "stop": 1688618949525
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618923221,
+  "stop": 1688618949525
+}

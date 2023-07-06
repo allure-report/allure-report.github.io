@@ -1,0 +1,139 @@
+{
+  "uuid": "1a890bac-66bb-4fbe-b6d5-22e2bf3fa016-tr-0-1562",
+  "historyId": "OdinUiTests.Tests.Discipline.DisciplineStudentTests.Страница дисциплины: работает кнопка 'Открепить из главного меню' у студента",
+  "fullName": "OdinUiTests.Tests.Discipline.DisciplineStudentTests.Страница дисциплины: работает кнопка 'Открепить из главного меню' у студента",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckPinDisciplineForStudent"
+    },
+    {
+      "name": "testClass",
+      "value": "DisciplineStudentTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница дисциплины: работает кнопка 'Открепить из главного меню' у студента",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница дисциплины: работает кнопка 'Открепить из главного меню' у студента"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница дисциплины: работает кнопка 'Открепить из главного меню' у студента",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619157445,
+          "stop": 1688619157717
+        },
+        {
+          "name": "Закрепить или открепить дисциплину",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619157717,
+          "stop": 1688619160479
+        },
+        {
+          "name": "Проверка того что дисциплина был закреплен или откреплен",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619160479,
+          "stop": 1688619162203
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6046e6f1e81f417b9f6d9b742076f499-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619157440,
+      "stop": 1688619162203
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "disable"
+    },
+    {
+      "name": "Param #1",
+      "value": "False"
+    }
+  ],
+  "start": 1688619157440,
+  "stop": 1688619162204
+}

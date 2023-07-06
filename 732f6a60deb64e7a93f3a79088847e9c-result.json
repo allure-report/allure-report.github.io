@@ -1,0 +1,92 @@
+{
+  "uuid": "2f40cd34-7188-4ff8-9011-878745c4cccc-tr-0-2409",
+  "historyId": "OdinUiTests.Tests.Activity.TestActivityResultTests.Результат прохождения теста: можно отметить 'Не верно' ответ вопроса, который был отмечен как 'Верно'",
+  "fullName": "OdinUiTests.Tests.Activity.TestActivityResultTests.Результат прохождения теста: можно отметить 'Не верно' ответ вопроса, который был отмечен как 'Верно'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "MarkIncorrectAnswerThatWasMarkedAsCorrect"
+    },
+    {
+      "name": "testClass",
+      "value": "TestActivityResultTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Контрольная активность"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Результат прохождения теста: можно отметить 'Не верно' ответ вопроса, который был отмечен как 'Верно'",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : Cannot perform runtime binding on a null reference",
+    "trace": "   at CallSite.Target(Closure , CallSite , Object )\n   at OdinUiTests.Services.ExamineeService.SetAnswerCorrectness(String id, Boolean isActId, Boolean isCorrect) in /azp/_work/1/s/Services/ExamineeService.cs:line 112\n   at OdinUiTests.Tests.Activity.TestActivityResultTests.MarkIncorrectAnswerThatWasMarkedAsCorrect() in /azp/_work/1/s/Tests/Activity/TestActivityTests.cs:line 487"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Результат прохождения теста: можно отметить 'Не верно' ответ вопроса, который был отмечен как 'Верно'",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Microsoft.CSharp.RuntimeBinder.RuntimeBinderException : Cannot perform runtime binding on a null reference",
+        "trace": "   at CallSite.Target(Closure , CallSite , Object )\n   at OdinUiTests.Services.ExamineeService.SetAnswerCorrectness(String id, Boolean isActId, Boolean isCorrect) in /azp/_work/1/s/Services/ExamineeService.cs:line 112\n   at OdinUiTests.Tests.Activity.TestActivityResultTests.MarkIncorrectAnswerThatWasMarkedAsCorrect() in /azp/_work/1/s/Tests/Activity/TestActivityTests.cs:line 487"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "MarkIncorrectAnswerThatWasMarkedAsCorrect.jpg",
+          "source": "d536f51560594774b63021eaa639b360-attachment.jpg",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "add4cc4335d04e04b8c281c2259be555-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618988257,
+      "stop": 1688618989126
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618988257,
+  "stop": 1688618989126
+}

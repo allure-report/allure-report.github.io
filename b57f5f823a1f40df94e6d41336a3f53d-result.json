@@ -1,0 +1,192 @@
+{
+  "uuid": "1ca409f4-5bfa-476b-b0de-322b1e22a540-tr-0-1366",
+  "historyId": "OdinUiTests.Tests.Discipline.IOTThemesAndModulesTests.Страница дисциплины с ИОТ: внутри модуля нельзя создать модуль",
+  "fullName": "OdinUiTests.Tests.Discipline.IOTThemesAndModulesTests.Страница дисциплины с ИОТ: внутри модуля нельзя создать модуль",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckCannotCreateModuleInsideModule"
+    },
+    {
+      "name": "testClass",
+      "value": "IOTThemesAndModulesTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Траекторная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница дисциплины с ИОТ: внутри модуля нельзя создать модуль",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница дисциплины с ИОТ: внутри модуля нельзя создать модуль"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница дисциплины с ИОТ: внутри модуля нельзя создать модуль",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619216458,
+          "stop": 1688619216997
+        },
+        {
+          "name": "Добавить нужный блок в дисциплину с ИОТ если она отсутствует",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "name": "Нажать на кнопку добавления блока указав нужную кнопку",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688619221743,
+              "stop": 1688619224236
+            },
+            {
+              "name": "Добавления блока в указанное место в дисциплину с ИОТ",
+              "status": "passed",
+              "statusDetails": {
+                "known": false,
+                "muted": false,
+                "flaky": false
+              },
+              "stage": "finished",
+              "steps": [
+                {
+                  "name": "Проверка того что блок был добавлен в дисциплину с ИОТ",
+                  "status": "passed",
+                  "statusDetails": {
+                    "known": false,
+                    "muted": false,
+                    "flaky": false
+                  },
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1688619225552,
+                  "stop": 1688619227173
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1688619224236,
+              "stop": 1688619227173
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619216998,
+          "stop": 1688619227173
+        },
+        {
+          "name": "Открыть нужный блок",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619227173,
+          "stop": 1688619230779
+        },
+        {
+          "name": "Проверка невозможности добавления какого-то блока внутри другого блока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619230780,
+          "stop": 1688619232269
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5cc6ebc43eb045fe9a6eb335374038ee-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619215920,
+      "stop": 1688619232269
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619215920,
+  "stop": 1688619232269
+}

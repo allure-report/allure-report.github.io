@@ -1,0 +1,115 @@
+{
+  "uuid": "dd56eb1c-7c78-48d3-8f1e-5651ed8b7cb9-tr-0-1444",
+  "historyId": "OdinUiTests.Tests.Discipline.DisContingentCreationValidationTests.Создание дисциплины: невозможно добавить студента из стороннего потока",
+  "fullName": "OdinUiTests.Tests.Discipline.DisContingentCreationValidationTests.Создание дисциплины: невозможно добавить студента из стороннего потока",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckUnableAddStudentFromAnotherCohortInCreation"
+    },
+    {
+      "name": "testClass",
+      "value": "DisContingentCreationValidationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Создание дисциплины: невозможно добавить студента из стороннего потока",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Создание дисциплины: невозможно добавить студента из стороннего потока"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Создание дисциплины: невозможно добавить студента из стороннего потока",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу создания дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619187471,
+          "stop": 1688619187797
+        },
+        {
+          "name": "Проврерка добавления сущности из сторонного потока",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619187797,
+          "stop": 1688619191824
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5d7dff8310d94b21a661e0b6ccf2f026-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619183605,
+      "stop": 1688619191824
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619183605,
+  "stop": 1688619191825
+}

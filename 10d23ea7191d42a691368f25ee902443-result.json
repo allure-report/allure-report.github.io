@@ -1,0 +1,130 @@
+{
+  "uuid": "7463ff38-8103-4c36-a9ea-a59fd437650d-tr-0-2260",
+  "historyId": "OdinUiTests.Tests.Activity.TaskWithSolutionStudentTests.Страница решение задания: нет возможности оценить решения другого студента, если не включена 'Взаимопроверка'",
+  "fullName": "OdinUiTests.Tests.Activity.TaskWithSolutionStudentTests.Страница решение задания: нет возможности оценить решения другого студента, если не включена 'Взаимопроверка'",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckImpossibilityToEditAnotherStudentsSolutionGrade"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskWithSolutionStudentTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: нет возможности оценить решения другого студента, если не включена 'Взаимопроверка'",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: нет возможности оценить решения другого студента, если не включена 'Взаимопроверка'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: нет возможности оценить решения другого студента, если не включена 'Взаимопроверка'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу решение задания с фильтром",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618799378,
+          "stop": 1688618799715
+        },
+        {
+          "name": "Выбрать студента из списка всех решений",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618799715,
+          "stop": 1688618807415
+        },
+        {
+          "name": "Проверка того что поля баллы не отображатся",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618807416,
+          "stop": 1688618807436
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7a8c4e3cdc224a478a6ffe0e2739029f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618799375,
+      "stop": 1688618807437
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618799375,
+  "stop": 1688618807437
+}

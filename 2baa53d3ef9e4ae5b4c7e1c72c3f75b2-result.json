@@ -1,0 +1,160 @@
+{
+  "uuid": "fa319fa6-903e-4c57-8c2b-c5b0108696d2-tr-0-1151",
+  "historyId": "OdinUiTests.Tests.Library.TestBlocksAndVariantsValidationTests.Конструктор теста: можно дублировать вопрос",
+  "fullName": "OdinUiTests.Tests.Library.TestBlocksAndVariantsValidationTests.Конструктор теста: можно дублировать вопрос",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Library"
+    },
+    {
+      "name": "testMethod",
+      "value": "DuplicateTestQuestion"
+    },
+    {
+      "name": "testClass",
+      "value": "TestBlocksAndVariantsValidationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Материал"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Материал"
+    },
+    {
+      "name": "subSuite",
+      "value": "Конструктор теста"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Конструктор теста: можно дублировать вопрос",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Конструктор теста: можно дублировать вопрос"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Конструктор теста: можно дублировать вопрос",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование теста",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619309590,
+          "stop": 1688619309901
+        },
+        {
+          "name": "Сделать дубликацию вопроса",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619309901,
+          "stop": 1688619313121
+        },
+        {
+          "name": "Ждать пока появятся слово 'Сохранено'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619313121,
+          "stop": 1688619314723
+        },
+        {
+          "name": "Ждать пока появытся ссылка для перехода в станицу материала",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619314723,
+          "stop": 1688619314739
+        },
+        {
+          "name": "Проверка того что вопрос был дублирован",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619314739,
+          "stop": 1688619316144
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "86a7e078583045739844c38f53f94265-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619309583,
+      "stop": 1688619316160
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619309583,
+  "stop": 1688619316160
+}

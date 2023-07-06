@@ -1,0 +1,205 @@
+{
+  "uuid": "999d0b6c-b87f-41ac-80db-a1916309bf3a-tr-0-2246",
+  "historyId": "OdinUiTests.Tests.Activity.TaskWithSolutionStudentTests.Страница решение задания: можно отправить файловый ответ",
+  "fullName": "OdinUiTests.Tests.Activity.TaskWithSolutionStudentTests.Страница решение задания: можно отправить файловый ответ",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendFileSolution"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskWithSolutionStudentTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: можно отправить файловый ответ",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: можно отправить файловый ответ"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: можно отправить файловый ответ",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу решение задания с фильтром",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618718854,
+          "stop": 1688618719613
+        },
+        {
+          "name": "Нажать на кнопку 'Редактировать' на странице решение задания",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618719613,
+          "stop": 1688618726389
+        },
+        {
+          "name": "Загрузить файл в решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618726390,
+          "stop": 1688618727617
+        },
+        {
+          "name": "Нажать на кнопку 'Отправить решение' на странице решение задания",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618727617,
+          "stop": 1688618727699
+        },
+        {
+          "name": "Получить названия файла решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618727699,
+          "stop": 1688618731284
+        },
+        {
+          "name": "Проверка того что показывается дата оправки решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618731304,
+          "stop": 1688618731339
+        },
+        {
+          "name": "Проверка того что показывается кнопка 'Редактировать' в решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618731339,
+          "stop": 1688618731373
+        },
+        {
+          "name": "Проверка того что показывается кнопка 'Скачать' для файла в решение",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618731373,
+          "stop": 1688618731408
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "84e99fc343d04d368c54f008862cf503-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618718816,
+      "stop": 1688618731408
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618718816,
+  "stop": 1688618731408
+}

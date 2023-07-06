@@ -1,0 +1,160 @@
+{
+  "uuid": "4c8d651e-4c37-4d90-b567-227e43a66f74-tr-0-1463",
+  "historyId": "OdinUiTests.Tests.Discipline.DisContingentEditingTests.Редактирование дисциплины: открепления от дисциплины групп и студентов",
+  "fullName": "OdinUiTests.Tests.Discipline.DisContingentEditingTests.Редактирование дисциплины: открепления от дисциплины групп и студентов",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Discipline"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckRemoveGroupAndStudentFromDiscipline"
+    },
+    {
+      "name": "testClass",
+      "value": "DisContingentEditingTests"
+    },
+    {
+      "name": "tag",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Дисциплина"
+    },
+    {
+      "name": "subSuite",
+      "value": "Линейная"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Редактирование дисциплины: открепления от дисциплины групп и студентов",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Редактирование дисциплины: открепления от дисциплины групп и студентов"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Редактирование дисциплины: открепления от дисциплины групп и студентов",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу редактирование дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619229610,
+          "stop": 1688619229865
+        },
+        {
+          "name": "Очистить сущности из контингента дисциплины по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619229865,
+          "stop": 1688619232993
+        },
+        {
+          "name": "Очистить сущности из контингента дисциплины по имени",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619232993,
+          "stop": 1688619235385
+        },
+        {
+          "name": "Нажать на кнопку 'Сохранить'",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619235385,
+          "stop": 1688619235489
+        },
+        {
+          "name": "Проверка того что добавленный преподаватель отображается на странице дисциплины",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688619235489,
+          "stop": 1688619237677
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f46e09b479254543b3554ea23f88a0eb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688619228535,
+      "stop": 1688619237677
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688619228535,
+  "stop": 1688619237677
+}

@@ -1,0 +1,115 @@
+{
+  "uuid": "aa6a8adf-f44b-40c7-915d-498eff7cc606-tr-0-2267",
+  "historyId": "OdinUiTests.Tests.Activity.TaskActivityTeacherTests.Страница решение задания: кнопка 'Оценить' некликабельна, если решение еще не оценено",
+  "fullName": "OdinUiTests.Tests.Activity.TaskActivityTeacherTests.Страница решение задания: кнопка 'Оценить' некликабельна, если решение еще не оценено",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#7"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckGradeSolutionWithoutValue"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskActivityTeacherTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: кнопка 'Оценить' некликабельна, если решение еще не оценено",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: кнопка 'Оценить' некликабельна, если решение еще не оценено"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: кнопка 'Оценить' некликабельна, если решение еще не оценено",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу решение задания с фильтром",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618681196,
+          "stop": 1688618681723
+        },
+        {
+          "name": "Проверка того что кнопка 'Оценить' некликабельная",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618681723,
+          "stop": 1688618686035
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ec45bc185cd04af2b33a9dd7601fe4ec-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618681177,
+      "stop": 1688618686035
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618681177,
+  "stop": 1688618686035
+}

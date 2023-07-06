@@ -1,0 +1,145 @@
+{
+  "uuid": "f8acf636-b36b-4757-9c11-c26da313eabd-tr-0-2252",
+  "historyId": "OdinUiTests.Tests.Activity.TaskWithSolutionStudentTests.Страница решение задания: нет возможности отправить решения за другого студента",
+  "fullName": "OdinUiTests.Tests.Activity.TaskWithSolutionStudentTests.Страница решение задания: нет возможности отправить решения за другого студента",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "3056f55cffde"
+    },
+    {
+      "name": "package",
+      "value": "OdinUiTests.Tests.Activity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckSendSolutionForAnotherStudent"
+    },
+    {
+      "name": "testClass",
+      "value": "TaskWithSolutionStudentTests"
+    },
+    {
+      "name": "tag",
+      "value": "Активность"
+    },
+    {
+      "name": "tag",
+      "value": "Регресс"
+    },
+    {
+      "name": "suite",
+      "value": "Активность"
+    },
+    {
+      "name": "subSuite",
+      "value": "Задание"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "Страница решение задания: нет возможности отправить решения за другого студента",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Страница решение задания: нет возможности отправить решения за другого студента"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Страница решение задания: нет возможности отправить решения за другого студента",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Открыть страницу решение задания с фильтром",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618755425,
+          "stop": 1688618755875
+        },
+        {
+          "name": "Сбросить фильтра списка студентов",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618755875,
+          "stop": 1688618763634
+        },
+        {
+          "name": "Выбрать студента из списка всех решений",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618763634,
+          "stop": 1688618764249
+        },
+        {
+          "name": "Проверка того что кнопка 'Редактировать' не отображается",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1688618764249,
+          "stop": 1688618766321
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ce085b5067fe4b1cb6cc30a6de99cae1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688618755421,
+      "stop": 1688618766321
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688618755421,
+  "stop": 1688618766321
+}
